@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+
+<menu>
+  <item>
+    <title lang="en">Стейк со свининой</title>
+    <price>800</price>
+    <ratio>4</ratio>
+    <tag>еда</tag>
+    <tag>мясо</tag>
+    <tag>вкусно</tag>
+  </item>
+  <item>
+    <title lang="en">Стейк с говядиной</title>
+    <price>400</price>
+    <ratio>5</ratio>
+    <tag>еда</tag>
+    <tag>мясо</tag>
+  </item>
+  <item>
+    <title lang="en">Балтика 9</title>
+    <price>40</price>
+    <ratio>1</ratio>
+    <tag>пиво</tag>
+    <tag>нажраться</tag>
+  </item>
+</menu>
