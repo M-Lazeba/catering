@@ -26,7 +26,7 @@ CREATE TABLE `dishes` (
   `dishId` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) DEFAULT NULL,
   `price` int(11) DEFAULT NULL,
-  `ratio` varchar(45) DEFAULT NULL,
+  `ratio` float DEFAULT NULL,
   PRIMARY KEY (`dishId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -37,7 +37,7 @@ CREATE TABLE `dishes` (
 
 LOCK TABLES `dishes` WRITE;
 /*!40000 ALTER TABLE `dishes` DISABLE KEYS */;
-INSERT INTO `dishes` VALUES (1,'говно',500,'5'),(2,'стейк',3000,'3'),(3,'рагу',100,'2'),(4,'суши',500,'5'),(5,'бутерброд',100,'3'),(6,'фанта',50,'4'),(7,'саб',150,'3');
+INSERT INTO `dishes` VALUES (1,'говно',500,5),(2,'стейк',3000,3),(3,'рагу',100,2),(4,'суши',500,5),(5,'бутерброд',100,3),(6,'фанта',50,4),(7,'саб',150,3);
 /*!40000 ALTER TABLE `dishes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -75,13 +75,13 @@ DROP TABLE IF EXISTS `tags_dishes`;
 CREATE TABLE `tags_dishes` (
   `dishId` int(11) NOT NULL,
   `tagId` int(11) NOT NULL,
-  `tag_dishId` varchar(45) NOT NULL,
+  `tag_dishId` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`tag_dishId`),
   KEY `tagId` (`tagId`),
   KEY `dishId` (`dishId`),
   CONSTRAINT `dishId` FOREIGN KEY (`dishId`) REFERENCES `dishes` (`dishId`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `tagId` FOREIGN KEY (`tagId`) REFERENCES `tags` (`tagId`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -90,7 +90,7 @@ CREATE TABLE `tags_dishes` (
 
 LOCK TABLES `tags_dishes` WRITE;
 /*!40000 ALTER TABLE `tags_dishes` DISABLE KEYS */;
-INSERT INTO `tags_dishes` VALUES (1,1,'1'),(7,5,'10'),(2,2,'2'),(2,3,'3'),(3,6,'4'),(4,5,'5'),(5,6,'6'),(5,2,'7'),(6,4,'8'),(7,3,'9');
+INSERT INTO `tags_dishes` VALUES (1,1,1),(2,2,2),(2,3,3),(3,6,4),(4,5,5),(5,6,6),(5,2,7),(6,4,8),(7,3,9),(7,5,10);
 /*!40000 ALTER TABLE `tags_dishes` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -103,4 +103,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2011-09-27 21:34:43
+-- Dump completed on 2011-09-27 23:10:27
