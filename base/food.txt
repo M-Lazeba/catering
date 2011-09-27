@@ -1,0 +1,106 @@
+-- MySQL dump 10.13  Distrib 5.5.15, for Win32 (x86)
+--
+-- Host: localhost    Database: food
+-- ------------------------------------------------------
+-- Server version	5.5.15
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `dishes`
+--
+
+DROP TABLE IF EXISTS `dishes`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `dishes` (
+  `dishId` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  `price` int(11) DEFAULT NULL,
+  `ratio` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`dishId`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `dishes`
+--
+
+LOCK TABLES `dishes` WRITE;
+/*!40000 ALTER TABLE `dishes` DISABLE KEYS */;
+INSERT INTO `dishes` VALUES (1,'говно',500,'5'),(2,'стейк',3000,'3'),(3,'рагу',100,'2'),(4,'суши',500,'5'),(5,'бутерброд',100,'3'),(6,'фанта',50,'4'),(7,'саб',150,'3');
+/*!40000 ALTER TABLE `dishes` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tags`
+--
+
+DROP TABLE IF EXISTS `tags`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tags` (
+  `tagId` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`tagId`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tags`
+--
+
+LOCK TABLES `tags` WRITE;
+/*!40000 ALTER TABLE `tags` DISABLE KEYS */;
+INSERT INTO `tags` VALUES (1,'заебись'),(2,'говно'),(3,'мясо'),(4,'напиток'),(5,'дорого'),(6,'вообще говно');
+/*!40000 ALTER TABLE `tags` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tags_dishes`
+--
+
+DROP TABLE IF EXISTS `tags_dishes`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tags_dishes` (
+  `dishId` int(11) NOT NULL,
+  `tagId` int(11) NOT NULL,
+  `tag_dishId` varchar(45) NOT NULL,
+  PRIMARY KEY (`tag_dishId`),
+  KEY `tagId` (`tagId`),
+  KEY `dishId` (`dishId`),
+  CONSTRAINT `dishId` FOREIGN KEY (`dishId`) REFERENCES `dishes` (`dishId`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `tagId` FOREIGN KEY (`tagId`) REFERENCES `tags` (`tagId`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tags_dishes`
+--
+
+LOCK TABLES `tags_dishes` WRITE;
+/*!40000 ALTER TABLE `tags_dishes` DISABLE KEYS */;
+INSERT INTO `tags_dishes` VALUES (1,1,'1'),(7,5,'10'),(2,2,'2'),(2,3,'3'),(3,6,'4'),(4,5,'5'),(5,6,'6'),(5,2,'7'),(6,4,'8'),(7,3,'9');
+/*!40000 ALTER TABLE `tags_dishes` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2011-09-27 21:34:43
