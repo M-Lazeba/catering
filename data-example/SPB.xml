@@ -1,0 +1,703 @@
+﻿  <?xml version="1.0" encoding="UTF-16" ?> 
+<data>
+<item>
+   <name>'Обед из трех блюд'
+</name>
+   <desc>салат, суп, горячее с гарниром, напиток</desc>
+   <price>190-00</price>
+</item>
+<item>
+   <name>'Пицца Де ла Касса'
+</name>
+   <desc>куриное филе, бекон, пикантные колбаски, шампиньоны, маслины, перец чили и помидоры</desc>
+   <price>420-00</price>
+</item>
+<item>
+   <name>'Баварская'
+</name>
+   <desc>Ветчина, колбаски, шампиньоны, болгарский перец, сыр Пармезан и горчица</desc>
+   <price>499-00</price>
+</item>
+<item>
+   <name>'Кальцоне''
+</name>
+   <desc>Закрытая пицца с говядиной, сладким перцем, овощами, сыром Чеддер и сыром Моцарелла</desc>
+   <price>399-00</price>
+</item>
+<item>
+   <name>'Кватро Формаджио'
+</name>
+   <desc>Сыры: Дор Блю, Гауда, Мацарелла, Пармезан</desc>
+   <price>260-00</price>
+</item>
+<item>
+   <name>'Маргарита'
+</name>
+   <desc>Классический рецепт</desc>
+   <price>260-00</price>
+</item>
+<item>
+   <name>'Маринера'
+</name>
+   <desc>Кальмары, креветки, осьминоги и очищенные мидии</desc>
+   <price>499-00</price>
+</item>
+<item>
+   <name>'Мексикана'
+</name>
+   <desc>Говядина, курица, сладкий перец, сыр Чеддер, красный лук и зеленый маринованный перец</desc>
+   <price>499-00</price>
+</item>
+<item>
+   <name>'Море Монте'
+</name>
+   <desc>Курица, шампиньоны, крвети, слабосоленый лосось.</desc>
+   <price>499-00</price>
+</item>
+<item>
+   <name>'Пепперони'
+</name>
+   <desc>Бекон, пикантные колбаски и сыр Пармезан</desc>
+   <price>299-00</price>
+</item>
+<item>
+   <name>'Пиемонте'
+</name>
+   <desc>Ветчина, шампиньоны, куриное филе, сосиски, брокколи, зелень и помидоры</desc>
+   <price>420-00</price>
+</item>
+<item>
+   <name>'Примавера'
+</name>
+   <desc>Брокколи, цукини, лук, шампиньоны, перец болгарский, помидоры сушеные, сыр Пармезан</desc>
+   <price>399-00</price>
+</item>
+<item>
+   <name>'Прошутто Фунги'
+</name>
+   <desc>Ветчина и шампиньоны</desc>
+   <price>320-00</price>
+</item>
+<item>
+   <name>'Рогалик чесночный'
+</name>
+   <desc>Хлеб с маслом чесночным, морской солью и кунжутом</desc>
+   <price>19-00</price>
+</item>
+<item>
+   <name>'Фокачча аль Песто'
+</name>
+   <desc>Итальянский хлеб с пармезаном, базиликом и орегано</desc>
+   <price>79-00</price>
+</item>
+<item>
+   <name>'Фокачча аль Розмарино'
+</name>
+   <desc>Итальянский хлеб с розмарином и морской солью</desc>
+   <price>79-00</price>
+</item>
+<item>
+   <name>'Фокачча с беконом'
+</name>
+   <desc>Итальянский хлеб с беконом, красным луком, морской солью и кунжутом</desc>
+   <price>110-00</price>
+</item>
+<item>
+   <name>'Чиабата'
+</name>
+   <desc>Итальянский хлеб с пармезаном и базиликом</desc>
+   <price>79-00</price>
+</item>
+<item>
+   <name>Булочка беленькая или серенькая с маслицем
+</name>
+   <desc>20-00</desc>
+</item>
+<item>
+   <name>'Мит Кавер'
+</name>
+   <desc>мясной конверт</desc>
+   <price>210-00</price>
+</item>
+<item>
+   <name>'Пиwwwа'
+</name>
+   <desc>Пица с копченостями</desc>
+   <price>140-00</price>
+</item>
+<item>
+   <name>'Пиwwwа'
+</name>
+   <desc>Пица SПБ с грибами</desc>
+   <price>140-00</price>
+</item>
+<item>
+   <name>'ЧИК бургер'
+</name>
+   <desc>с картофелем фри и соусом май-крим</desc>
+   <price>120-00</price>
+</item>
+<item>
+   <name>'БИФ бургер'
+</name>
+   <desc>с картофелем фри и сырным соусом</desc>
+   <price>130-00</price>
+</item>
+<item>
+   <name>'МЕГА бургер'
+</name>
+   <desc>с картофелем фри</desc>
+   <price>210-00</price>
+</item>
+<item>
+   <name>'Mushroom soup'
+</name>
+   <desc>Суп грибной со сметаной</desc>
+   <price>100-00</price>
+</item>
+<item>
+   <name>'Borsh'
+</name>
+   <desc>Борщ со сметаной</desc>
+   <price>110-00</price>
+</item>
+<item>
+   <name>'Sолянка'
+</name>
+   <desc>солянка со сметаной</desc>
+   <price>120-00</price>
+</item>
+<item>
+   <name>'Итальяно'
+</name>
+   <desc>с ветчиной и овощами</desc>
+   <price>170-00</price>
+</item>
+<item>
+   <name>'Цезарь'
+</name>
+   <desc>с копчёной птицей</desc>
+   <price>180-00</price>
+</item>
+<item>
+   <name>'Гриик Sалад'
+</name>
+   <desc>греческий</desc>
+   <price>170-00</price>
+</item>
+<item>
+   <name>'Натсы'
+</name>
+   <desc>арахис</desc>
+   <price>90-00</price>
+</item>
+<item>
+   <name>'Натсы'
+</name>
+   <desc>фисташки</desc>
+   <price>100-00</price>
+</item>
+<item>
+   <name>'Сквиды'
+</name>
+   <desc>кальмар сушеный</desc>
+   <price>120-00</price>
+</item>
+<item>
+   <name>'Чиз Стикс'
+</name>
+   <desc>Сырные гренки с соусом май крим</desc>
+   <price>170-00</price>
+</item>
+<item>
+   <name>'ХОТ МИт Микс'
+</name>
+   <desc>горячая мясная тарелка с томатным соусом: леди киллер, ребра, крылья, колбаска</desc>
+   <price>290-00</price>
+</item>
+<item>
+   <name>'Сквид Рингс'
+</name>
+   <desc>кольца кальмарв с соусом май-крим</desc>
+   <price>190-00</price>
+</item>
+<item>
+   <name>'Чикен Sтикс'
+</name>
+   <desc>палочки куриные с соусами сырным и винным</desc>
+   <price>180-00</price>
+</item>
+<item>
+   <name>'Большой Микс'
+</name>
+   <desc>арахис, сухарики, сушеный кальмар, пряди копченого сыра, скумбрия</desc>
+   <price>190-00</price>
+</item>
+<item>
+   <name>'Шримпсы '
+</name>
+   <desc>креветки отварные</desc>
+   <price>190-00</price>
+</item>
+<item>
+   <name>'Sмокед ЧизВормs'
+</name>
+   <desc>Копчёные sырные червячки</desc>
+   <price>110-00</price>
+</item>
+<item>
+   <name>'Порк ушки по
+</name>
+   <desc>копченые свиные ушки с овощами в остром соусе</desc>
+   <price>180-00</price>
+</item>
+<item>
+   <name>'Брэд sтикс'
+</name>
+   <desc>Хлeбные гренки с двумя соусами на выбор</desc>
+   <price>110-00</price>
+</item>
+<item>
+   <name>'Леди Киллер'
+</name>
+   <desc>куриные сердца с картофелем фри и винным соусом</desc>
+   <price>170-00</price>
+</item>
+<item>
+   <name>'Роллы 'ОЛИМП'
+</name>
+   <desc>с картофелем фри, винным и олимп соусами</desc>
+   <price>220-00</price>
+</item>
+<item>
+   <name>'Паста Бекон'
+</name>
+   <desc>макароны с беконом</desc>
+   <price>130-00</price>
+</item>
+<item>
+   <name>'Порк шишкибаб'
+</name>
+   <desc>с домашним картофелем и томатным соусом</desc>
+   <price>180-00</price>
+</item>
+<item>
+   <name>'Чикен шишкибаб'
+</name>
+   <desc>с картофелем фри и винным соусом</desc>
+   <price>190-00</price>
+</item>
+<item>
+   <name>'Чикен Уингсы'
+</name>
+   <desc>куриные крылышки с острым соусом</desc>
+   <price>190-00</price>
+</item>
+<item>
+   <name>'Ролл бекон'
+</name>
+   <desc>с картофелем фри и томатным соусом</desc>
+   <price>190-00</price>
+</item>
+<item>
+   <name>'Sмокед Порк Рибс'
+</name>
+   <desc>копчёные свиные ребра с сотрым соусом</desc>
+   <price>240-00</price>
+</item>
+<item>
+   <name>Чикен 50/50
+</name>
+   <desc>Половинка цыпленка жареная</desc>
+   <price>220-00</price>
+</item>
+<item>
+   <name>'Бирный Чикен'
+</name>
+   <desc>курица с картошкой в тесте</desc>
+   <price>120-00</price>
+</item>
+<item>
+   <name>'Рулес'
+</name>
+   <desc>Рулька в медовом соусе</desc>
+   <price>550-00</price>
+</item>
+<item>
+   <name>'Картофель Айдахо'
+</name>
+   <desc>130-00</desc>
+</item>
+<item>
+   <name>'ФРЭНЧ ФРАЙ'
+</name>
+   <desc>картофель фри</desc>
+   <price>90-00</price>
+</item>
+<item>
+   <name>'SТЬЮВЕД КЭББЭДЬЖ'
+</name>
+   <desc>тушеная капуsта</desc>
+   <price>90-00</price>
+</item>
+<item>
+   <name>'Олимп'
+</name>
+   <desc>олимп-соус</desc>
+   <price>45-00</price>
+</item>
+<item>
+   <name>'Vино'
+</name>
+   <desc>винный соус</desc>
+   <price>45-00</price>
+</item>
+<item>
+   <name>'Мьюстард'
+</name>
+   <desc>горчица</desc>
+   <price>45-00</price>
+</item>
+<item>
+   <name>'ТОМЭТО'
+</name>
+   <desc>томатный sоус</desc>
+   <price>45-00</price>
+</item>
+<item>
+   <name>'Май крим'
+</name>
+   <desc>белый соус</desc>
+   <price>45-00</price>
+</item>
+<item>
+   <name>'Чииииз'
+</name>
+   <desc>Сырный соус</desc>
+   <price>45-00</price>
+</item>
+<item>
+   <name>'ПИНК'
+</name>
+   <desc>розовый soус</desc>
+   <price>45-00</price>
+</item>
+<item>
+   <name>'Джемс'
+</name>
+   <desc>варенье (разное)</desc>
+   <price>20-00</price>
+</item>
+<item>
+   <name>'Айс крим'
+</name>
+   <desc>клубничное</desc>
+   <price>100-00</price>
+</item>
+<item>
+   <name>'Айс крим'
+</name>
+   <desc>шоколадное</desc>
+   <price>100-00</price>
+</item>
+<item>
+   <name>'Шарлота'
+</name>
+   <desc>шарлотка с шариком мороженого</desc>
+   <price>100-00</price>
+</item>
+<item>
+   <name>SПБ Sветлый лагер
+</name>
+   <desc>оригинальное, светлый лагер</desc>
+   <price>80-00/120-00/330</price>
+</item>
+<item>
+   <name>SПБ фруктовое
+</name>
+   <desc>фруктовое, оригинальное</desc>
+   <price>100-00/170-00/280-00</price>
+</item>
+<item>
+   <name>'Балтика 7'
+</name>
+   <desc>100-00/170-00/480-00</desc>
+</item>
+<item>
+   <name>'Пшеничное'
+</name>
+   <desc>нефильтрованое</desc>
+   <price>110-00/190-00/530</price>
+</item>
+<item>
+   <name>'Невское'
+</name>
+   <desc>классическое</desc>
+   <price>100-00/170-00/480</price>
+</item>
+<item>
+   <name>'Carlsberg'
+</name>
+   <desc>Карлсберг</desc>
+   <price>130-00/220-00/620-00</price>
+</item>
+<item>
+   <name>'Tuborg Green'
+</name>
+   <desc>Туборг Грин</desc>
+   <price>130-00/220-00/620-00</price>
+</item>
+<item>
+   <name>'Тuborg Black'
+</name>
+   <desc>Туборг Блэк (темное)</desc>
+   <price>130-00/220-00/620-00</price>
+</item>
+<item>
+   <name>'Ваsилеоsтровsкое Домашнее'
+</name>
+   <desc>живое, нефильтрованное</desc>
+   <price>120-00/190-00/330-00</price>
+</item>
+<item>
+   <name>'Василеостровское Красное'
+</name>
+   <desc>живое красное</desc>
+   <price>120-00/190-00/330-00</price>
+</item>
+<item>
+   <name>'Ваsилеоsтровsкое Тёмное'
+</name>
+   <desc>Живое тёмноё</desc>
+   <price>120-00/190-00/330-00</price>
+</item>
+<item>
+   <name>'Kronenburg BLANC 1664'
+</name>
+   <desc>Кроненбург Бланк</desc>
+   <price>260/430/1300</price>
+</item>
+<item>
+   <name>'EVE искристый'
+</name>
+   <desc>грейпфрут, маракуйя</desc>
+   <price>160-00</price>
+</item>
+<item>
+   <name>'Corona Extra'
+</name>
+   <desc>Корона Экстра</desc>
+   <price>170-00</price>
+</item>
+<item>
+   <name>'Балтика 0%'
+</name>
+   <desc>безалкогольное</desc>
+   <price>80-00</price>
+</item>
+<item>
+   <name>'KAUFFMAN'
+</name>
+   <desc>Водка special/soft</desc>
+   <price>180-00/ 170-00</price>
+</item>
+<item>
+   <name>'Hennessy'
+</name>
+   <desc>Коньяк VS/VSOP/XO</desc>
+   <price>320-00/440-00/710-00</price>
+</item>
+<item>
+   <name>'Водка'
+</name>
+   <desc>в ассортименте</desc>
+   <price>100-00</price>
+</item>
+<item>
+   <name>'Cortel Napoleon'
+</name>
+   <desc>Брэнди</desc>
+   <price>150-00</price>
+</item>
+<item>
+   <name>'OLD SMUGGLER'
+</name>
+   <desc>Виски special</desc>
+   <price>150-00</price>
+</item>
+<item>
+   <name>'TAHONA'
+</name>
+   <desc>Тэкила золотая, серебряная</desc>
+   <price>150-00</price>
+</item>
+<item>
+   <name>'GLENGRANT'
+</name>
+   <desc>Виsки special</desc>
+   <price>220-00</price>
+</item>
+<item>
+   <name>'OCUMARE'
+</name>
+   <desc>Ром светлый, темный</desc>
+   <price>160-00</price>
+</item>
+<item>
+   <name>'GLENMORANGIE'
+</name>
+   <desc>Виsки original/quinta ruban</desc>
+   <price>460-00/550-00</price>
+</item>
+<item>
+   <name>'LAZZARONI'
+</name>
+   <desc>самбука белая</desc>
+   <price>160-00</price>
+</item>
+<item>
+   <name>'Шампанское MONDORO'
+</name>
+   <desc>asti/silver</desc>
+   <price>1100-00</price>
+</item>
+<item>
+   <name>'Вермут'
+</name>
+   <desc>120-00</desc>
+</item>
+<item>
+   <name>'Шампанsкое'
+</name>
+   <desc>полусладкое</desc>
+   <price>110-00</price>
+</item>
+<item>
+   <name>'ВИНО'
+</name>
+   <desc>белое, красное</desc>
+   <price>140-00</price>
+</item>
+<item>
+   <name>CHESTERFIELD
+</name>
+   <desc>цена по мрц</desc>
+</item>
+<item>
+   <name>DUBLISS
+</name>
+   <desc>цена по мрц</desc>
+</item>
+<item>
+   <name>L&amp;M
+</name>
+   <desc>цена по мрц</desc>
+</item>
+<item>
+   <name>L&amp;M lights
+</name>
+   <desc>цена по мрц</desc>
+</item>
+<item>
+   <name>MARLBORO
+</name>
+   <desc>цена по мрц</desc>
+</item>
+<item>
+   <name>MARLBORO Filter Plus
+</name>
+   <desc>цена по мрц</desc>
+</item>
+<item>
+   <name>MARLBORO Gold Edge
+</name>
+   <desc>цена по мрц</desc>
+</item>
+<item>
+   <name>MURATTI
+</name>
+   <desc>цена по мрц</desc>
+</item>
+<item>
+   <name>MURATTI Slims
+</name>
+   <desc>цена по мрц</desc>
+</item>
+<item>
+   <name>PARLIAMENT
+</name>
+   <desc>цена по мрц</desc>
+</item>
+<item>
+   <name>PARLIAMENT reserved
+</name>
+   <desc>цена по мрц</desc>
+</item>
+<item>
+   <name>'Морс'
+</name>
+   <desc>Домашний</desc>
+   <price>50-00</price>
+</item>
+<item>
+   <name>'Кваs'
+</name>
+   <desc>Кваs Василеостровский</desc>
+   <price>60-00</price>
+</item>
+<item>
+   <name>'Колд Ти'
+</name>
+   <desc>Чай Lipton ассортименте</desc>
+   <price>130-00</price>
+</item>
+<item>
+   <name>'Джуsеs'
+</name>
+   <desc>соки в асортименте</desc>
+   <price>70-00</price>
+</item>
+<item>
+   <name>'Лимонад в ассортименте'
+</name>
+   <desc>Pepsi, Pepsi light, 7UP, Mirinda, Evervess</desc>
+   <price>100-00</price>
+</item>
+<item>
+   <name>'H2O'
+</name>
+   <desc>Вода 
+Aqua Minerale 0.6
+Evian 0.33</desc>
+   <price>100-00/60-00</price>
+</item>
+<item>
+   <name>'Adrenaline rush'
+</name>
+   <desc>Энергетический напиток</desc>
+   <price>130-00</price>
+</item>
+<item>
+   <name>Кофе 'По Ирландски'
+</name>
+   <desc>кофе, виски, сливки</desc>
+   <price>160-00</price>
+</item>
+<item>
+   <name>'КОФЕ'
+</name>
+   <desc>кофе эспрессо/американо/с молоком</desc>
+   <price>95-00/95-00/110-00</price>
+</item>
+<item>
+   <name>'Биг Ти'
+</name>
+   <desc>чай в чайнике в ассортименте</desc>
+   <price>80-00</price>
+</item>
+<item>
+   <name>'Лимон'
+</name>
+   <desc>10-00</desc>
+</item>
+</data>
