@@ -1,4 +1,5 @@
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -37,6 +38,8 @@ public class XMLConverter {
 			throws IOException {
 
 		File file = new File(source);
+		if (!file.exists())
+			throw new FileNotFoundException("File " + file + " not found");
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = null;
 		try {
@@ -79,10 +82,16 @@ public class XMLConverter {
 
 		for (int i = 0; i < list.getLength(); i++) {
 			Element node = (Element) list.item(i);
+			if (node.getElementsByTagName("name").getLength() == 0
+					|| node.getElementsByTagName("name").item(0)
+							.getChildNodes().getLength() == 0)
+				continue;
 			String name = node.getElementsByTagName("name").item(0)
 					.getChildNodes().item(0).getNodeValue();
 			String price = null;
-			if (node.getElementsByTagName("price").getLength() > 0)
+			if (node.getElementsByTagName("price").getLength() > 0
+					&& node.getElementsByTagName("price").item(0)
+							.getChildNodes().getLength() > 0)
 				price = node.getElementsByTagName("price").item(0)
 						.getChildNodes().item(0).getNodeValue();
 			Element item = newDocument.createElement("item");
