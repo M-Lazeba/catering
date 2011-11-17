@@ -17,7 +17,22 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+/**
+ * Converts xml from Max format to Anton format
+ * 
+ * @author Grechko Vladislav
+ * 
+ */
 public class XMLConverter {
+	/**
+	 * Converts xml from Max format to Anton format
+	 * 
+	 * @param source
+	 *            Source xml filename
+	 * @param destination
+	 *            Destination filename WITHOUT extension '.xls'
+	 * @throws IOException
+	 */
 	public static void convert(String source, String destination)
 			throws IOException {
 
