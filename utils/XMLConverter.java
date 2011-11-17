@@ -30,7 +30,7 @@ public class XMLConverter {
 	 * @param source
 	 *            Source xml filename
 	 * @param destination
-	 *            Destination filename WITHOUT extension '.xls'
+	 *            Destination filename WITHOUT extension '.xml'
 	 * @throws IOException
 	 */
 	public static void convert(String source, String destination)
