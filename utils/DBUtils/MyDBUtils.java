@@ -7,6 +7,12 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
+/**
+ * Simple implementation of DBUtils
+ * 
+ * @author Grechko Vladislav
+ * 
+ */
 public class MyDBUtils implements DBUtils {
 
 	private Connection connection;
@@ -35,7 +41,8 @@ public class MyDBUtils implements DBUtils {
 	}
 
 	@Override
-	public ArrayList<Position> get(ArrayList<Integer> ids) throws SQLException {
+	public ArrayList<Position> getByPositionIds(ArrayList<Integer> ids)
+			throws SQLException {
 		ArrayList<Position> positionList = new ArrayList<Position>();
 		Statement posSt = connection.createStatement();
 		for (int id : ids) {
@@ -57,9 +64,9 @@ public class MyDBUtils implements DBUtils {
 				costRes.first();
 				int cost = costRes.getInt("value");
 
-				ArrayList<Tag> tagsList = new ArrayList<Tag>();
+				ArrayList<PositionTag> tagsList = new ArrayList<PositionTag>();
 				while (tags.next()) {
-					tagsList.add(new Tag(tags.getInt("id"), tags
+					tagsList.add(new PositionTag(tags.getInt("id"), tags
 							.getString("name")));
 				}
 
@@ -88,17 +95,17 @@ public class MyDBUtils implements DBUtils {
 								+ " AND coordinates.id = "
 								+ coordId);
 
-				ArrayList<PlaceAddress> placesList = new ArrayList<PlaceAddress>();
-				while (places.next()) {
-					placesList.add(new PlaceAddress(placeAddressId, places
-							.getString("name"), places.getInt("type"), places
-							.getFloat("long") + "," + places.getFloat("lat")));
-				}
+				Place place = null;
+
+				if (places.first())
+					place = new Place(placeAddressId, places.getString("name"),
+							places.getInt("type"), places.getFloat("long")
+									+ "," + places.getFloat("lat"));
 
 				positionList.add(new Position(id, positions.getString("name"),
 						positions.getString("description"), positions
 								.getBlob("imageUrl") != null, cost, positions
-								.getFloat("rating"), tagsList, placesList));
+								.getFloat("rating"), tagsList, place));
 
 			} else { // id isn't exists
 				throw new IllegalArgumentException("Id" + id
@@ -106,5 +113,42 @@ public class MyDBUtils implements DBUtils {
 			}
 		}
 		return positionList;
+	}
+
+	@Override
+	public ArrayList<Position> getByTagIds(ArrayList<Integer> ids)
+			throws SQLException {
+
+		ArrayList<Integer> positionIdsList = new ArrayList<Integer>();
+
+		Statement tagSt = connection.createStatement();
+		for (int id : ids) {
+			ResultSet positionIds = tagSt
+					.executeQuery("SELECT id FROM positions WHERE id IN (SELECT positionId FROM tagpositions WHERE tagId = "
+							+ id + " )");
+
+			while (positionIds.next())
+				if (!positionIdsList.contains(positionIds.getInt("id")))
+					positionIdsList.add(positionIds.getInt("id"));
+		}
+
+		return getByPositionIds(positionIdsList);
+	}
+
+	@Override
+	public ArrayList<Position> getByPlaceAddressesIds(ArrayList<Integer> ids)
+			throws SQLException {
+		ArrayList<Integer> positionIdsList = new ArrayList<Integer>();
+
+		Statement placeSt = connection.createStatement();
+		for (int id : ids) {
+			ResultSet positionIds = placeSt
+					.executeQuery("SELECT id FROM positions WHERE placeAddressId = "
+							+ id);
+			while (positionIds.next())
+				positionIdsList.add(positionIds.getInt("id"));
+		}
+
+		return getByPositionIds(positionIdsList);
 	}
 }

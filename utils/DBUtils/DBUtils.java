@@ -9,5 +9,12 @@ import java.util.ArrayList;
  * @author Anton Ohitin
  */
 public interface DBUtils {
-	public ArrayList<Position> get(ArrayList<Integer> ids) throws SQLException;
+	public ArrayList<Position> getByPositionIds(ArrayList<Integer> ids)
+			throws SQLException;
+
+	public ArrayList<Position> getByTagIds(ArrayList<Integer> ids)
+			throws SQLException;
+
+	public ArrayList<Position> getByPlaceAddressesIds(ArrayList<Integer> ids)
+			throws SQLException;
 }
