@@ -16,6 +16,9 @@ import java.util.ArrayList;
 public class MyDBUtils implements DBUtils {
 
 	private Connection connection;
+	private String url;
+	private String username;
+	private String pass;
 
 	/**
 	 * 
@@ -33,11 +36,24 @@ public class MyDBUtils implements DBUtils {
 		Class.forName("com.mysql.jdbc.Driver");
 		connection = DriverManager.getConnection("jdbc:mysql://" + url,
 				username, pass);
+		this.pass = pass;
+		this.url = url;
+		this.username = username;
 	}
 
 	public MyDBUtils(String url) throws SQLException, ClassNotFoundException {
 		Class.forName("com.mysql.jdbc.Driver");
 		connection = DriverManager.getConnection("jdbc:mysql://" + url);
+	}
+
+	public void reconnect(String username, String pass) throws SQLException {
+		connection = DriverManager.getConnection("jdbc:mysql://" + url,
+				username, pass);
+	}
+
+	public void reconnect() throws SQLException {
+		connection = DriverManager.getConnection("jdbc:mysql://" + url,
+				username, pass);
 	}
 
 	@Override
@@ -258,4 +274,5 @@ public class MyDBUtils implements DBUtils {
 			throw new IllegalArgumentException("Table " + table
 					+ " doesn't contains any id");
 	}
+
 }
