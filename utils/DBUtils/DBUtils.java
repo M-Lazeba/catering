@@ -17,4 +17,7 @@ public interface DBUtils {
 
 	public ArrayList<Position> getByPlaceAddressesIds(ArrayList<Integer> ids)
 			throws SQLException;
+
+	public void insertPositions(ArrayList<Position> positionList)
+			throws SQLException;
 }
