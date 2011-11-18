@@ -48,7 +48,7 @@ public class MyDBUtils implements DBUtils {
 		for (int id : ids) {
 
 			ResultSet positions = posSt
-					.executeQuery("SELECT id, name, description, imageUrl, costId, rating, placeAddressId FROM positions WHERE id = "
+					.executeQuery("SELECT id, name, description, imageUrl, costId, rating, placeAddressId, url FROM positions WHERE id = "
 							+ id);
 			if (positions.first()) {
 
@@ -105,7 +105,8 @@ public class MyDBUtils implements DBUtils {
 				positionList.add(new Position(id, positions.getString("name"),
 						positions.getString("description"), positions
 								.getBlob("imageUrl") != null, cost, positions
-								.getFloat("rating"), tagsList, place));
+								.getFloat("rating"), tagsList, place, positions
+								.getString("url")));
 
 			} else { // id isn't exists
 				throw new IllegalArgumentException("Id" + id
@@ -160,7 +161,7 @@ public class MyDBUtils implements DBUtils {
 			int placeAddressId = insertPlaceAddress(position.getPlace());
 			int costId = insertCost(position.getPrice());
 			Statement insertSt = connection.createStatement();
-			String query = "INSERT INTO `positions` (`placeAddressId`, `costId`, `description`, `name`) VALUES ("
+			String insertQuery = "INSERT INTO `positions` (`placeAddressId`, `costId`, `description`, `name`, `url`) VALUES ("
 					+ placeAddressId
 					+ ", "
 					+ costId
@@ -170,13 +171,10 @@ public class MyDBUtils implements DBUtils {
 					+ "', "
 					+ "'"
 					+ position.geTitle()
-					+ "')";
-			insertSt.execute(query);
+					+ "', '" + position.getUrl() + "')";
+			insertSt.execute(insertQuery);
 
-			ResultSet newPositionIdRes = insertSt
-					.executeQuery("SELECT id FROM positions ORDER BY id DESC");
-			newPositionIdRes.first();
-			int newPositionId = newPositionIdRes.getInt("id");
+			int newPositionId = getLastInsertedId("positions");
 
 			ArrayList<Integer> tagIds = insertTags(position.getTags());
 			for (int tagId : tagIds) {
@@ -189,30 +187,21 @@ public class MyDBUtils implements DBUtils {
 	}
 
 	private int insertCost(int value) throws SQLException {
-		// ובאםûי סעûה!
 		Statement insertSt = connection.createStatement();
 		insertSt.execute("INSERT INTO costs (value, unit) VALUES( " + value
 				+ ", 'rub')");
-		ResultSet newId = insertSt
-				.executeQuery("SELECT id FROM costs WHERE value = " + value
-						+ " AND unit = 'rub'");
-		newId.first();
-		return newId.getInt("id");
+		return getLastInsertedId("costs");
 	}
 
 	private int insertPlaceAddress(Place place) throws SQLException {
-		// ובאםûי סעûה!
+
 		int placeId = insertPlace(place.getName());
 		int coordId = insertCoordinates(place.getCoord());
 
 		Statement insertSt = connection.createStatement();
 		insertSt.execute("INSERT INTO placeadresses (placeId, coordId) VALUES("
 				+ placeId + ", " + coordId + ")");
-		ResultSet newId = insertSt
-				.executeQuery("SELECT id FROM placeadresses WHERE placeId = "
-						+ placeId + " AND coordId = " + coordId);
-		newId.first();
-		return newId.getInt("id");
+		return getLastInsertedId("placeadresses");
 	}
 
 	private int insertCoordinates(String coord) throws SQLException {
@@ -224,10 +213,7 @@ public class MyDBUtils implements DBUtils {
 		Statement insertSt = connection.createStatement();
 		insertSt.execute("INSERT INTO coordinates (`lat`, `long`) VALUES ("
 				+ lattitude + ", " + longitude + ")");
-		ResultSet newId = insertSt
-				.executeQuery("SELECT LAST_INSERT_ID() FROM coordinates");
-		newId.first();
-		return newId.getInt(1);
+		return getLastInsertedId("coordinates");
 	}
 
 	private int insertPlace(String name) throws SQLException {
@@ -238,11 +224,7 @@ public class MyDBUtils implements DBUtils {
 			return id.getInt("id");
 		} else {
 			st.execute("INSERT INTO places (name) VALUES ('" + name + "')");
-			ResultSet newId = st
-					.executeQuery("SELECT id FROM places WHERE name = '" + name
-							+ "'");
-			newId.first();
-			return newId.getInt("id");
+			return getLastInsertedId("places");
 		}
 	}
 
@@ -260,14 +242,20 @@ public class MyDBUtils implements DBUtils {
 				Statement insertSt = connection.createStatement();
 				insertSt.execute("INSERT INTO tags (name) VALUES ('"
 						+ tag.getValue() + "')");
-				// ובאםûי סעûה!!!
-				ResultSet newId = insertSt
-						.executeQuery("SELECT id FROM tags WHERE name = '"
-								+ tag.getValue() + "'");
-				newId.first();
-				ids.add(newId.getInt("id"));
+
+				ids.add(getLastInsertedId("tags"));
 			}
 		}
 		return ids;
+	}
+
+	private int getLastInsertedId(String table) throws SQLException {
+		Statement st = connection.createStatement();
+		ResultSet id = st.executeQuery("SELECT LAST_INSERT_ID() FROM " + table);
+		if (id.first())
+			return id.getInt(1);
+		else
+			throw new IllegalArgumentException("Table " + table
+					+ " doesn't contains any id");
 	}
 }
