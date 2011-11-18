@@ -1,5 +1,7 @@
 package net.sf.xfresh.catering.util;
 
+import java.io.IOException;
+import java.net.MalformedURLException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
@@ -19,5 +21,5 @@ public interface DBUtils {
 			throws SQLException;
 
 	public void insertPositions(ArrayList<Position> positionList)
-			throws SQLException;
+			throws SQLException, MalformedURLException, IOException;
 }

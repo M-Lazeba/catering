@@ -1,5 +1,7 @@
 package net.sf.xfresh.catering.util;
 
+import java.io.IOException;
+import java.net.MalformedURLException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -19,6 +21,7 @@ public class MyDBUtils implements DBUtils {
 	private String url;
 	private String username;
 	private String pass;
+	private ImgUtils imgutil;
 
 	/**
 	 * 
@@ -39,6 +42,12 @@ public class MyDBUtils implements DBUtils {
 		this.pass = pass;
 		this.url = url;
 		this.username = username;
+	}
+
+	public MyDBUtils(String url, String username, String pass, ImgUtils util)
+			throws SQLException, ClassNotFoundException {
+		this(url, username, pass);
+		imgutil = util;
 	}
 
 	public MyDBUtils(String url) throws SQLException, ClassNotFoundException {
@@ -171,7 +180,7 @@ public class MyDBUtils implements DBUtils {
 
 	@Override
 	public void insertPositions(ArrayList<Position> positionList)
-			throws SQLException {
+			throws SQLException, MalformedURLException, IOException {
 
 		for (Position position : positionList) {
 			int placeAddressId = insertPlaceAddress(position.getPlace());
@@ -199,6 +208,8 @@ public class MyDBUtils implements DBUtils {
 						.execute("INSERT INTO tagpositions (tagId, positionId) VALUES("
 								+ tagId + ", " + newPositionId + " )");
 			}
+			if (imgutil != null)
+				imgutil.get(insertQuery, newPositionId);
 		}
 	}
 
