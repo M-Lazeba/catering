@@ -133,7 +133,7 @@ public class MyDBUtils implements DBUtils {
 								.getFloat("rating"), tagsList, place, positions
 								.getString("url")));
 
-			} else { // id isn't exists
+			} else {
 				throw new IllegalArgumentException("Id" + id
 						+ " not found in DB");
 			}
@@ -296,6 +296,18 @@ public class MyDBUtils implements DBUtils {
 			unIndexed.add(a);
 		}
 		return unIndexed;
+	}
+
+	public void setIndexed(int id) throws SQLException {
+		Statement st = connection.createStatement();
+		if (st.executeUpdate("UPDATE positions SET isIndexed = true WHERE id = "
+				+ id) == 0)
+			throw new IllegalArgumentException("Id " + id + " not found in DB");
+	}
+
+	public void setIndexed(ArrayList<Integer> ids) throws SQLException {
+		for (int id : ids)
+			setIndexed(id);
 	}
 
 }
