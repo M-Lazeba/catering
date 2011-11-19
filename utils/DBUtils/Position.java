@@ -2,6 +2,12 @@ package net.sf.xfresh.catering.util;
 
 import java.util.ArrayList;
 
+/**
+ * Position class. Contains information about the dishes in a database.
+ * 
+ * @author Grechko Vlad, Kononov Vlad
+ */
+
 public class Position {
 
 	private int id;
@@ -66,5 +72,9 @@ public class Position {
 	public String getUrl() {
 		return url;
 	}
+        
+        public Integer getID(){
+            return id;
+        }
 
 }
