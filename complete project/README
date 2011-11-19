@@ -1,0 +1,3 @@
+Для запуска сервера на http://localhost:33333/ следует запустить класс net.sf.xfresh.util.Starter с адресом beans-файла в качестве аргумента (относительный путь: /xfresh/catering-example/src/script/beans.xml).
+Сейчас работает http://localhost:33333/showAll.xml
+
