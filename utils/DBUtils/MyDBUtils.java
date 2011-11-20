@@ -1,5 +1,3 @@
-package net.sf.xfresh.catering.util;
-
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.sql.Connection;
@@ -191,18 +189,22 @@ public class MyDBUtils implements DBUtils {
 					+ ", "
 					+ costId
 					+ ", "
-					+ "'"
-					+ position.getDesc()
-					+ "', "
+					+ (position.getDesc() == null ? "null, " : "'"
+							+ position.getDesc() + "', ")
 					+ "'"
 					+ position.geTitle()
-					+ "', '" + position.getUrl() + "', false)";
+					+ "', "
+					+ (position.getUrl() == null ? "'http://ya.ru', " : "'"
+							+ position.getUrl() + "', ") + "false)";
+			System.out.println(insertQuery);
 			insertSt.execute(insertQuery);
 
 			int newPositionId = getLastInsertedId("positions");
 
 			ArrayList<Integer> tagIds = insertTags(position.getTags());
 			for (int tagId : tagIds) {
+				if (tagId == -1)
+					continue;
 				Statement tagDishInsertSta = connection.createStatement();
 				tagDishInsertSta
 						.execute("INSERT INTO tagpositions (tagId, positionId) VALUES("
@@ -215,6 +217,11 @@ public class MyDBUtils implements DBUtils {
 
 	private int insertCost(int value) throws SQLException {
 		Statement insertSt = connection.createStatement();
+		ResultSet id = insertSt
+				.executeQuery("SELECT id FROM costs WHERE value = " + value
+						+ " AND unit = 'rub'");
+		if (id.first())
+			return id.getInt(1);
 		insertSt.execute("INSERT INTO costs (value, unit) VALUES( " + value
 				+ ", 'rub')");
 		return getLastInsertedId("costs");
@@ -237,6 +244,12 @@ public class MyDBUtils implements DBUtils {
 				coord.indexOf(',')));
 		float lattitude = (float) Double.parseDouble(coord.substring(coord
 				.indexOf(',') + 1));
+		Statement st = connection.createStatement();
+		ResultSet id = st
+				.executeQuery("SELECT id FROM coordinates WHERE `lat` = "
+						+ lattitude + " AND `long` = " + longitude);
+		if (id.first())
+			return id.getInt(1);
 		Statement insertSt = connection.createStatement();
 		insertSt.execute("INSERT INTO coordinates (`lat`, `long`) VALUES ("
 				+ lattitude + ", " + longitude + ")");
@@ -260,6 +273,11 @@ public class MyDBUtils implements DBUtils {
 		ArrayList<Integer> ids = new ArrayList<Integer>(tags.size());
 		Statement tagSt = connection.createStatement();
 		for (PositionTag tag : tags) {
+			// ובאםûי סעûה!
+			if (tag.getValue() == null) {
+				ids.add(-1);
+				continue;
+			}
 			ResultSet tagId = tagSt
 					.executeQuery("SELECT id FROM tags WHERE name = '" + tag
 							+ "'");
@@ -310,4 +328,30 @@ public class MyDBUtils implements DBUtils {
 			setIndexed(id);
 	}
 
+	@Override
+	public float updateRating(int id, int vote) throws SQLException {
+		Statement st = connection.createStatement();
+		ResultSet data = st
+				.executeQuery("SELECT rating, votesCount FROM positions WHERE id = "
+						+ id);
+		if (data.first()) {
+			// ובאםûי סעûה!
+			if (!(data.getObject("votesCount") == null)) {
+				float newRating = (data.getFloat("rating")
+						* data.getInt("votesCount") + vote)
+						/ (data.getInt("votesCount") + 1);
+				st.execute("UPDATE `positions` SET `rating`= " + newRating
+						+ ", `votesCount`= " + (data.getInt("votesCount") + 1)
+						+ " WHERE `id`= '" + id + "'");
+				return newRating;
+			} else { // first vote
+				System.out.println("opda");
+				st.execute("UPDATE `positions` SET `rating` = " + vote
+						+ ", `votesCount` = 1 WHERE `id` = '" + id + "'");
+				return vote;
+			}
+		} else {
+			throw new IllegalStateException("Id " + id + " not found in DB");
+		}
+	}
 }

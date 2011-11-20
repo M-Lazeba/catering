@@ -1,5 +1,3 @@
-package net.sf.xfresh.catering.util;
-
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.sql.SQLException;
@@ -22,4 +20,10 @@ public interface DBUtils {
 
 	public void insertPositions(ArrayList<Position> positionList)
 			throws SQLException, MalformedURLException, IOException;
+
+	public void setIndexed(int id) throws SQLException;
+
+	public void setIndexed(ArrayList<Integer> ids) throws SQLException;
+
+	public float updateRating(int id, int vote) throws SQLException;
 }
