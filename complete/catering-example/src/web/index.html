@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Рейтинг</title>
+
+    <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/jquery.rating.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        window.jQuery || document.write('
+        <script type="text/javascript" src="js/jquery-1.6.2.min.js"><\/script>');
+        </script>
+
+        <script type="text/javascript" src="js/jquery.rating.min.js"></script>
+
+        <script type="text/javascript">
+            $(function(){
+
+            $('#rating_1').rating({
+            fx: 'full',
+            image: 'images/stars.png',
+            loader: 'images/ajax-loader.gif',
+            width: 32,
+            url: 'rating.php'
+            });
+
+            $('#rating_2').rating({
+            fx: 'half',
+            image: 'images/stars.png',
+            loader: 'images/ajax-loader.gif',
+            width: 32,
+            url: 'rating.php'
+            });
+
+            $('#rating_3').rating({
+            fx: 'float',
+            image: 'images/stars.png',
+            loader: 'images/ajax-loader.gif',
+            width: 32,
+            minimal: 0.6,
+            url: 'rating.php'
+            });
+            })
+        </script>
+
+</head>
+
+<body>
+
+<div class="top_menu">
+    <div class="title"><h1><a href="http://biznesguide.ru/coding/156.html">Рейтинг заметок в виде звезд</a></h1></div>
+    <div class="home"><a href="/"><<< На главную</a></div>
+</div>
+<div class="wrap">
+    <div class="border-wrap">
+        <h1>Примеры рейтингов</h1>
+
+        <div class="border-wrap">
+            <h2>Пример №1</h2>
+
+            <div id="rating_1">
+                <input type="hidden" class="vote-id" value="1"/>
+            </div>
+        </div>
+        <div class="border-wrap">
+            <h2>Пример №2</h2>
+
+            <div id="rating_2">
+                <input type="hidden" class="val" value="2.75"/>
+                <input type="hidden" class="votes" value="2"/>
+            </div>
+        </div>
+        <div class="border-wrap">
+            <h2>Пример №3</h2>
+
+            <div id="rating_3">
+                <input type="hidden" class="val" value="3.75"/>
+                <input type="hidden" class="votes" value="5"/>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

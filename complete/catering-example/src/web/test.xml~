@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+
+<page>
+
+<result>
+	<type>none</type>
+	<request>лолшто</request>
+	<count>4</count>
+	<page>1</page>
+	<pages>10</pages>
+</result>
+
+<menu>
+  <item>
+	 <id>23</id>
+  	 <haspic>1</haspic>
+  	 <description>Не самое лучшее предложение нашего ресторана. Повар не был трезв, когда включил это в меню.</description>
+    <title lang="en">Стейк со свининой</title>
+    <price>800</price>
+    <ratio>2</ratio>
+    <tag>
+	    <value>еда</value>
+	    <id>1</id>
+    </tag>
+    <tag>
+	    <value>мясо</value>
+	    <id>2</id>
+    </tag>
+    <tag>
+	    <value>вкусно</value>
+	    <id>3</id>
+    </tag>
+	 <place>
+		 <name>У Гоши</name>
+		 <type>ресторан</type>
+		 <id>3</id>
+	 </place>    
+  </item>
+  <item>
+  	 <id>24</id>
+  	 <haspic>1</haspic>
+  	 <description>Хоть и не с очень, но есть можно. Состав: говядина, лук репчатый, картофельное пюре, зеленый горошек, соль, перец, булочка с кунжутом, чупа-чупс.</description>
+    <title lang="en">Стейк с говядиной</title>
+    <price>400</price>
+    <ratio>3</ratio>
+    <tag>
+	    <value>еда</value>
+	    <id>1</id>
+    </tag>
+    <tag>
+	    <value>мясо</value>
+	    <id>2</id>
+    </tag>
+	 <place>
+		 <name>У Гоши</name>
+		 <type>ресторан</type>
+		 <id>3</id>
+	 </place>    
+  </item>
+  <item>
+  	 <id>8</id>
+	 <haspic>1</haspic>
+  	 <description>Лучшее пиво из России. Алкоголь 9% об. Не надейтесь протрезветь до завтра.</description>
+    <title lang="en">Балтика 9</title>
+    <price>40</price>
+    <ratio>1</ratio>
+    <tag>
+	    <value>пиво</value>
+	    <id>4</id>
+    </tag>
+    <tag>
+	    <value>нажраться</value>
+	    <id>5</id>
+    </tag>
+	 <place>
+		 <name>Пьяная устрица</name>
+		 <type>бар</type>
+		 <id>4</id>
+	 </place>    
+  </item>
+  <item>
+  	 <id>8</id>
+	 <haspic>0</haspic>
+  	 <description>Отличная закуска к пиву. Вот только картинку напарсить не удалось.</description>
+    <title lang="en">Гренки с чесноком</title>
+    <price>40</price>
+    <ratio>5</ratio>
+    <tag>
+	    <value>закуска</value>
+	    <id>6</id>
+    </tag>
+	 <place>
+		 <name>Lesbos</name>
+		 <type>бар</type>
+		 <id>4</id>
+	 </place>    
+  </item>
+</menu>
+</page>
