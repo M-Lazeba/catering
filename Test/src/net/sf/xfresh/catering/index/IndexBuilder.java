@@ -22,7 +22,7 @@ import org.apache.lucene.analysis.ru.RussianAnalyzer;
 
 /**
  * Class for building an index. Connects with a database and takes positions
- * that have never been added to index.
+ * that have never been added to an index.
  * 
  * @author Kononov Vladislav
  */
@@ -57,14 +57,14 @@ public class IndexBuilder{
         IndexWriterConfig conf = new IndexWriterConfig(Version.LUCENE_34, 
                 new RussianAnalyzer(Version.LUCENE_34));
         IndexWriter writer = new IndexWriter(dir, conf);
-        for (int i = 0; i < pos.size(); ++i){
+        for (Position i : pos){
             Document doc = new Document();
             
-            Integer id = pos.get(i).getID();
-            String name = pos.get(i).geTitle();
-            String place = pos.get(i).getPlace().getName();
-            String description = pos.get(i).getDesc();
-            ArrayList<PositionTag> tags = pos.get(i).getTags();
+            Integer id = i.getID();
+            String name = i.geTitle();
+            String place = i.getPlace().getName();
+            String description = i.getDesc();
+            ArrayList<PositionTag> tags = i.getTags();
             
             if (id != null){
                 doc.add(new Field("id", "" + id, Field.Store.YES, 
@@ -84,7 +84,8 @@ public class IndexBuilder{
             }
             for (PositionTag pt : tags){
                 String tagName = pt.getValue();
-                doc.add(new Field("tags", tagName, Field.Store.YES, Field.Index.ANALYZED));
+                doc.add(new Field("tags", tagName, Field.Store.YES, 
+                        Field.Index.ANALYZED));
             }
             writer.addDocument(doc);
             utils.setIndexed(id);
