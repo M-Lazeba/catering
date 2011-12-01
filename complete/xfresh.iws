@@ -98,10 +98,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="beans.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="beans.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catering-example/src/script/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="29" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.49586776">
+            <state line="59" column="45" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.xsl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catering-example/src/web/test.xsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="160" column="53" selection-start="7717" selection-end="7752" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catering-example/src/web/styles/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="7" selection-start="0" selection-end="1724" vertical-scroll-proportion="0.87603307">
               <folding />
             </state>
           </provider>
@@ -190,8 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/ComparatorByPrice.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/ReversedComparatorByPrice.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/PositionTag.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Position.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Place.java" />
@@ -206,6 +222,8 @@
         <option value="$PROJECT_DIR$/catering-example/src/script/beans.xml" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/DBUtilsFactory.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/web/test.xsl" />
+        <option value="$PROJECT_DIR$/catering-example/src/web/styles/style.css" />
       </list>
     </option>
   </component>
@@ -257,6 +275,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -780,20 +838,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/ImgUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="67" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/src/java/net/sf/xfresh/db/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/java/net/sf/xfresh/util/Starter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="31" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
@@ -893,7 +937,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catering-example/src/script/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="29" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.49586776">
+        <state line="59" column="45" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/web/test.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="53" selection-start="7717" selection-end="7752" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/web/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="7" selection-start="0" selection-end="1724" vertical-scroll-proportion="0.87603307">
           <folding />
         </state>
       </provider>

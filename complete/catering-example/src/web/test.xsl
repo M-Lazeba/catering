@@ -157,6 +157,12 @@
             <xsl:attribute name="id">
                 <xsl:value-of select="id"/>
             </xsl:attribute>
+            <div class="addr">
+                <xsl:value-of select="place/addr"/>
+            </div>
+            <div class="coord">
+                <xsl:value-of select="place/coord"/>
+            </div>
             <table class="tableitem">
                 <tr>
                     <td>

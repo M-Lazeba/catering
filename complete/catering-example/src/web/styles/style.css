@@ -131,3 +131,9 @@ h2 {
     text-align: center;
     width: 100%;
 }
+.addr {
+    display: none;
+}
+.coord {
+    display: none;
+}
