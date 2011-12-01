@@ -247,8 +247,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/catering-example/catering-example.iml" filepath="$PROJECT_DIR$/catering-example/catering-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/src/core.iml" filepath="$PROJECT_DIR$/core/src/core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/db/db.iml" filepath="$PROJECT_DIR$/db/db.iml" />
-      <module fileurl="file://$PROJECT_DIR$/db-example/db-example.iml" filepath="$PROJECT_DIR$/db-example/db-example.iml" />
     </modules>
   </component>
   <component name="ProjectResources">
@@ -306,6 +304,19 @@
       <jarDirectory url="file://$PROJECT_DIR$/core/lib/saxon" recursive="false" />
       <jarDirectory url="file://$PROJECT_DIR$/core/lib/spring" recursive="false" />
       <jarDirectory url="file://$PROJECT_DIR$/core/lib/xalan" recursive="false" />
+    </library>
+    <library name="spring-db">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/catering-example/lib/spring-dao.jar!/" />
+        <root url="jar://$PROJECT_DIR$/catering-example/lib/spring-support.jar!/" />
+        <root url="jar://$PROJECT_DIR$/catering-example/lib/spring-jdbc.jar!/" />
+        <root url="jar://$PROJECT_DIR$/catering-example/lib/mysql-connector-java-5.1.12-bin.jar!/" />
+        <root url="jar://$PROJECT_DIR$/catering-example/lib/commons-pool.jar!/" />
+        <root url="jar://$PROJECT_DIR$/catering-example/lib/commons-dbcp-1.2.2.jar!/" />
+        <root url="jar://$PROJECT_DIR$/catering-example/lib/commons-collections.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
     </library>
   </component>
 </project>

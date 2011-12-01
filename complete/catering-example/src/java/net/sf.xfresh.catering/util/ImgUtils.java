@@ -2,16 +2,14 @@ package net.sf.xfresh.catering.util;
 
 
 import javax.imageio.ImageIO;
-import java.awt.geom.AffineTransform;
 import java.awt.*;
+import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-
-import static java.awt.Image.SCALE_SMOOTH;
 
 /**
  * Created by IntelliJ IDEA.
@@ -24,7 +22,7 @@ import static java.awt.Image.SCALE_SMOOTH;
 
 
 public class ImgUtils {
-    public static String get(String url, int id) throws IOException, MalformedURLException {
+    public static String get(String url, int id) throws IOException {
         String[] splitted = url.split(".");
         String ext = splitted[splitted.length - 1].toLowerCase();
         java.io.BufferedInputStream in = new java.io.BufferedInputStream(new URL(url).openStream());
@@ -49,7 +47,6 @@ public class ImgUtils {
         BufferedImage thumbnail = null;
         if (image != null) {
             AffineTransform tx = new AffineTransform();
-            // Determine scale so image is not larger than the max height and/or width.
             double scale = scaleToFit(image.getWidth(),
                     image.getHeight(),
                     maxThumbWidth, maxThumbHeight);
@@ -59,8 +56,8 @@ public class ImgUtils {
             double d1 = (double) image.getWidth() * scale;
             double d2 = (double) image.getHeight() * scale;
             thumbnail = new BufferedImage(
-                    ((int) d1) < 1 ? 1 : (int) d1,  // don't allow width to be less than 1
-                    ((int) d2) < 1 ? 1 : (int) d2,  // don't allow height to be less than 1
+                    ((int) d1) < 1 ? 1 : (int) d1,
+                    ((int) d2) < 1 ? 1 : (int) d2,
                     image.getType() == BufferedImage.TYPE_CUSTOM ?
                             BufferedImage.TYPE_INT_RGB : image.getType());
             Graphics2D g2d = thumbnail.createGraphics();
@@ -69,7 +66,6 @@ public class ImgUtils {
         }
         return thumbnail;
     }
-
 
     private static double scaleToFit(double w1, double h1, double w2, double h2) {
         double scale = 1.0D;

@@ -1,10 +1,6 @@
 package net.sf.xfresh.catering.model;
 
-import net.sf.xfresh.core.xml.Tagable;
-import net.sf.xfresh.core.xml.Xmler;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -16,7 +12,7 @@ import java.util.List;
  *
  * @author Anton Ohitin
  */
-public class Position implements Tagable {
+public class Position {
     public int id;
     private String title;
     private String description;
@@ -27,6 +23,7 @@ public class Position implements Tagable {
     private String imgUrl;
     private List<PositionTag> tags;
     private Place place;
+
 
     public Position(int id, String title, String description, boolean hasPic, int price, float ratio, String url, ArrayList<PositionTag> tags, Place place) {
         this.id = id;
@@ -43,32 +40,6 @@ public class Position implements Tagable {
 
     public void setPlace(Place place) {
         this.place = place;
-    }
-
-    public void setTags(List<PositionTag> tags) {
-        this.tags = tags;
-    }
-
-
-
-    public Xmler.Tag asTag() {
-        List<Xmler.Tag> tagsRepr = new LinkedList<Xmler.Tag>();
-        for (PositionTag tag : tags) {
-            tagsRepr.add(tag.asTag());
-        }
-        List<Xmler.Tag> all = Arrays.asList(
-                Xmler.tag("id", ((Integer) id).toString()),
-                Xmler.tag("title", title),
-                Xmler.tag("haspic", ((Integer) (hasPic ? 1 : 0)).toString()),
-                Xmler.tag("description", description),
-                Xmler.tag("price", ((Integer) price).toString()),
-                Xmler.tag("ratio", ((Float) ratio).toString()),
-                Xmler.tag("url", url)//,
-                //place.asTag(),
-                //Xmler.tag("tags", tagsRepr)
-        );
-        return Xmler.tag("item", all);
-
     }
 
     public Place getPlace() {
@@ -89,10 +60,6 @@ public class Position implements Tagable {
 
     public String getUrl() {
         return url;
-    }
-
-    public List<PositionTag> getTags() {
-        return tags;
     }
 
     public int getId() {
@@ -143,5 +110,12 @@ public class Position implements Tagable {
         return imgUrl;
     }
 
+    public List<PositionTag> getTags() {
+        return tags;
+    }
+
+    public void setTags(LinkedList<PositionTag> tags) {
+        this.tags = tags;
+    }
 }
 

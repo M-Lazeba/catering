@@ -1,6 +1,6 @@
 package net.sf.xfresh.catering.util.index;
 
-import net.sf.xfresh.catering.db.MyDBUtils;
+import net.sf.xfresh.catering.db.DBUtils;
 import net.sf.xfresh.catering.model.Position;
 import net.sf.xfresh.catering.model.PositionTag;
 import org.apache.lucene.analysis.ru.RussianAnalyzer;
@@ -15,7 +15,6 @@ import org.apache.lucene.util.Version;
 import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -28,42 +27,38 @@ import java.util.List;
 
 public class IndexBuilder {
 
-    private String urlDB;
-    private String indexPath;
-    private MyDBUtils utils;
-    private String user;
-    private String pass;
 
+    private String path;
+    private DBUtils dbUtils;
 
-    public IndexBuilder(String url, String path, String username, String password)
-            throws SQLException, ClassNotFoundException {
-        urlDB = url;
-        indexPath = path;
-        user = username;
-        pass = password;
-        utils = new MyDBUtils(urlDB, user, pass);
+    public void setPath(String path) {
+        this.path = path;
     }
 
+    public void setDbUtils(DBUtils dbUtils) {
+        this.dbUtils = dbUtils;
+    }
 
     /*
     * Index positions that are not indexed yet.
     */
+
     public void indexNotIndexed() throws SQLException, IOException {
-        ArrayList<Position> pos = utils.getByPositionIds(utils.getUnIndexed());
-        File file = new File(indexPath);
+        List<Position> pos = (List<Position>) dbUtils.getByPositionIds(dbUtils.getUnIndexed());
+        File file = new File(path);
         file.mkdir();
         Directory dir = FSDirectory.open(file);
         IndexWriterConfig conf = new IndexWriterConfig(Version.LUCENE_34,
                 new RussianAnalyzer(Version.LUCENE_34));
         IndexWriter writer = new IndexWriter(dir, conf);
-        for (int i = 0; i < pos.size(); ++i) {
+        for (Position i: pos) {
             Document doc = new Document();
 
-            Integer id = pos.get(i).getId();
-            String name = pos.get(i).getTitle();
-            String place = pos.get(i).getPlace().getName();
-            String description = pos.get(i).getDesc();
-            List<PositionTag> tags = pos.get(i).getTags();
+            Integer id = i.getId();
+            String name = i.getTitle();
+            String place = i.getPlace().getName();
+            String description = i.getDescription();
+            List<PositionTag> tags = i.getTags();
 
             if (id != null) {
                 doc.add(new Field("id", "" + id, Field.Store.YES,
@@ -86,7 +81,7 @@ public class IndexBuilder {
                 doc.add(new Field("tags", tagName, Field.Store.YES, Field.Index.ANALYZED));
             }
             writer.addDocument(doc);
-            utils.setIndexed(id);
+            dbUtils.setIndexed(id);
         }
         writer.close();
     }

@@ -12,11 +12,11 @@ import java.sql.SQLException;
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
-        IndexBuilder builder = new IndexBuilder(
-                "localhost/catering",
-                "/home/exprmntr/xfresh/xfresh/catering-example/index",
-                "root",
-                "toor");
-        builder.indexNotIndexed();
+        //IndexBuilder builder = new IndexBuilder(
+        //        "localhost/catering",
+        //        "/home/exprmntr/xfresh/xfresh/catering-example/index",
+        //        "root",
+        //        "toor");
+        //builder.indexNotIndexed();
     }
 }

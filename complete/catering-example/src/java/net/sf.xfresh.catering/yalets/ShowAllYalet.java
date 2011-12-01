@@ -1,12 +1,10 @@
 package net.sf.xfresh.catering.yalets;
 
-import net.sf.xfresh.catering.db.DBUtils;
-import net.sf.xfresh.catering.db.DBUtilsImpl;
 import net.sf.xfresh.catering.model.*;
 import net.sf.xfresh.catering.util.ResultProcessor;
+import net.sf.xfresh.catering.util.TagsMaker;
 import net.sf.xfresh.core.InternalRequest;
 import net.sf.xfresh.core.InternalResponse;
-import net.sf.xfresh.db.AbstractDbYalet;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,18 +18,13 @@ import java.util.List;
  *
  * @author Anton Ohitin
  */
-public class ShowAllYalet extends AbstractDbYalet {
+public class ShowAllYalet extends AbstractCateringYalet {
 
     private Request request;
     private List<Position> list;
 
+
     private void get() {
-
-        DBUtils db = null;
-        //db = new MyDBUtils("localhost/catering", "root", "toor");
-        db = new DBUtilsImpl(jdbcTemplate);
-
-        assert db != null;
 
 
         ArrayList<PositionTag> tags = new ArrayList<PositionTag>();
@@ -47,10 +40,10 @@ public class ShowAllYalet extends AbstractDbYalet {
         tags.add(new PositionTag(0, "бухать"));
         Position position2 = new Position(0, "Водка", "Очень вкусно!", false, 1100, 3, "http://ya.ru/ololol", tags, place);
 
-        db.uncheckedInsertPosition(position);
-        db.uncheckedInsertPosition(position2);
+        //db.uncheckedInsertPosition(position);
+        //db.uncheckedInsertPosition(position2);
 
-        list = (List<Position>) db.getAllPositions();
+        list = (List<Position>) dbUtils.getAllPositions();
 
         request = ResultProcessor.prepareRequest(list, request);
 
@@ -63,7 +56,7 @@ public class ShowAllYalet extends AbstractDbYalet {
         request = new Request(req.getAllParameters());
         get();
         for (Position i : list) {
-            res.add(i);
+            res.add(TagsMaker.makeTag(i));
         }
         res.add(new Result(list.size(), request));
     }

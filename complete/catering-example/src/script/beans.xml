@@ -35,10 +35,6 @@
 
     <bean id="singleYaletProcessor" class="net.sf.xfresh.core.impl.DefaultSingleYaletProcessor"/>
 
-    <!--Yalets-->
-    <bean id="ShowAllYalet" class="net.sf.xfresh.catering.yalets.ShowAllYalet"/>
-    <bean id="RatingUpdateYalet" class="net.sf.xfresh.catering.yalets.RatingUpdateYalet"/>
-
     <!--DB conf-->
     <bean id="dataSource" destroy-method="close" class="org.apache.commons.dbcp.BasicDataSource" lazy-init="false">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
@@ -52,5 +48,33 @@
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.simple.SimpleJdbcTemplate" lazy-init="false">
         <constructor-arg ref="dataSource"/>
     </bean>
+
+    <bean id="DBUtilsImpl" class="net.sf.xfresh.catering.db.DBUtilsImpl" lazy-init="false">
+        <constructor-arg ref="jdbcTemplate"/>
+    </bean>
+
+
+
+
+    <!-- Index configuration -->
+
+    <bean id="SearchResponserImpl" class="net.sf.xfresh.catering.util.index.SearchResponserImpl" lazy-init="false">
+        <property name="path" value="catering-example/index"/>
+    </bean>
+
+    <bean id="IndexBuilder" class="net.sf.xfresh.catering.util.index.IndexBuilder" lazy-init="false">
+        <property name="path" value="caterin-example/index"/>
+        <property name="dbUtils" ref="DBUtilsImpl"/>
+    </bean>
+
+
+    <!--Yalets-->
+    <bean id="ShowAllYalet" class="net.sf.xfresh.catering.yalets.ShowAllYalet">
+        <property name="dbUtils" ref="DBUtilsImpl"/>
+        <property name="searchResponser" ref="SearchResponserImpl"/>
+    </bean>
+
+
+
 
 </beans>

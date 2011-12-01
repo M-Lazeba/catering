@@ -9,16 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="core" />
     <orderEntry type="module-library" exported="">
-      <library name="mysql">
-        <CLASSES>
-          <root url="jar:///usr/share/java/mysql-connector-java.jar!/" />
-          <root url="jar:///usr/share/java/mysql.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
       <library name="lucene">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/lib/lucene-smartcn-3.4.0.jar!/" />
@@ -30,17 +20,8 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="db" />
-    <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../db/lib/spring-jdbc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" exported="" name="lib" level="project" />
+    <orderEntry type="library" exported="" name="spring-db" level="project" />
   </component>
 </module>
 

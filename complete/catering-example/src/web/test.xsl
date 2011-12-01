@@ -138,34 +138,16 @@
             По запросу "<xsl:value-of select="request"/>" найдено позиций: <xsl:value-of select="count"/>.
             <br/>
             Сортировать по цене
-            (
-            <a>
+            (<a>
                 <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
-                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=price
-                </xsl:attribute>
-                ↑
-            </a>
-            <a>
+                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=price</xsl:attribute>↑</a><a>
                 <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
-                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=-price
-                </xsl:attribute>
-                ↓
-            </a>
-            ), по рейтигну
-            (
-            <a>
+                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=-price</xsl:attribute>↓</a>), по рейтигну
+            (<a>
                 <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
-                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=ratio
-                </xsl:attribute>
-                ↑
-            </a>
-            <a>
+                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=ratio</xsl:attribute>↑</a><a>
                 <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
-                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=-ratio
-                </xsl:attribute>
-                ↓
-            </a>
-            ).
+                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=-ratio</xsl:attribute>↓</a>).
         </div>
     </xsl:template>
 
@@ -223,7 +205,7 @@
                                 <sup>
                                     <xsl:text> </xsl:text>
                                     <a>
-                                        <xsl:attribute name="href">search.xml?type=tag&amp;id=<xsl:value-of
+                                        <xsl:attribute name="href">tag.xml?id=<xsl:value-of
                                                 select="id"/>
                                         </xsl:attribute>
                                         <span class="tag">

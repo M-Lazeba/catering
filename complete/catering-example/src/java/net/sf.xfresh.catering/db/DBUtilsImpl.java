@@ -33,15 +33,14 @@ public class DBUtilsImpl implements DBUtils{
         this.jdbcTemplate = jdbcTemplate;
     }
 
-
     public Collection<Position> getByPositionIds(Collection<Integer> ids) throws DataAccessException {
         List<Position> result = new LinkedList<Position>();
         for (Integer id : ids) {
             Position position = jdbcTemplate.queryForObject("SELECT id, name, description, imageUrl, price, rating, url " +
                     "FROM positions WHERE id = ?", POSITION_MAPPER, new Object[]{id});
             List<PositionTag> tags = jdbcTemplate.query("SELECT id, name FROM tags WHERE id IN " +
-                    "(SELECT id from tagpositions WHERE positionId = ?)", TAG_MAPPER, new Object[]{id});
-            position.setTags(tags);
+                    "(SELECT tagId from tagpositions WHERE positionId = ?)", TAG_MAPPER, new Object[]{id});
+            position.setTags(new LinkedList<PositionTag>(tags));
             Integer placeId = jdbcTemplate.queryForInt("SELECT placesId FROM positions WHERE id = ?", new Object[]{id});
             List<Integer> placeAddressIds = jdbcTemplate.query("SELECT id " +
                     "FROM placeadresses WHERE placeId = ?", INTEGER_LOLWUT_MAPPER, new Object[]{placeId});
@@ -54,7 +53,7 @@ public class DBUtilsImpl implements DBUtils{
 
             Place place = jdbcTemplate.queryForObject("SELECT id, name " +
                     "FROM places WHERE id = ?", PLACE_MAPPER, new Object[]{placeId});
-            place.setAddrs(addrs);
+            place.setAddrs(new LinkedList<Address>(addrs));
             place.setAddrAndCoord(0);
             position.setPlace(place);
             result.add(position);

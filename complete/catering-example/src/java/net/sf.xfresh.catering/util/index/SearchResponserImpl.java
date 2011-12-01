@@ -31,7 +31,8 @@ public class SearchResponserImpl implements SearchResponser {
 
     Directory indexDir;
 
-    public SearchResponserImpl(String path) throws IOException {
+    public void setPath(String path) throws IOException {
+
         Directory dir = FSDirectory.open(new File(path));
         indexDir = dir;
     }
