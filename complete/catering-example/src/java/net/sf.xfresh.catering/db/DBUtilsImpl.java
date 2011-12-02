@@ -152,14 +152,15 @@ public class DBUtilsImpl implements DBUtils{
     public int uncheckedInsertPosition(Position position) {
         Integer placeId = insertPlace(position.getPlace());
         jdbcTemplate.update("INSERT INTO positions " +
-                "(name, description, imageUrl, price, url, placesId) " +
-                "VALUES (?, ?, ?, ?, ?, ?)", new Object[]{
+                "(name, description, imageUrl, price, url, placesId, isIndexed) " +
+                "VALUES (?, ?, ?, ?, ?, ?, ?)", new Object[]{
                 position.getTitle(),
                 position.getDescription(),
                 position.getImgUrl(),
                 position.getPrice(),
                 position.getUrl(),
-                placeId
+                placeId,
+                Boolean.FALSE
         });
         int positionId = getLastInsertedId("positions");
         for (PositionTag tag : position.getTags()) {
