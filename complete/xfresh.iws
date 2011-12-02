@@ -106,10 +106,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.xsl" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test.xsl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catering-example/src/web/test.xsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="240" column="62" selection-start="10814" selection-end="10814" vertical-scroll-proportion="0.0">
+            <state line="31" column="61" selection-start="1373" selection-end="1373" vertical-scroll-proportion="0.42613637">
               <folding />
             </state>
           </provider>
@@ -142,10 +142,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShowAllYalet.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ShowAllYalet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="40" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.8636364">
+            <state line="56" column="39" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -982,16 +982,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/web/test.xsl">
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="240" column="62" selection-start="10814" selection-end="10814" vertical-scroll-proportion="0.0">
+        <state line="56" column="39" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java">
+    <entry file="file://$PROJECT_DIR$/catering-example/src/web/test.xsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="40" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.8636364">
+        <state line="31" column="61" selection-start="1373" selection-end="1373" vertical-scroll-proportion="0.42613637">
           <folding />
         </state>
       </provider>

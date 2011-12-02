@@ -27,36 +27,13 @@
                         >
                 </script>
                 <script type="text/javascript">
-                    whereiam="30.3,59.95"
-                    //var coordinates = ["30.3,59.95", "30.35,59.9"];
 
-                    // Создает обработчик события window.onLoad
-                    YMaps.jQuery(function () {
-                    // Создает экземпляр карты и привязывает его к созданному контейнеру
-                    var map = new YMaps.Map(YMaps.jQuery("div.map")[0]);
-                    var coordinatesDivs = YMaps.jQuery("div.coord").get();
-                    var coordinates = new Array(coordinatesDivs.length);
-                    var titles = new Array(coordinatesDivs.length);
-                    for(i = 0; i &lt; coordinatesDivs.length; i++){
-                        coordinates[i] = coordinatesDivs[i].innerHTML;
-                    }
-                    alert(coordinates[0] + " " + coordinates[1]);
-                    // Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования
-                    map.setCenter(YMaps.GeoPoint.fromString(whereiam), 10);
-                    map.addControl(new YMaps.TypeControl());
-                    map.addControl(new YMaps.Zoom());
-                    var placemarks = new Array(coordinates.length);
-                    for(i = 0; i &lt; coordinates.length; i++){
-                    placemarks[i] = new YMaps.Placemark(YMaps.GeoPoint.fromString(coordinates[i]));
-                    placemarks[i].setIconContent(i + 1);
-                    map.addOverlay(placemarks[i]);
-                    }
+                    <xsl:apply-templates select="page/data/places"/>
+                    alert(places[0]["addresses"][0]["addr"]);
 
-                    })
                 </script>
             </head>
             <body>
-                <xsl:apply-templates select="page/data/places"/>
                 <div class="header">
                     <table class="tablelogo">
                         <tr>
@@ -166,34 +143,26 @@
     </xsl:template>
 
     <xsl:template match="places">
-        <div class="placesdata">
+        places = [
             <xsl:apply-templates select="place"/>
-        </div>
+        ]
     </xsl:template>
 
     <xsl:template match="place">
-        <div class="placedata">
-            <div class="placeiddata">
-                <xsl:value-of select="id"/>
-            </div>
-            <div class="placemanedata">
-                <xsl:value-of select="name"/>
-            </div>
-            <div class="addressesdata">
-                <xsl:apply-templates select="addresses/address"/>
-            </div>
-        </div>
+            {
+                "id": "<xsl:value-of select="id"/>",
+                "name": "<xsl:value-of select="name"/>",
+                "addresses": [
+                    <xsl:apply-templates select="addresses/address"/>
+                ]
+            },
     </xsl:template>
 
     <xsl:template match="address">
-        <div class="addressdata">
-            <div class="addr">
-                <xsl:value-of select="addr"/>
-            </div>
-            <div class="coord">
-                <xsl:value-of select="coord"/>
-            </div>
-        </div>
+                {
+                    "addr": "<xsl:value-of select="addr"/>",
+                    "coord": "<xsl:value-of select="coord"/>"
+                },
     </xsl:template>
 
     <xsl:template match="result">
