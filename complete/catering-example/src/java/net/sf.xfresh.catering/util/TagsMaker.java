@@ -9,6 +9,7 @@ import net.sf.xfresh.core.xml.Xmler;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by IntelliJ IDEA.
@@ -94,6 +95,14 @@ public class TagsMaker {
         );
         return Xmler.tag("item", all);
 
+    }
+
+    public static Xmler.Tag makeTag(Set<Place> places) {
+        List<Xmler.Tag> placesRepr = new LinkedList<Xmler.Tag>();
+        for (Place place: places) {
+            placesRepr.add(makeTag(place));
+        }
+        return Xmler.tag("places", placesRepr);
     }
 }
 

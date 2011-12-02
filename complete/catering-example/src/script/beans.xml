@@ -13,10 +13,10 @@
         <property name="handlers">
             <list>
                 <bean class="net.sf.xfresh.jetty.YaletXmlPageHandler">
-                    <property name="resourceBase" value="D:\catering\catering\complete\catering-example\src\web"/>
+                    <property name="resourceBase" value="catering-example/src/web"/>
                 </bean>
                 <bean class="org.mortbay.jetty.handler.ResourceHandler">
-                    <property name="resourceBase" value="D:\catering\catering\complete\catering-example\src\web"/>
+                    <property name="resourceBase" value="catering-example/src/web"/>
                 </bean>
             </list>
         </property>
@@ -40,7 +40,7 @@
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost/cat"/>
         <property name="username" value="root"/>
-        <property name="password" value="pass"/>
+        <property name="password" value="toor"/>
         <property name="validationQuery" value="select 1"/>
     </bean>
 

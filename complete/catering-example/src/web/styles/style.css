@@ -131,9 +131,9 @@ h2 {
     text-align: center;
     width: 100%;
 }
-.addr {
+.placeid {
     display: none;
 }
-.coord {
+.placesdata {
     display: none;
 }

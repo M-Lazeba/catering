@@ -7,7 +7,9 @@ import net.sf.xfresh.core.InternalRequest;
 import net.sf.xfresh.core.InternalResponse;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 
 /**
@@ -55,9 +57,12 @@ public class ShowAllYalet extends AbstractCateringYalet {
         System.out.print("lol");
         request = new Request(req.getAllParameters());
         get();
+        Set<Place> places = new HashSet<Place>();
         for (Position i : list) {
+            places.add(i.getPlace());
             res.add(TagsMaker.makeTag(i));
         }
+        res.add(TagsMaker.makeTag(places));
         res.add(new Result(list.size(), request));
     }
 }

@@ -63,4 +63,9 @@ public class Place {
     public String getAddr() {
         return addr;
     }
+
+    public int hashCode() {
+        return name.hashCode() + id;
+    }
+
 }

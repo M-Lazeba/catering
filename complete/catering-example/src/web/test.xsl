@@ -56,6 +56,7 @@
                 </script>
             </head>
             <body>
+                <xsl:apply-templates select="page/data/places"/>
                 <div class="header">
                     <table class="tablelogo">
                         <tr>
@@ -164,6 +165,36 @@
         </html>
     </xsl:template>
 
+    <xsl:template match="places">
+        <div class="placesdata">
+            <xsl:apply-templates select="place"/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="place">
+        <div class="placedata">
+            <div class="placeiddata">
+                <xsl:value-of select="id"/>
+            </div>
+            <div class="placemanedata">
+                <xsl:value-of select="name"/>
+            </div>
+            <div class="addressesdata">
+                <xsl:apply-templates select="addresses/address"/>
+            </div>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="address">
+        <div class="addressdata">
+            <div class="addr">
+                <xsl:value-of select="addr"/>
+            </div>
+            <div class="coord">
+                <xsl:value-of select="coord"/>
+            </div>
+        </div>
+    </xsl:template>
 
     <xsl:template match="result">
         <div class="results">
@@ -206,11 +237,8 @@
             <xsl:attribute name="id">
                 <xsl:value-of select="id"/>
             </xsl:attribute>
-            <div class="addr">
-                <xsl:value-of select="place/addr"/>
-            </div>
-            <div class="coord">
-                <xsl:value-of select="place/coord"/>
+            <div class="placeid">
+                <xsl:value-of select="place/id"/>
             </div>
             <table class="tableitem">
                 <tr>
