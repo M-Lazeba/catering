@@ -22,6 +22,38 @@
                     })
 
                 </script>
+                <script src="http://api-maps.yandex.ru/1.1/index.xml?key=AG6P1k4BAAAABlt1EgQACC0-7Lbn1GigFIzab6j3Fa0n2agAAAAAAAAAAACtmQF03U8euyX0A4xMAR50DaZ3Iw=="
+                        type="text/javascript"
+                        >
+                </script>
+                <script type="text/javascript">
+                    whereiam="30.3,59.95"
+                    //var coordinates = ["30.3,59.95", "30.35,59.9"];
+
+                    // Создает обработчик события window.onLoad
+                    YMaps.jQuery(function () {
+                    // Создает экземпляр карты и привязывает его к созданному контейнеру
+                    var map = new YMaps.Map(YMaps.jQuery("div.map")[0]);
+                    var coordinatesDivs = YMaps.jQuery("div.coord").get();
+                    var coordinates = new Array(coordinatesDivs.length);
+                    var titles = new Array(coordinatesDivs.length);
+                    for(i = 0; i &lt; coordinatesDivs.length; i++){
+                        coordinates[i] = coordinatesDivs[i].innerHTML;
+                    }
+                    alert(coordinates[0] + " " + coordinates[1]);
+                    // Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования
+                    map.setCenter(YMaps.GeoPoint.fromString(whereiam), 10);
+                    map.addControl(new YMaps.TypeControl());
+                    map.addControl(new YMaps.Zoom());
+                    var placemarks = new Array(coordinates.length);
+                    for(i = 0; i &lt; coordinates.length; i++){
+                    placemarks[i] = new YMaps.Placemark(YMaps.GeoPoint.fromString(coordinates[i]));
+                    placemarks[i].setIconContent(i + 1);
+                    map.addOverlay(placemarks[i]);
+                    }
+
+                    })
+                </script>
             </head>
             <body>
                 <div class="header">
@@ -138,16 +170,33 @@
             По запросу "<xsl:value-of select="request"/>" найдено позиций: <xsl:value-of select="count"/>.
             <br/>
             Сортировать по цене
-            (<a>
+            (
+            <a>
                 <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
-                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=price</xsl:attribute>↑</a><a>
+                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=price
+                </xsl:attribute>
+                ↑</a>
+            <a>
                 <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
-                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=-price</xsl:attribute>↓</a>), по рейтигну
-            (<a>
+                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=-price
+                </xsl:attribute>
+                ↓
+            </a>
+            ), по рейтигну
+            (
+            <a>
                 <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
-                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=ratio</xsl:attribute>↑</a><a>
+                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=ratio
+                </xsl:attribute>
+                ↑
+            </a>
+            <a>
                 <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
-                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=-ratio</xsl:attribute>↓</a>).
+                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=-ratio
+                </xsl:attribute>
+                ↓
+            </a>
+            ).
         </div>
     </xsl:template>
 

@@ -40,8 +40,8 @@ public class ShowAllYalet extends AbstractCateringYalet {
         tags.add(new PositionTag(0, "бухать"));
         Position position2 = new Position(0, "Водка", "Очень вкусно!", false, 1100, 3, "http://ya.ru/ololol", tags, place);
 
-        //db.uncheckedInsertPosition(position);
-        //db.uncheckedInsertPosition(position2);
+        //dbUtils.uncheckedInsertPosition(position);
+        //dbUtils.uncheckedInsertPosition(position2);
 
         list = (List<Position>) dbUtils.getAllPositions();
 
