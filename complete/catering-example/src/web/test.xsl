@@ -31,9 +31,10 @@
                     <xsl:apply-templates select="page/data/places"/>
 					
 					var whereiam="30.4,59.95";
+					var map;
 					
 					YMaps.jQuery(function(){
-						var map = new YMaps.Map(YMaps.jQuery("div.map")[0]);            
+						map = new YMaps.Map(YMaps.jQuery("div.map")[0]);            
 						// Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования			
 						map.setCenter(YMaps.GeoPoint.fromString(whereiam), 11);
 						map.addControl(new YMaps.TypeControl());
@@ -41,8 +42,9 @@
 						var count = 0;
 						for(i = 0; i &lt; places.length; i++){
 							for(j = 0; j &lt; places[i]["addresses"].length; j++){
+								places[i]["addresses"][j]["number"] = count;
 						places[i]["addresses"][j]["placemark"] = new YMaps.Placemark(YMaps.GeoPoint.fromString(places[i]["addresses"][j]["coord"]));
-								alert(places[i]["addresses"][j]["coord"]);
+								
 								places[i]["addresses"][j]["placemark"].setIconContent(count + 1);
 								places[i]["addresses"][j]["placemark"].name = places[i]["name"];
 								places[i]["addresses"][j]["placemark"].description = places[i]["addresses"][j]["addr"];
@@ -50,7 +52,31 @@
 								count++;
 							}
 						}
+						//Тест функции
+						//light(22);
 					})
+					
+					
+					
+					function light(id){
+						alert("in function");
+						for(i = 0; i &lt; places.length; i++){
+							if (places[i]["id"] == id) {
+								alert("in if");
+								for(j = 0; j &lt; places[i]["addresses"].length; j++){
+									alert("in for");
+									map.removeOverlay(places[i]["addresses"][j]["placemark"]);
+									places[i]["addresses"][j]["placemark"] = new YMaps.Placemark(YMaps.GeoPoint.fromString(places[i]["addresses"][j]["coord"]), {style: "default#redPoint"});
+									places[i]["addresses"][j]["placemark"].name = places[i]["name"];
+									places[i]["addresses"][j]["placemark"].setIconContent(places[i]["addresses"][j]["number"] + 1);
+									places[i]["addresses"][j]["placemark"].description = places[i]["addresses"][j]["addr"];
+									map.addOverlay(places[i]["addresses"][j]["placemark"]);
+								}
+							}
+						}
+					}
+					
+					
 					
 
                 </script>
