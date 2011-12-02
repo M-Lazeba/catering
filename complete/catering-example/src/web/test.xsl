@@ -29,7 +29,29 @@
                 <script type="text/javascript">
 
                     <xsl:apply-templates select="page/data/places"/>
-                    alert(places[0]["addresses"][0]["addr"]);
+					
+					var whereiam="30.4,59.95";
+					
+					YMaps.jQuery(function(){
+						var map = new YMaps.Map(YMaps.jQuery("div.map")[0]);            
+						// Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования			
+						map.setCenter(YMaps.GeoPoint.fromString(whereiam), 11);
+						map.addControl(new YMaps.TypeControl());
+						map.addControl(new YMaps.Zoom());
+						var count = 0;
+						for(i = 0; i &lt; places.length; i++){
+							for(j = 0; j &lt; places[i]["addresses"].length; j++){
+						places[i]["addresses"][j]["placemark"] = new YMaps.Placemark(YMaps.GeoPoint.fromString(places[i]["addresses"][j]["coord"]));
+								alert(places[i]["addresses"][j]["coord"]);
+								places[i]["addresses"][j]["placemark"].setIconContent(count + 1);
+								places[i]["addresses"][j]["placemark"].name = places[i]["name"];
+								places[i]["addresses"][j]["placemark"].description = places[i]["addresses"][j]["addr"];
+								map.addOverlay(places[i]["addresses"][j]["placemark"]);
+								count++;
+							}
+						}
+					})
+					
 
                 </script>
             </head>
