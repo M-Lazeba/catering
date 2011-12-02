@@ -9,6 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54195bec-f169-4d8c-bda4-9bfad6e19fbb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/DBUtilsImpl.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/DBUtilsImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/script/beans.xml" afterPath="$PROJECT_DIR$/catering-example/src/script/beans.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xfresh.iws" afterPath="$PROJECT_DIR$/xfresh.iws" />
     </list>
     <ignored path="xfresh.iws" />
@@ -101,10 +102,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="beans.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="beans.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catering-example/src/script/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="45" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.0">
+            <state line="73" column="50" selection-start="2985" selection-end="2985" vertical-scroll-proportion="1.1346499">
               <folding />
             </state>
           </provider>
@@ -128,10 +129,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBUtilsImpl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DBUtilsImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/DBUtilsImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="24" selection-start="7643" selection-end="7643" vertical-scroll-proportion="0.7242647">
+            <state line="171" column="24" selection-start="7643" selection-end="7643" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -217,12 +218,12 @@
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/AbstractCateringYalet.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/script/beans.xml" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/DBUtilsFactory.java" />
         <option value="$PROJECT_DIR$/catering-example/src/web/test.xsl" />
         <option value="$PROJECT_DIR$/catering-example/src/web/styles/style.css" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/DBUtilsImpl.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/script/beans.xml" />
       </list>
     </option>
   </component>
@@ -913,17 +914,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/script/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="45" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/DBUtilsImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="24" selection-start="7643" selection-end="7643" vertical-scroll-proportion="0.7242647">
+        <state line="171" column="24" selection-start="7643" selection-end="7643" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/script/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="50" selection-start="2985" selection-end="2985" vertical-scroll-proportion="1.1346499">
+          <folding />
         </state>
       </provider>
     </entry>

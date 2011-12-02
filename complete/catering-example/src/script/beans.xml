@@ -63,7 +63,7 @@
     </bean>
 
     <bean id="IndexBuilder" class="net.sf.xfresh.catering.util.index.IndexBuilder" lazy-init="false">
-        <property name="path" value="caterin-example/index"/>
+        <property name="path" value="catering-example/index"/>
         <property name="dbUtils" ref="DBUtilsImpl"/>
     </bean>
 
