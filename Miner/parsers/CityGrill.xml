@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config charset="UTF-8">
+	<var-def name="orgName"><template>СитиГриль</template></var-def>
+	<var-def name="URL"><template>http://citygrillexpress.ru</template></var-def>
+	<var-def name="Adress">Санкт-Петербург, канал Грибоедова, дом 20</var-def>
+	
+	<!--<file action="write" path="${orgName}/CityGrill.xml">-->
+		<var-def name="data">
+		<template><![CDATA[ <data> ]]></template>
+		<loop item="pageURL">
+			<list>
+				<template>menu/combo/</template>
+				<xpath expression="//div[@class='menu-categories-wrap']//a/@href">
+					<html-to-xml>
+						<http url="${URL}/menu/"></http>
+					</html-to-xml>
+				</xpath>
+			</list>	
+			
+			<body>
+				<xquery>
+					<xq-param name="doc">
+						<html-to-xml><http url="${sys.fullUrl(URL,pageURL)}"></http></html-to-xml>
+					</xq-param>
+					<xq-param name="url" type="string"><var name="URL"/></xq-param>
+					<xq-param name="adress" type="string"><var name="Adress"/></xq-param>
+					<xq-expression><![CDATA[
+						declare variable $doc as node()* external;
+						declare variable $url as xs:string external;
+						declare variable $adress as xs:string external;
+						
+						for $item in $doc//ul[@class='menu-items float-wrap']/li
+							return
+							<item>
+								<name>{data($item/div[2])}</name>
+	                			<imgsrc>{concat($url,$item/div[1]/a/@href)}</imgsrc>
+	                			<desc></desc>
+	                			<price>{normalize-space(string-join(tokenize(data($item/div[3]),"[^0-9]"),""))}</price>
+	                			<place>{$adress}</place>
+	                			<website>{$url}</website>
+							</item>
+					]]></xq-expression>
+				</xquery>
+			</body>	
+		</loop>
+		<template><![CDATA[ </data> ]]></template>
+		</var-def>
+	<!--</file>-->
+	
+</config>

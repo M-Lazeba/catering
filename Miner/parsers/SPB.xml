@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config charset="UTF-8">
+	<var-def name="orgName"><template>SPB</template></var-def>
+	<var-def name="URL"><template>http://barspb.ru</template></var-def>
+	<var-def name="Adress">Каменноостровский пр, 37, г. Санкт-Петербург</var-def>
+	
+	<!-- 
+	<file action="write" path="${orgName}/${orgName}.xml">
+	 -->
+	 <var-def name="data">
+		<template><![CDATA[ <data> ]]></template>
+		<xquery>
+			<xq-param name="doc">
+				<html-to-xml><http url="${URL}/dishes.php">
+					<http-param name="AgeYes">1</http-param>
+				</http></html-to-xml>
+			</xq-param>
+			<xq-param name="url" type="string"><var name="URL"/></xq-param>
+			<xq-param name="adress" type="string"><var name="Adress"/></xq-param>
+			<xq-expression><![CDATA[
+				declare variable $doc as node()* external;
+				declare variable $url as xs:string external;
+				declare variable $adress as xs:string external;
+				
+				for $item in $doc//div[@class='text_content_bar']/*/*/tr
+					return
+					<item>
+						<name>{data($item/td[2]/b)}</name>
+						<imgsrc>{
+							if (string-length($item/td[3]/a/@href) > 0) 
+						 	then
+						 		concat($url,$item/td[3]/a/@href)
+						 	else ()}</imgsrc>
+						<desc>{data($item/td[2]/font)}</desc>
+						{
+						if (count(tokenize(data($item/td[5]/font/b),"[/]"))=1)
+							then
+							<price>{substring-before(data($item/td[5]/font/b),"-")}</price>
+							else
+							for	$price at $i in tokenize(data($item/td[5]/font/b),"[/]")
+								return
+								<price weight="{tokenize(data($item/td[5]),"[/\s]")[$i]}">{
+									if (contains($price,"-"))
+									then substring-before($price,"-")
+									else $price}</price>
+						}
+						<place>{$adress}</place>
+						<website>{$url}</website>	
+					</item>
+			]]></xq-expression>
+		</xquery>
+		<template><![CDATA[ </data> ]]></template>
+	</var-def>
+	 <!-- 
+	</file>
+	  -->
+	
+</config>
