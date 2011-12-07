@@ -52,28 +52,18 @@
 								count++;
 							}
 						}
-						//Тест функции
-						//light(1);
-						//light(0);
-						//light(1);
 					})
 					
 					
 					
 					function light(id){
-						//alert("in function");
 						for(i = 0; i &lt; places.length; i++){
 							if (places[i]["id"] == id) {
-								//alert("in if");
 								for(j = 0; j &lt; places[i]["addresses"].length; j++){
-									//alert("in for");
 									places[i]["addresses"][j]["placemark"].setStyle("default#redPoint");
 								}
-							}
-							else {
-								//alert("in else");
+							} else {
 								for(j = 0; j &lt; places[i]["addresses"].length; j++){
-									//alert("in for");
 									places[i]["addresses"][j]["placemark"].setStyle("#default#lightBluePoint");								
 								}
 							}
