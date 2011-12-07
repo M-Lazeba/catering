@@ -22,14 +22,12 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.xml.sax.SAXException;
 
-	/**
-	 * @author Lazeba Maxim
-	 */
-
+/**
+ * @author Lazeba Maxim
+ */
 public class DataCollector {
-	
-	ArrayList<Position> positions;
-	ArrayList<ScraperConfiguration> scraperConfigs;
+	private	ArrayList<Position> positions;
+	private ArrayList<ScraperConfiguration> scraperConfigs;
 
 	public DataCollector(File configs[]) {
 		positions = new ArrayList<Position>();
@@ -44,11 +42,12 @@ public class DataCollector {
 		}
 	}
 
-	ArrayList<Position> grabDataFromOnePlace(ScraperConfiguration conf) {
+	private ArrayList<Position> grabDataFromOnePlace(ScraperConfiguration conf) {
 		ArrayList<Position> positions = new ArrayList<Position>();
 		Scraper scraper = new Scraper(conf, "parsers");
-
+		System.out.println("Start parse " + conf.getSourceFile().getName());
 		scraper.execute();
+		System.out.println("Finish parse " + conf.getSourceFile().getName());
 
 		Variable test = (Variable) scraper.getContext().getVar("data");
 
@@ -75,24 +74,25 @@ public class DataCollector {
 		Node item = document.getElementsByTagName("item").item(0);
 		while (item != null) {
 			Position pos = parsePosition(item, "");
-			positions.add(pos);
+			if (pos.getPrice() != 0) // Forget positions without price
+				positions.add(pos); 
 			item = item.getNextSibling();
 		}
 		return positions;
 	}
 
-	ArrayList<Position> grabAllData() {
+	public ArrayList<Position> grabAllData() {
 		for (ScraperConfiguration scraperConfig : scraperConfigs) {
 			positions.addAll(grabDataFromOnePlace(scraperConfig));
 		}
 		return positions;
 	}
 
-	List<Position> getParsedData() {
+	public List<Position> getParsedData() {
 		return positions;
 	}
 
-	Position parsePosition(Node item, String placeName) {
+	private Position parsePosition(Node item, String placeName) {
 		String title = null;
 		String desc = null;
 		String positonTag = null;
@@ -101,6 +101,8 @@ public class DataCollector {
 		boolean hasPic = false;
 		int price = 0;
 		Place place = new Place(0, placeName, 0, new ArrayList<Address>());
+		ArrayList<PositionTag> tags = new ArrayList<PositionTag>();
+		
 		Node e = item.getFirstChild();
 
 		do {
@@ -109,6 +111,7 @@ public class DataCollector {
 			if (nodeValue == null)
 				continue;
 			nodeValue = nodeValue.trim();
+			
 			if (nodeName.equalsIgnoreCase("name")) {
 				title = nodeValue;
 				continue;
@@ -119,7 +122,7 @@ public class DataCollector {
 			}
 			if (nodeName.equalsIgnoreCase("price")) {
 				if (!nodeValue.matches("[0..9]*")) {
-					price = Integer.parseInt(nodeValue.trim());
+					price = Integer.parseInt(nodeValue);
 				}
 				continue;
 			}
@@ -140,10 +143,11 @@ public class DataCollector {
 			}
 			if (nodeName.equalsIgnoreCase("tag")) {
 				positonTag = nodeValue;
+				tags.add(new PositionTag(0, positonTag));
+				continue;
 			}
 		} while ((e = e.getNextSibling()) != null);
-		ArrayList<PositionTag> tags = new ArrayList<PositionTag>();
-		tags.add(new PositionTag(0, positonTag));
+		
 		Position result = new Position(0, title, desc, hasPic, price,
 				(float) 0.0, url, tags, place);
 		result.setImgUrl(imgUrl);

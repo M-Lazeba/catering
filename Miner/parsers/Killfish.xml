@@ -5,9 +5,7 @@
 	<var-def name="orgName"><template>Killfish</template></var-def>
 	<var-def name="URL"><template>http://killfish.ru</template></var-def>
 	<var-def name="Adress">ул. Восстания, д. 30, г. Санкт-Петербург</var-def>
-	<!--
-	<file action="write" path="${orgName}/${orgName}.xml">
-	-->
+
 		<var-def name="data">
 		<template><![CDATA[ <data> ]]></template>
 		<xquery>
@@ -40,7 +38,7 @@
       				<desc></desc>
       				<price>{substring-before(data($item/td[2]),".")}</price>
       				<place>{$adress}</place>
-					<website>{$url}</website>
+					<website>{$url}/menu.html</website>
       			</item>
       			
 
@@ -49,8 +47,10 @@
 		</xquery>
 		<template><![CDATA[ </data> ]]></template>
 		</var-def>
-	<!--
+<!-- 
+	<file action="write" path="${orgName}/${orgName}.xml">
+		<var name="data"/>
 	</file>
-	-->
+ -->	
 	
 </config>

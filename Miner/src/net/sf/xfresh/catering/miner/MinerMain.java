@@ -9,15 +9,15 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-import org.apache.commons.dbcp.BasicDataSource;
-import org.springframework.jdbc.core.simple.SimpleJdbcTemplate;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.xml.sax.SAXException;
 
-import net.sf.xfresh.catering.db.DBUtilsImpl;
+import net.sf.xfresh.catering.db.DBUtils;
+import net.sf.xfresh.catering.db.DBUtilsFactory;
 import net.sf.xfresh.catering.model.Position;
 import net.sf.xfresh.catering.util.ImgUtils;
+
 
 /**
  * Parse data from websites and adds it to DataBase
@@ -103,22 +103,19 @@ public class MinerMain {
 
 		DataCollector dc = new DataCollector(configs.toArray(new File[0]));
 		ArrayList<Position> positions = dc.grabAllData();
-
+		
 		// Adding parsed Positions to DB and Making thumbnails of images, if
 		// they exist
 
-		BasicDataSource dataSource = new BasicDataSource();
-		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost/cat");
-		dataSource.setUsername("root");
-		dataSource.setPassword("toor");
-		DBUtilsImpl utils = new DBUtilsImpl(new SimpleJdbcTemplate(dataSource));
+		DBUtils utils = DBUtilsFactory.getDBUtils();
 
 		for (Position pos : positions) {
 			int posID = utils.uncheckedInsertPosition(pos);
+			System.out.println(pos.getTitle() + "was added to DB");
 			if (pos.isHasPic()) {
 				try {
-					ImgUtils.makeThumb(posID, pos.getImgUrl());
+					System.out.println("Getting image " + pos.getImgUrl());
+					ImgUtils.get(pos.getImgUrl(), posID);
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					System.out.println("Problem while making thumbnail \n "

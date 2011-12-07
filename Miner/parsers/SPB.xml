@@ -5,9 +5,6 @@
 	<var-def name="URL"><template>http://barspb.ru</template></var-def>
 	<var-def name="Adress">Каменноостровский пр, 37, г. Санкт-Петербург</var-def>
 	
-	<!-- 
-	<file action="write" path="${orgName}/${orgName}.xml">
-	 -->
 	 <var-def name="data">
 		<template><![CDATA[ <data> ]]></template>
 		<xquery>
@@ -46,14 +43,16 @@
 									else $price}</price>
 						}
 						<place>{$adress}</place>
-						<website>{$url}</website>	
+						<website>{$url}/dishes.php</website>	
 					</item>
 			]]></xq-expression>
 		</xquery>
 		<template><![CDATA[ </data> ]]></template>
 	</var-def>
-	 <!-- 
+<!-- 
+	<file action="write" path="${orgName}/${orgName}.xml">
+		<var name="data"/>
 	</file>
-	  -->
+ -->
 	
 </config>
