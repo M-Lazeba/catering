@@ -43,45 +43,10 @@ public class SearchResponserImpl implements SearchResponser {
         AllDocCollector collector = new AllDocCollector();
         try {
             IndexSearcher searcher = new IndexSearcher(indexDir);
-            QueryParser parser = new QueryParser(Version.LUCENE_34, "name",
-                    new RussianAnalyzer(Version.LUCENE_34));
-
-            Query query = parser.parse(request);
-            searcher.search(query, collector);
-            List<ScoreDoc> temp = collector.getHits();
-            for (ScoreDoc doc : temp) {
-                int a = (Integer.valueOf(searcher.doc(doc.doc).get("id")));
-                if (!map.containsKey(a)) {
-                    map.put(a, Boolean.TRUE);
-                    ids.add(a);
-                }
-            }
-            parser = new QueryParser(Version.LUCENE_34, "tags",
-                    new RussianAnalyzer(Version.LUCENE_34));
-            query = parser.parse(request);
-            collector.reset();
-            searcher.search(query, collector);
-            temp = collector.getHits();
-            for (ScoreDoc doc : temp) {
-                int a = (Integer.valueOf(searcher.doc(doc.doc).get("id")));
-                if (!map.containsKey(a)) {
-                    map.put(a, Boolean.TRUE);
-                    ids.add(a);
-                }
-            }
-            parser = new QueryParser(Version.LUCENE_34, "description",
-                    new RussianAnalyzer(Version.LUCENE_34));
-            query = parser.parse(request);
-            collector.reset();
-            searcher.search(query, collector);
-            temp = collector.getHits();
-            for (ScoreDoc doc : temp) {
-                int a = (Integer.valueOf(searcher.doc(doc.doc).get("id")));
-                if (!map.containsKey(a)) {
-                    map.put(a, Boolean.TRUE);
-                    ids.add(a);
-                }
-            }
+            insideParsing(ids, map, collector, searcher, request, "name");
+            insideParsing(ids, map, collector, searcher, request, "tags");
+            insideParsing(ids, map, collector, searcher, request, "description");
+            insideParsing(ids, map, collector, searcher, request, "place");
         } catch (CorruptIndexException e) {
             e.printStackTrace();
         } catch (IOException ie) {
@@ -150,5 +115,25 @@ public class SearchResponserImpl implements SearchResponser {
         for (int i = 0; i < ids.size(); ++i) {
             System.out.println("id " + ids.get(i));
         }
+    }
+
+    private void insideParsing(List<Integer> ids, Map<Integer, Boolean> exist,
+                               AllDocCollector collector, IndexSearcher searcher,
+                               final String request, final String type) throws ParseException,
+            IOException {
+        QueryParser parser = new QueryParser(Version.LUCENE_34, type,
+                new RussianAnalyzer(Version.LUCENE_34));
+
+        Query query = parser.parse(request);
+        searcher.search(query, collector);
+        List<ScoreDoc> temp = collector.getHits();
+        for (ScoreDoc doc : temp) {
+            int a = (Integer.valueOf(searcher.doc(doc.doc).get("id")));
+            if (!exist.containsKey(a)) {
+                exist.put(a, Boolean.TRUE);
+                ids.add(a);
+            }
+        }
+        collector.reset();
     }
 }
