@@ -22,35 +22,16 @@ import java.util.Set;
 public class TagsMaker {
 
     public static Xmler.Tag makeTag(Address addr) {
-        String stringType = "";
-        if (addr.getType() == 1) {
-            stringType = "Ресторан";
-        }
-        if (addr.getType() == 2) {
-            stringType = "Бар";
-        }
-        if (addr.getType() == 3) {
-            stringType = "Кафе";
-        }
+
         return Xmler.tag("address", Arrays.asList(
                 Xmler.tag("id", ((Integer) addr.id).toString()),
                 Xmler.tag("coord", addr.getCoord()),
                 Xmler.tag("addr", addr.getAddr()),
-                Xmler.tag("type", stringType)
+                Xmler.tag("type", addr.getType().toString())
         ));
     }
 
     public static Xmler.Tag makeTag(Place place) {
-        String stringType = "";
-        if (place.getType() == 1) {
-            stringType = "Ресторан";
-        }
-        if (place.getType() == 2) {
-            stringType = "Бар";
-        }
-        if (place.getType() == 3) {
-            stringType = "Кафе";
-        }
 
         List<Xmler.Tag> addrsRepr = new LinkedList<Xmler.Tag>();
         for (Address addr : place.getAddrs()) {
@@ -63,7 +44,7 @@ public class TagsMaker {
                 Xmler.tag("name", place.getName()),
                 Xmler.tag("coord", place.getCoord()),
                 Xmler.tag("addr", place.getAddr()),
-                Xmler.tag("type", stringType),
+                Xmler.tag("type", Integer.valueOf(place.getType()).toString()),
                 Xmler.tag("addresses", addrsRepr)
         ));
 

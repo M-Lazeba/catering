@@ -109,7 +109,7 @@ public class MyDBUtils {
 
                 Statement placeAddressSt = connection.createStatement();
                 ResultSet places = placeAddressSt
-                        .executeQuery("SELECT places.name, placeadresses.type, coordinates.lat, coordinates.long FROM places, placeadresses, coordinates WHERE places.id = "
+                        .executeQuery("SELECT places.name, placeadresses.type, places.url, coordinates.lat, coordinates.long FROM places, placeadresses, coordinates WHERE places.id = "
                                 + placeId
                                 + " AND placeadresses.id = "
                                 + placeAddressId
@@ -120,7 +120,7 @@ public class MyDBUtils {
 
                 if (places.first())
                     place = new Place(placeAddressId, places.getString("name"),
-                            places.getInt("type"), null);
+                            places.getInt("type"), places.getString("url"), null);
 
                 positionList.add(new Position(id, positions.getString("name"),
                         positions.getString("description"), positions

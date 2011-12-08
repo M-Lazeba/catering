@@ -44,7 +44,8 @@ public class IndexBuilder {
     */
 
     public void indexNotIndexed() throws SQLException, IOException {
-        List<Position> pos = (List<Position>) dbUtils.getByPositionIds(dbUtils.getUnIndexed());
+        //List<Position> pos = (List<Position>) dbUtils.getByPositionIds(dbUtils.getUnIndexed());
+        List<Position> pos = (List<Position>) dbUtils.getAllPositions();
         File file = new File(path);
         file.mkdir();
         Directory dir = FSDirectory.open(file);

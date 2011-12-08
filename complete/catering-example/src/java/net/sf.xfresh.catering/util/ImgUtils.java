@@ -23,7 +23,8 @@ import java.net.URL;
 
 public class ImgUtils {
     public static String get(String url, int id) throws IOException {
-        String ext = url.substring(url.lastIndexOf('.')+1).toLowerCase();
+        String[] splitted = url.split(".");
+        String ext = splitted[splitted.length - 1].toLowerCase();
         java.io.BufferedInputStream in = new java.io.BufferedInputStream(new URL(url).openStream());
         java.io.FileOutputStream fos = new java.io.FileOutputStream(
                 Consts.MediaPath + ((Integer) id).toString() + "." + ext);

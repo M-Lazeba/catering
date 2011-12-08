@@ -40,7 +40,7 @@
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost/cat"/>
         <property name="username" value="root"/>
-        <property name="password" value="pass"/>
+        <property name="password" value="toor"/>
         <property name="validationQuery" value="select 1"/>
     </bean>
 
@@ -49,7 +49,7 @@
         <constructor-arg ref="dataSource"/>
     </bean>
 
-    <bean id="DBUtilsImpl" class="net.sf.xfresh.catering.db.DBUtilsImpl" lazy-init="false">
+    <bean id="SimpleDBUtils" class="net.sf.xfresh.catering.db.SimpleDBUtils" lazy-init="false">
         <constructor-arg ref="jdbcTemplate"/>
     </bean>
 
@@ -64,13 +64,13 @@
 
     <bean id="IndexBuilder" class="net.sf.xfresh.catering.util.index.IndexBuilder" lazy-init="false">
         <property name="path" value="catering-example/index"/>
-        <property name="dbUtils" ref="DBUtilsImpl"/>
+        <property name="dbUtils" ref="SimpleDBUtils"/>
     </bean>
 
 
     <!--Yalets-->
     <bean id="ShowAllYalet" class="net.sf.xfresh.catering.yalets.ShowAllYalet">
-        <property name="dbUtils" ref="DBUtilsImpl"/>
+        <property name="dbUtils" ref="SimpleDBUtils"/>
         <property name="searchResponser" ref="SearchResponserImpl"/>
     </bean>
 

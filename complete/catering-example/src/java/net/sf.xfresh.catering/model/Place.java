@@ -18,17 +18,23 @@ public class Place {
     private String coord;
     private String addr;
     private List<Address> addrs;
-
-    public Place(int id, String name, int type, List<Address> addrs) {
+    private String url;
+    public Place(int id, String name, int type, String url, List<Address> addrs) {
         this.id = id;
         this.name = name;
         this.type = type;
         this.addrs = addrs;
+        this.url = url;
         if (addrs != null) {
             if (addrs.size() > 0) {
                 setAddrAndCoord(0);
             }
         }
+    }
+
+    public boolean equals(Object o) {
+        Place place = (Place) o;
+        return id == place.id && name.equals(place.getName());
     }
 
 
@@ -64,6 +70,7 @@ public class Place {
         return addr;
     }
 
+    @Override
     public int hashCode() {
         return name.hashCode() + id;
     }

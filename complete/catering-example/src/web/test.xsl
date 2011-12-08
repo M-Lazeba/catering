@@ -26,13 +26,30 @@
                         type="text/javascript"
                         >
                 </script>
+                	<script type="text/javascript">
+		function reposition(){
+			var el = document.getElementById('map');
+
+			var ScrollTop = document.body.scrollTop;
+			if (ScrollTop == 0)
+			{
+				if (window.pageYOffset)
+					ScrollTop = window.pageYOffset;
+				else
+					ScrollTop = (document.body.parentElement) ? document.body.parentElement.scrollTop : 0;
+			}
+			if(ScrollTop &gt; 250)
+				el.style.top = -230 +  ScrollTop + "px";
+			else
+				el.style.top = "0px";
+		}
+	</script>
                 <script type="text/javascript">
 
                     <xsl:apply-templates select="page/data/places"/>
 					
 					var whereiam="30.4,59.95";
 					var map;
-					
 					
 					YMaps.jQuery(function(){
 						map = new YMaps.Map(YMaps.jQuery("div.map")[0]);            
@@ -44,7 +61,8 @@
 						for(i = 0; i &lt; places.length; i++){
 							for(j = 0; j &lt; places[i]["addresses"].length; j++){
 								places[i]["addresses"][j]["number"] = count;
-								places[i]["addresses"][j]["placemark"] = new YMaps.Placemark(YMaps.GeoPoint.fromString(places[i]["addresses"][j]["coord"]));								
+						        places[i]["addresses"][j]["placemark"] = new YMaps.Placemark(YMaps.GeoPoint.fromString(places[i]["addresses"][j]["coord"]));
+								
 								places[i]["addresses"][j]["placemark"].setIconContent(count + 1);
 								places[i]["addresses"][j]["placemark"].name = places[i]["name"];
 								places[i]["addresses"][j]["placemark"].description = places[i]["addresses"][j]["addr"];
@@ -52,6 +70,8 @@
 								count++;
 							}
 						}
+						//Тест функции
+						//light(22);
 					})
 					
 					
@@ -60,13 +80,23 @@
 						for(i = 0; i &lt; places.length; i++){
 							if (places[i]["id"] == id) {
 								for(j = 0; j &lt; places[i]["addresses"].length; j++){
-									places[i]["addresses"][j]["placemark"].setStyle("default#redPoint");
+									map.removeOverlay(places[i]["addresses"][j]["placemark"]);
+									places[i]["addresses"][j]["placemark"] = new YMaps.Placemark(YMaps.GeoPoint.fromString(places[i]["addresses"][j]["coord"]), {style: "default#redPoint"});
+									places[i]["addresses"][j]["placemark"].name = places[i]["name"];
+									places[i]["addresses"][j]["placemark"].setIconContent(places[i]["addresses"][j]["number"] + 1);
+									places[i]["addresses"][j]["placemark"].description = places[i]["addresses"][j]["addr"];
+									map.addOverlay(places[i]["addresses"][j]["placemark"]);
 								}
 							} else {
-								for(j = 0; j &lt; places[i]["addresses"].length; j++){
-									places[i]["addresses"][j]["placemark"].setStyle("#default#lightBluePoint");								
-								}
-							}
+                                for(j = 0; j &lt; places[i]["addresses"].length; j++){
+                                    map.removeOverlay(places[i]["addresses"][j]["placemark"]);
+                                    places[i]["addresses"][j]["placemark"] = new YMaps.Placemark(YMaps.GeoPoint.fromString(places[i]["addresses"][j]["coord"]));
+                                    places[i]["addresses"][j]["placemark"].name = places[i]["name"];
+                                    places[i]["addresses"][j]["placemark"].setIconContent(places[i]["addresses"][j]["number"] + 1);
+                                    places[i]["addresses"][j]["placemark"].description = places[i]["addresses"][j]["addr"];
+                                    map.addOverlay(places[i]["addresses"][j]["placemark"]);
+                                }
+                            }
 						}
 					}
 					
@@ -75,7 +105,7 @@
 
                 </script>
             </head>
-            <body>
+            <body onscroll="reposition()">
                 <div class="header">
                     <table class="tablelogo">
                         <tr>
@@ -126,10 +156,6 @@
                             <xsl:apply-templates select="page/data/item"/>
                         </td>
                         <td class="tditem">
-                            <div class="map">
-                                Здесь карта.
-                            </div>
-                            <br/>
                             <div class="filter">
                                 <form action="">
                                     <b>Цена:</b>
@@ -147,14 +173,6 @@
                                                 <xsl:value-of select="/page/data/result/max"/>
                                             </xsl:attribute>
                                         </input>
-                                    </div>
-                                    <br/>
-                                    <b>Мое местоположение:</b>
-                                    <br/>
-                                    <div class="pricefilterdiv">
-                                        <div class="mymap">
-                                            Здесь карта.
-                                        </div>
                                     </div>
                                     <br/>
                                     <input type="hidden" name="req">
@@ -176,6 +194,10 @@
 
                                 </form>
                             </div>
+                            <br/>
+                            <div class="map" id="map">
+                                Здесь карта.
+                            </div>
                         </td>
                     </tr>
                 </table>
@@ -192,9 +214,9 @@
 
     <xsl:template match="place">
             {
-                "id": "<xsl:value-of select="id"/>",
-                "name": "<xsl:value-of select="name"/>",
-                "addresses": [
+                'id': '<xsl:value-of select="id"/>',
+                'name': '<xsl:value-of select="name"/>',
+                'addresses': [
                     <xsl:apply-templates select="addresses/address"/>
                 ]
             },
@@ -202,8 +224,8 @@
 
     <xsl:template match="address">
                 {
-                    "addr": "<xsl:value-of select="addr"/>",
-                    "coord": "<xsl:value-of select="coord"/>"
+                    'addr': '<xsl:value-of select="addr"/>',
+                    'coord': '<xsl:value-of select="coord"/>'
                 },
     </xsl:template>
 
@@ -212,33 +234,17 @@
             По запросу "<xsl:value-of select="request"/>" найдено позиций: <xsl:value-of select="count"/>.
             <br/>
             Сортировать по цене
-            (
+            (<a><xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
+                select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=price</xsl:attribute>↑</a>
             <a>
                 <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
-                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=price
-                </xsl:attribute>
-                ↑</a>
+                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=-price</xsl:attribute>↓</a>), по рейтигну
+            (<a>
+                <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
+                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=ratio</xsl:attribute>↑</a>
             <a>
                 <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
-                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=-price
-                </xsl:attribute>
-                ↓
-            </a>
-            ), по рейтигну
-            (
-            <a>
-                <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
-                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=ratio
-                </xsl:attribute>
-                ↑
-            </a>
-            <a>
-                <xsl:attribute name="href">search.xml?req=<xsl:value-of select="request"/>&amp;min=<xsl:value-of
-                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=-ratio
-                </xsl:attribute>
-                ↓
-            </a>
-            ).
+                        select="min"/>&amp;max=<xsl:value-of select="max"/>&amp;order=-ratio</xsl:attribute>↓</a>).
         </div>
     </xsl:template>
 
@@ -263,8 +269,7 @@
                                                 <xsl:value-of select="url"/>
                                             </xsl:attribute>
                                             <img class="thumb">
-                                                <xsl:attribute name="src">media/thumb/<xsl:value-of select="id"/>.jpg
-                                                </xsl:attribute>
+                                                <xsl:attribute name="src">media/thumb/<xsl:value-of select="id"/>.jpg</xsl:attribute>
                                             </img>
                                         </a>
                                     </xsl:if>
@@ -299,8 +304,8 @@
                                 <sup>
                                     <xsl:text> </xsl:text>
                                     <a>
-                                        <xsl:attribute name="href">tag.xml?id=<xsl:value-of
-                                                select="id"/>
+                                        <xsl:attribute name="href">search.xml?req=<xsl:value-of
+                                                select="value"/>
                                         </xsl:attribute>
                                         <span class="tag">
                                             <xsl:value-of select="value"/>
@@ -327,13 +332,16 @@
         </span>
         <span class="place">
             <xsl:text> - </xsl:text>
-            <xsl:value-of select="../place/type"/>
-            <xsl:text> </xsl:text>
+            <xsl:choose>
+                <xsl:when test="../place/type = 1">ресторан </xsl:when>
+                <xsl:when test="../place/type = 2">бар </xsl:when>
+                <xsl:when test="../place/type = 3">кафе </xsl:when>
+            </xsl:choose>
             <a>
-                <xsl:attribute name="href">place.xml?id=<xsl:value-of select="../place/id"/>
-                </xsl:attribute>
+                <xsl:attribute name="href"><xsl:value-of select="../place/url"/></xsl:attribute>
                 <xsl:value-of select="../place/name"/>
             </a>
+            (<a><xsl:attribute name="onclick">light(<xsl:value-of select="../place/id"/>)</xsl:attribute>показать на карте</a>)
         </span>
     </xsl:template>
 
@@ -344,7 +352,7 @@
     </xsl:template>
 
     <xsl:template match="ratio">
-        <div class="rating">
+        <div class="norating">
             <input type="hidden" class="val" value="2.75"/>
             <input type="hidden" class="vote-ID">
                 <xsl:attribute name="value">
@@ -353,6 +361,7 @@
             </input>
             <input type="hidden" class="votes" value="3"/>
         </div>
+        <img src="nice.png"/><img src="nice.png"/><img src="nice.png"/><img src="bad.png"/><img src="bad.png"/>
     </xsl:template>
 
 </xsl:stylesheet>

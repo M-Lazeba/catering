@@ -1,5 +1,8 @@
 package net.sf.xfresh.catering.util.index;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
 import java.io.IOException;
 import java.sql.SQLException;
 
@@ -12,11 +15,8 @@ import java.sql.SQLException;
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
-        //IndexBuilder builder = new IndexBuilder(
-        //        "localhost/catering",
-        //        "/home/exprmntr/xfresh/xfresh/catering-example/index",
-        //        "root",
-        //        "toor");
-        //builder.indexNotIndexed();
+        ApplicationContext ctx = new FileSystemXmlApplicationContext("catering-example/src/script/beans.xml");
+        IndexBuilder builder = (IndexBuilder) ctx.getBean("IndexBuilder");
+        builder.indexNotIndexed();
     }
 }

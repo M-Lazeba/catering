@@ -83,9 +83,9 @@ public class SearchResponserImpl implements SearchResponser {
                 }
             }
         } catch (CorruptIndexException e) {
-            System.out.println("Index is dead, needs to be reindexed");
+            e.printStackTrace();
         } catch (IOException ie) {
-            System.out.println(ie.toString());
+            ie.printStackTrace();
         } catch (ParseException pe) {
             pe.printStackTrace();
         } finally {

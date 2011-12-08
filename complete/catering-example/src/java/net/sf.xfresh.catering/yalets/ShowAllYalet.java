@@ -1,12 +1,14 @@
 package net.sf.xfresh.catering.yalets;
 
-import net.sf.xfresh.catering.model.*;
+import net.sf.xfresh.catering.model.Place;
+import net.sf.xfresh.catering.model.Position;
+import net.sf.xfresh.catering.model.Request;
+import net.sf.xfresh.catering.model.Result;
 import net.sf.xfresh.catering.util.ResultProcessor;
 import net.sf.xfresh.catering.util.TagsMaker;
 import net.sf.xfresh.core.InternalRequest;
 import net.sf.xfresh.core.InternalResponse;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -29,23 +31,11 @@ public class ShowAllYalet extends AbstractCateringYalet {
     private void get() {
 
 
-        ArrayList<PositionTag> tags = new ArrayList<PositionTag>();
-        tags.add(new PositionTag(0, "еда"));
-        tags.add(new PositionTag(0, "мясо"));
-        ArrayList<Address> addrs = new ArrayList<Address>();
-        addrs.add(new Address(0, 1, "30.4,59.89", "Достоевский"));
-        addrs.add(new Address(0, 1, "1.111,1.223", "Невский"));
-        Place place = new Place(0, "Кафе сережи говноеда", 0, addrs);
-        Position position = new Position(0, "Стейк", "Очень вкусно!", false, 200, 3, "http://ya.ru/ololol", tags, place);
-        tags = new ArrayList<PositionTag>();
-        tags.add(new PositionTag(0, "еда"));
-        tags.add(new PositionTag(0, "бухать"));
-        Position position2 = new Position(0, "Водка", "Очень вкусно!", false, 1100, 3, "http://ya.ru/ololol", tags, place);
-
-        //dbUtils.uncheckedInsertPosition(position);
-        //dbUtils.uncheckedInsertPosition(position2);
-
-        list = (List<Position>) dbUtils.getAllPositions();
+        if (request.getReq() != null && !request.getReq().equals("")) {
+            list = (List<Position>) dbUtils.getByPositionIds(searchResponser.search(request.getReq()));
+        } else {
+            list = (List<Position>) dbUtils.getAllPositions();
+        }
 
         request = ResultProcessor.prepareRequest(list, request);
 
@@ -54,14 +44,13 @@ public class ShowAllYalet extends AbstractCateringYalet {
     }
 
     public void process(InternalRequest req, InternalResponse res) {
-        System.out.print("lol");
         request = new Request(req.getAllParameters());
         get();
         Set<Place> places = new HashSet<Place>();
-        places.add(list.get(0).getPlace());
-        places.add(list.get(34).getPlace());
+        //places.add(list.get(0).getPlace());
+        //places.add(list.get(7).getPlace());
         for (Position i : list) {
-            //places.add(i.getPlace());
+            places.add(i.getPlace());
             res.add(TagsMaker.makeTag(i));
         }
         res.add(TagsMaker.makeTag(places));

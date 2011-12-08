@@ -17,6 +17,6 @@ import java.sql.SQLException;
 public class PlaceMapper implements ParameterizedRowMapper<Place> {
     public Place mapRow(ResultSet resultSet, int i) throws SQLException {
         return new Place(resultSet.getInt("id"), resultSet.getString("name"),
-                1, null);
+                1, resultSet.getString("url"), null);
     }
 }

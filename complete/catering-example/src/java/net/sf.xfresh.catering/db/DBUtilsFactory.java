@@ -15,7 +15,7 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
 public class DBUtilsFactory {
     public static DBUtils getDBUtils() {
         ApplicationContext ctx = new FileSystemXmlApplicationContext("catering-example/src/script/beans.xml");
-        DBUtils db = (DBUtils) ctx.getBean("DBUtilsImpl");
+        DBUtils db = (DBUtils) ctx.getBean("SimpleDBUtils");
         return db;
     }
 }
