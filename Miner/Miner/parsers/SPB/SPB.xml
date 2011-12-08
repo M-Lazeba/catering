@@ -1,0 +1,1106 @@
+<data>
+<item>
+   <name>'Обед из трех блюд'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1318839602.jpg</imgsrc>
+   <desc>салат, суп, горячее с гарниром, напиток</desc>
+   <price>190</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Пицца Де ла Касса'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311675031.jpg</imgsrc>
+   <desc>куриное филе, бекон, пикантные колбаски, шампиньоны, маслины, перец чили и помидоры</desc>
+   <price>420</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Баварская'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311676430.jpg</imgsrc>
+   <desc>Ветчина, колбаски, шампиньоны, болгарский перец, сыр Пармезан и горчица</desc>
+   <price>499</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Кальцоне''
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311675349.jpg</imgsrc>
+   <desc>Закрытая пицца с говядиной, сладким перцем, овощами, сыром Чеддер и сыром Моцарелла</desc>
+   <price>399</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Кватро Формаджио'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311676121.jpg</imgsrc>
+   <desc>Сыры: Дор Блю, Гауда, Мацарелла, Пармезан</desc>
+   <price>260</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Маргарита'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311675431.jpg</imgsrc>
+   <desc>Классический рецепт</desc>
+   <price>260</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Маринера'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311676679.jpg</imgsrc>
+   <desc>Кальмары, креветки, осьминоги и очищенные мидии</desc>
+   <price>499</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Мексикана'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311676341.jpg</imgsrc>
+   <desc>Говядина, курица, сладкий перец, сыр Чеддер, красный лук и зеленый маринованный перец</desc>
+   <price>499</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Море Монте'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311676975.jpg</imgsrc>
+   <desc>Курица, шампиньоны, крвети, слабосоленый лосось.</desc>
+   <price>499</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Пепперони'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311676895.jpg</imgsrc>
+   <desc>Бекон, пикантные колбаски и сыр Пармезан</desc>
+   <price>299</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Пиемонте'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311675727.jpg</imgsrc>
+   <desc>Ветчина, шампиньоны, куриное филе, сосиски, брокколи, зелень и помидоры</desc>
+   <price>420</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Примавера'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311677075.jpg</imgsrc>
+   <desc>Брокколи, цукини, лук, шампиньоны, перец болгарский, помидоры сушеные, сыр Пармезан</desc>
+   <price>399</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Прошутто Фунги'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311676540.jpg</imgsrc>
+   <desc>Ветчина и шампиньоны</desc>
+   <price>320</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Рогалик чесночный'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311677593.jpg</imgsrc>
+   <desc>Хлеб с маслом чесночным, морской солью и кунжутом</desc>
+   <price>19</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Фокачча аль Песто'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311677490.jpg</imgsrc>
+   <desc>Итальянский хлеб с пармезаном, базиликом и орегано</desc>
+   <price>79</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Фокачча аль Розмарино'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311677231.jpg</imgsrc>
+   <desc>Итальянский хлеб с розмарином и морской солью</desc>
+   <price>79</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Фокачча с беконом'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311677368.jpg</imgsrc>
+   <desc>Итальянский хлеб с беконом, красным луком, морской солью и кунжутом</desc>
+   <price>110</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Чиабата'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1311677272.jpg</imgsrc>
+   <desc>Итальянский хлеб с пармезаном и базиликом</desc>
+   <price>79</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>Булочка беленькая или серенькая с маслицем
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255527977.jpg</imgsrc>
+   <desc/>
+   <price>20</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Мит Кавер'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864218.jpg</imgsrc>
+   <desc>мясной конверт</desc>
+   <price>210</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Пиwwwа'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1252665544.jpg</imgsrc>
+   <desc>Пица с копченостями</desc>
+   <price>140</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Пиwwwа'
+</name>
+   <imgsrc/>
+   <desc>Пица SПБ с грибами</desc>
+   <price>140</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'ЧИК бургер'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864266.jpg</imgsrc>
+   <desc>с картофелем фри и соусом май-крим</desc>
+   <price>120</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'БИФ бургер'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864279.jpg</imgsrc>
+   <desc>с картофелем фри и сырным соусом</desc>
+   <price>130</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'МЕГА бургер'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864311.jpg</imgsrc>
+   <desc>с картофелем фри</desc>
+   <price>210</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Mushroom soup'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864322.jpg</imgsrc>
+   <desc>Суп грибной со сметаной</desc>
+   <price>100</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Borsh'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864334.jpg</imgsrc>
+   <desc>Борщ со сметаной</desc>
+   <price>110</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Sолянка'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1252665854.jpg</imgsrc>
+   <desc>солянка со сметаной</desc>
+   <price>120</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Итальяно'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864354.jpg</imgsrc>
+   <desc>с ветчиной и овощами</desc>
+   <price>170</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Цезарь'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1252665986.jpg</imgsrc>
+   <desc>с копчёной птицей</desc>
+   <price>180</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Гриик Sалад'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1252666131.jpg</imgsrc>
+   <desc>греческий</desc>
+   <price>170</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Натсы'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1252669242.jpg</imgsrc>
+   <desc>арахис</desc>
+   <price>90</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Натсы'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1252667697.jpg</imgsrc>
+   <desc>фисташки</desc>
+   <price>100</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Сквиды'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1252669867.jpg</imgsrc>
+   <desc>кальмар сушеный</desc>
+   <price>120</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Чиз Стикс'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255526341.jpg</imgsrc>
+   <desc>Сырные гренки с соусом май крим</desc>
+   <price>170</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'ХОТ МИт Микс'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864372.jpg</imgsrc>
+   <desc>горячая мясная тарелка с томатным соусом: леди киллер, ребра, крылья, колбаска</desc>
+   <price>290</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Сквид Рингс'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1293697119.jpg</imgsrc>
+   <desc>кольца кальмарв с соусом май-крим</desc>
+   <price>190</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Чикен Sтикс'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864387.jpg</imgsrc>
+   <desc>палочки куриные с соусами сырным и винным</desc>
+   <price>180</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Большой Микс'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1278485288.jpg</imgsrc>
+   <desc>арахис, сухарики, сушеный кальмар, пряди копченого сыра, скумбрия</desc>
+   <price>190</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Шримпсы '
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1252667816.jpg</imgsrc>
+   <desc>креветки отварные</desc>
+   <price>190</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Sмокед ЧизВормs'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1252667484.jpg</imgsrc>
+   <desc>Копчёные sырные червячки</desc>
+   <price>110</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Порк ушки по
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1278485202.jpg</imgsrc>
+   <desc>копченые свиные ушки с овощами в остром соусе</desc>
+   <price>180</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Брэд sтикс'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1252667940.jpg</imgsrc>
+   <desc>Хлeбные гренки с двумя соусами на выбор</desc>
+   <price>110</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Леди Киллер'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864437.jpg</imgsrc>
+   <desc>куриные сердца с картофелем фри и винным соусом</desc>
+   <price>170</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Роллы 'ОЛИМП'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864707.jpg</imgsrc>
+   <desc>с картофелем фри, винным и олимп соусами</desc>
+   <price>220</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Паста Бекон'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864744.jpg</imgsrc>
+   <desc>макароны с беконом</desc>
+   <price>130</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Порк шишкибаб'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864778.jpg</imgsrc>
+   <desc>с домашним картофелем и томатным соусом</desc>
+   <price>180</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Чикен шишкибаб'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864814.jpg</imgsrc>
+   <desc>с картофелем фри и винным соусом</desc>
+   <price>190</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Чикен Уингсы'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1278486284.jpg</imgsrc>
+   <desc>куриные крылышки с острым соусом</desc>
+   <price>190</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Ролл бекон'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1302864857.jpg</imgsrc>
+   <desc>с картофелем фри и томатным соусом</desc>
+   <price>190</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Sмокед Порк Рибс'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1278486728.jpg</imgsrc>
+   <desc>копчёные свиные ребра с сотрым соусом</desc>
+   <price>240</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>Чикен 50/50
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1278486016.jpg</imgsrc>
+   <desc>Половинка цыпленка жареная</desc>
+   <price>220</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Бирный Чикен'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255527250.jpg</imgsrc>
+   <desc>курица с картошкой в тесте</desc>
+   <price>120</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Рулес'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1278485895.jpg</imgsrc>
+   <desc>Рулька в медовом соусе</desc>
+   <price>550</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Картофель Айдахо'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255525833.jpg</imgsrc>
+   <desc/>
+   <price>130</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'ФРЭНЧ ФРАЙ'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255520878.jpg</imgsrc>
+   <desc>картофель фри</desc>
+   <price>90</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'SТЬЮВЕД КЭББЭДЬЖ'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1252668773.jpg</imgsrc>
+   <desc>тушеная капуsта</desc>
+   <price>90</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Олимп'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255520042.jpg</imgsrc>
+   <desc>олимп-соус</desc>
+   <price>45</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Vино'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255520042.jpg</imgsrc>
+   <desc>винный соус</desc>
+   <price>45</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Мьюстард'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255520042.jpg</imgsrc>
+   <desc>горчица</desc>
+   <price>45</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'ТОМЭТО'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255519789.jpg</imgsrc>
+   <desc>томатный sоус</desc>
+   <price>45</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Май крим'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255519934.jpg</imgsrc>
+   <desc>белый соус</desc>
+   <price>45</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Чииииз'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255520091.jpg</imgsrc>
+   <desc>Сырный соус</desc>
+   <price>45</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'ПИНК'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255519854.jpg</imgsrc>
+   <desc>розовый soус</desc>
+   <price>45</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Джемс'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1252670171.jpg</imgsrc>
+   <desc>варенье (разное)</desc>
+   <price>20</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Айс крим'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255610835.jpg</imgsrc>
+   <desc>клубничное</desc>
+   <price>100</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Айс крим'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255610835.jpg</imgsrc>
+   <desc>шоколадное</desc>
+   <price>100</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Шарлота'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1278487128.jpg</imgsrc>
+   <desc>шарлотка с шариком мороженого</desc>
+   <price>100</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>SПБ Sветлый лагер
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255601127.jpg</imgsrc>
+   <desc>оригинальное, светлый лагер</desc>
+   <price weight="0,5">80</price>
+   <price weight="0,9">120</price>
+   <price weight="3">330</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>SПБ фруктовое
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255600961.jpg</imgsrc>
+   <desc>фруктовое, оригинальное</desc>
+   <price weight="0,5">100</price>
+   <price weight="0,9">170</price>
+   <price weight="1,9">280</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Балтика 7'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1260188925.jpg</imgsrc>
+   <desc/>
+   <price weight="0,5">100</price>
+   <price weight="0,9">170</price>
+   <price weight="3">480</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Пшеничное'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1260187607.jpg</imgsrc>
+   <desc>нефильтрованое</desc>
+   <price weight="0,5">110</price>
+   <price weight="0,9">190</price>
+   <price weight="3">530</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Невское'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1260187854.jpg</imgsrc>
+   <desc>классическое</desc>
+   <price weight="0,5">100</price>
+   <price weight="0,9">170</price>
+   <price weight="3">480</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Carlsberg'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1260189205.jpg</imgsrc>
+   <desc>Карлсберг</desc>
+   <price weight="0,5">130</price>
+   <price weight="0,9">220</price>
+   <price weight="3">620</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Tuborg Green'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1260188013.jpg</imgsrc>
+   <desc>Туборг Грин</desc>
+   <price weight="0,5">130</price>
+   <price weight="0,9">220</price>
+   <price weight="3">620</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Тuborg Black'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1260188679.jpg</imgsrc>
+   <desc>Туборг Блэк (темное)</desc>
+   <price weight="0,5">130</price>
+   <price weight="0,9">220</price>
+   <price weight="3">620</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Ваsилеоsтровsкое Домашнее'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255604862.jpg</imgsrc>
+   <desc>живое, нефильтрованное</desc>
+   <price weight="0,5">120</price>
+   <price weight="0,9">190</price>
+   <price weight="1,9">330</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Василеостровское Красное'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255604735.jpg</imgsrc>
+   <desc>живое красное</desc>
+   <price weight="0,5">120</price>
+   <price weight="0,9">190</price>
+   <price weight="1,9">330</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Ваsилеоsтровsкое Тёмное'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255604944.jpg</imgsrc>
+   <desc>Живое тёмноё</desc>
+   <price weight="0,5">120</price>
+   <price weight="0,9">190</price>
+   <price weight="1,9">330</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Kronenburg BLANC 1664'
+</name>
+   <imgsrc/>
+   <desc>Кроненбург Бланк</desc>
+   <price weight="0,5">260</price>
+   <price weight="0,9">430</price>
+   <price weight="3">1300</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'EVE искристый'
+</name>
+   <imgsrc/>
+   <desc>грейпфрут, маракуйя</desc>
+   <price>160</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Corona Extra'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1260189058.jpg</imgsrc>
+   <desc>Корона Экстра</desc>
+   <price>170</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Балтика 0%'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1278487695.jpg</imgsrc>
+   <desc>безалкогольное</desc>
+   <price>80</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'KAUFFMAN'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255609279.jpg</imgsrc>
+   <desc>Водка special/soft</desc>
+   <price weight="0,04">180</price>
+   <price weight="180-00"> 170</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Hennessy'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255597625.jpg</imgsrc>
+   <desc>Коньяк VS/VSOP/XO</desc>
+   <price weight="0,04">320</price>
+   <price weight="320-00">440</price>
+   <price weight="440-00">710</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Водка'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255605327.jpg</imgsrc>
+   <desc>в ассортименте</desc>
+   <price>100</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Cortel Napoleon'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255608361.jpg</imgsrc>
+   <desc>Брэнди</desc>
+   <price>150</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'OLD SMUGGLER'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255608249.jpg</imgsrc>
+   <desc>Виски special</desc>
+   <price>150</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'TAHONA'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255599340.jpg</imgsrc>
+   <desc>Тэкила золотая, серебряная</desc>
+   <price>150</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'GLENGRANT'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255610018.jpg</imgsrc>
+   <desc>Виsки special</desc>
+   <price>220</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'OCUMARE'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/menu_15_01_07_08.jpg</imgsrc>
+   <desc>Ром светлый, темный</desc>
+   <price>160</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'GLENMORANGIE'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255609180.jpg</imgsrc>
+   <desc>Виsки original/quinta ruban</desc>
+   <price weight="0,04">460</price>
+   <price weight="460-00">550</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'LAZZARONI'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255605497.jpg</imgsrc>
+   <desc>самбука белая</desc>
+   <price>160</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Шампанское MONDORO'
+</name>
+   <imgsrc/>
+   <desc>asti/silver</desc>
+   <price>1100</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Вермут'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255608945.jpg</imgsrc>
+   <desc/>
+   <price>120</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Шампанsкое'
+</name>
+   <imgsrc/>
+   <desc>полусладкое</desc>
+   <price>110</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'ВИНО'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255609046.jpg</imgsrc>
+   <desc>белое, красное</desc>
+   <price>140</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>CHESTERFIELD
+</name>
+   <imgsrc/>
+   <desc/>
+   <price/>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>DUBLISS
+</name>
+   <imgsrc/>
+   <desc/>
+   <price/>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>L&amp;M
+</name>
+   <imgsrc/>
+   <desc/>
+   <price/>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>L&amp;M lights
+</name>
+   <imgsrc/>
+   <desc/>
+   <price/>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>MARLBORO
+</name>
+   <imgsrc/>
+   <desc/>
+   <price/>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>MARLBORO Filter Plus
+</name>
+   <imgsrc/>
+   <desc/>
+   <price/>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>MARLBORO Gold Edge
+</name>
+   <imgsrc/>
+   <desc/>
+   <price/>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>MURATTI
+</name>
+   <imgsrc/>
+   <desc/>
+   <price/>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>MURATTI Slims
+</name>
+   <imgsrc/>
+   <desc/>
+   <price/>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>PARLIAMENT
+</name>
+   <imgsrc/>
+   <desc/>
+   <price/>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>PARLIAMENT reserved
+</name>
+   <imgsrc/>
+   <desc/>
+   <price/>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Морс'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255614955.jpg</imgsrc>
+   <desc>Домашний</desc>
+   <price>50</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Кваs'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255609722.jpg</imgsrc>
+   <desc>Кваs Василеостровский</desc>
+   <price>60</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Колд Ти'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1278487416.jpg</imgsrc>
+   <desc>Чай Lipton ассортименте</desc>
+   <price>130</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Джуsеs'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255609606.jpg</imgsrc>
+   <desc>соки в асортименте</desc>
+   <price>70</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Лимонад в ассортименте'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1278487569.jpg</imgsrc>
+   <desc>Pepsi, Pepsi light, 7UP, Mirinda, Evervess</desc>
+   <price>100</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'H2O'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255613477.jpg</imgsrc>
+   <desc>Вода 
+Aqua Minerale 0.6
+Evian 0.33</desc>
+   <price weight="0,33">100</price>
+   <price weight="0,6">60</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Adrenaline rush'
+</name>
+   <imgsrc/>
+   <desc>Энергетический напиток</desc>
+   <price>130</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>Кофе 'По Ирландски'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1278487785.jpg</imgsrc>
+   <desc>кофе, виски, сливки</desc>
+   <price>160</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'КОФЕ'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255599129.jpg</imgsrc>
+   <desc>кофе эспрессо/американо/с молоком</desc>
+   <price weight="0.05">95</price>
+   <price weight="95-00">95</price>
+   <price weight="95-00">110</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Биг Ти'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255599663.jpg</imgsrc>
+   <desc>чай в чайнике в ассортименте</desc>
+   <price>80</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+<item>
+   <name>'Лимон'
+</name>
+   <imgsrc>http://barspb.ru/pic_menu_big/1255614760.jpg</imgsrc>
+   <desc/>
+   <price>10</price>
+   <place>Каменноостровский пр, 37, г. Санкт-Петербург</place>
+   <website>http://barspb.ru/dishes.php</website>
+</item>
+</data>

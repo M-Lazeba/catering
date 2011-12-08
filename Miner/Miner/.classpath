@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/WebHarvest"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/commons-collections.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/commons-dbcp-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/commons-pool.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/mysql-connector-java-5.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-beans.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-context.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-dao.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-jdbc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-mock.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-support.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-web.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
