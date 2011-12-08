@@ -24,7 +24,6 @@ import net.sf.xfresh.catering.db.DBUtilsFactory;
 import net.sf.xfresh.catering.model.Position;
 import net.sf.xfresh.catering.util.ImgUtils;
 
-
 /**
  * Parse data from websites and adds it to DataBase
  * 
@@ -109,7 +108,7 @@ public class MinerMain {
 
 		DataCollector dc = new DataCollector(configs.toArray(new File[0]));
 		ArrayList<Position> positions = dc.grabAllData();
-		
+
 		// Adding parsed Positions to DB and Making thumbnails of images, if
 		// they exist
 
@@ -131,19 +130,19 @@ public class MinerMain {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
-//			if (pos.isHasPic()) {
-//				try {
-//					System.out.println("Getting image " + pos.getImgUrl());
-//					ImgUtils.get(pos.getImgUrl(), posID);
-//				} catch (IOException e) {
-//					// TODO Auto-generated catch block
-//					System.out.println("Problem while making thumbnail \n "
-//							+ posID + " " + pos.getImgUrl());
-//					e.printStackTrace();
-//				}
-//			}
+			if (pos.isHasPic()) {
+				try {
+					System.out.println("Getting image " + pos.getImgUrl());
+					ImgUtils.get(pos.getImgUrl(), posID);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					System.out.println("Problem while making thumbnail \n "
+							+ posID + " " + pos.getImgUrl());
+					e.printStackTrace();
+				}
+			}
 		}
-		
+
 		try {
 			out.close();
 		} catch (IOException e) {

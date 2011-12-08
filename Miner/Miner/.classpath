@@ -3,18 +3,35 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/WebHarvest"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/commons-collections.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/commons-dbcp-1.2.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/commons-pool.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/log4j-1.2.15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/mysql-connector-java-5.1.12-bin.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-beans.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-context.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-core.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-dao.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-jdbc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-mock.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-support.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Max/workspace/Miner/lib/spring-web.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/activation.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/bsh.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/commons-cli-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/commons-email-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/commons-net-ftp-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/groovy-all-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/htmlcleaner.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/js.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/mail.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/saxon9.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/saxon9-dom.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/lib/webHarvestBin/webharvest_2.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/commons-collections.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/commons-dbcp-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/commons-pool.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/mysql-connector-java-5.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/spring-beans.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/spring-context.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/spring-core.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/spring-dao.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/spring-jdbc.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/spring-mock.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/spring-support.jar"/>
+	<classpathentry kind="lib" path="D:/catering/Miner/Miner/lib/spring-web.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

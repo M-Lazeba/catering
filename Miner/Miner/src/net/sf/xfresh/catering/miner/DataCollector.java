@@ -75,7 +75,7 @@ public class DataCollector {
 
 		Node item = document.getElementsByTagName("item").item(0);
 		while (item != null) {
-			Position pos = parsePosition(item, "");
+			Position pos = parsePosition(item, scraper.getContext().getVar("orgName").toString());
 			if (pos.getPrice() != 0) // Forget positions without price
 				positions.add(pos); 
 			item = item.getNextSibling();
