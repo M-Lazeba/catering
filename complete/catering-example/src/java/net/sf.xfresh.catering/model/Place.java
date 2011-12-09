@@ -75,4 +75,7 @@ public class Place {
         return name.hashCode() + id;
     }
 
+    public String getUrl() {
+        return url;
+    }
 }

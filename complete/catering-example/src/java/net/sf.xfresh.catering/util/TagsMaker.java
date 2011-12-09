@@ -44,6 +44,7 @@ public class TagsMaker {
                 Xmler.tag("name", place.getName()),
                 Xmler.tag("coord", place.getCoord()),
                 Xmler.tag("addr", place.getAddr()),
+                Xmler.tag("url", place.getUrl()),
                 Xmler.tag("type", Integer.valueOf(place.getType()).toString()),
                 Xmler.tag("addresses", addrsRepr)
         ));

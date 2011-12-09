@@ -9,6 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54195bec-f169-4d8c-bda4-9bfad6e19fbb" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/catering-example/index/segments_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/catering-example/src/web/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/catering-example/src/web/media/122.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/catering-example/src/web/media/1223.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/catering-example/src/web/media/14223.jpg" afterPath="" />
@@ -142,16 +143,16 @@
       <file leaf-file-name="TagsMaker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="37" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
+            <state line="46" column="44" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Place.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Place.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Place.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="23" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
+            <state line="77" column="28" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.6721311">
               <folding />
             </state>
           </provider>
@@ -160,7 +161,7 @@
       <file leaf-file-name="SimpleDBUtils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="63" selection-start="2808" selection-end="2808" vertical-scroll-proportion="0.0">
+            <state line="82" column="106" selection-start="3831" selection-end="3831" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -193,10 +194,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchResponserImpl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SearchResponserImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="32" selection-start="3464" selection-end="3464" vertical-scroll-proportion="0.5018797">
+            <state line="49" column="0" selection-start="1836" selection-end="1836" vertical-scroll-proportion="-0.6">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchResponser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="17" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -230,9 +240,7 @@
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/DBUtilsFactory.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/DBUtilsImpl.java" />
         <option value="$PROJECT_DIR$/catering-example/src/web/styles/style.css" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Place.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/mappers/PlaceMapper.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/MyDBUtils.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java" />
@@ -241,6 +249,8 @@
         <option value="$PROJECT_DIR$/catering-example/src/script/beans.xml" />
         <option value="$PROJECT_DIR$/catering-example/src/web/test.xsl" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Place.java" />
       </list>
     </option>
   </component>
@@ -945,8 +955,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="24" width="1378" height="747" extended-state="6" />
-    <editor active="true" />
+    <frame x="4092" y="24" width="1378" height="747" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -961,7 +971,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39939255" sideWeight="0.678808" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953683" sideWeight="0.6837748" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31622517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31622517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1029,13 +1039,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/ImgUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/RatingUpdateYalet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="13" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
@@ -1064,23 +1067,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="37" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/mappers/PlaceMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="43" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Place.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1095,13 +1084,6 @@
     <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="107" selection-start="303" selection-end="303" vertical-scroll-proportion="0.28688523">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="63" selection-start="2808" selection-end="2808" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1134,9 +1116,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="32" selection-start="3464" selection-end="3464" vertical-scroll-proportion="0.5018797">
+        <state line="49" column="0" selection-start="1836" selection-end="1836" vertical-scroll-proportion="-0.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="106" selection-start="3831" selection-end="3831" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="44" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Place.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="28" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.6721311">
           <folding />
         </state>
       </provider>
