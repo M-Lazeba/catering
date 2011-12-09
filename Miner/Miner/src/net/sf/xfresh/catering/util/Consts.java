@@ -9,5 +9,5 @@ package net.sf.xfresh.catering.util;
  * @author Anton Ohitin
  */
 public class Consts {
-    final static String MediaPath = "media\\";
+    final static String MediaPath = "media/";
 }

@@ -1,0 +1,317 @@
+<data>
+<item>
+   <name>Сити бургер + картофель фри сред. + напиток 0,5 л.</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/21/common/c1.jpg</imgsrc>
+   <desc/>
+   <price>149</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.rumenu/combo/</website>
+</item>
+<item>
+   <name>Чикен Бургер + картофель фри мал. + напиток 0,33 л.</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/23/common/c3.jpg</imgsrc>
+   <desc/>
+   <price>99</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.rumenu/combo/</website>
+</item>
+<item>
+   <name>Гамбургер + картофель фри мал. + напиток 0,33 л.</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/24/common/8_b.jpg</imgsrc>
+   <desc/>
+   <price>99</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.rumenu/combo/</website>
+</item>
+<item>
+   <name>
+Аризона BBQ + картофель фри средний + напиток 0,5 л.</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/49/common/3_b.jpg</imgsrc>
+   <desc/>
+   <price>176</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.rumenu/combo/</website>
+</item>
+<item>
+   <name>
+Техас бургер + картофель фри сред. + напиток 0,5 л.</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/50/common/2_b.jpg</imgsrc>
+   <desc/>
+   <price>225</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.rumenu/combo/</website>
+</item>
+<item>
+   <name> 
+Табаско бургер + картофель фри сред. + напиток 0,5 л.</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/70/common/bc1.jpg</imgsrc>
+   <desc/>
+   <price>169</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.rumenu/combo/</website>
+</item>
+<item>
+   <name>Амиго бургер + Сити Бир 0,5 л.</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/72/common/bc2.jpg</imgsrc>
+   <desc/>
+   <price>159</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.rumenu/combo/</website>
+</item>
+<item>
+   <name>Крылышки (5 шт.) по-техасски</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/34/common/krt.jpg</imgsrc>
+   <desc/>
+   <price>98</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/sand</website>
+</item>
+<item>
+   <name>Наггетсы куриные (5 шт.)</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/35/common/n.jpg</imgsrc>
+   <desc/>
+   <price>49</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/sand</website>
+</item>
+<item>
+   <name>Сити бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/17/common/city_big.jpg</imgsrc>
+   <desc/>
+   <price>85</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Чикаго бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/16/common/7.jpg</imgsrc>
+   <desc/>
+   <price>99</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Аризона BBQ</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/15/common/8.jpg</imgsrc>
+   <desc/>
+   <price>99</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Калифорния бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/14/common/1.jpg</imgsrc>
+   <desc/>
+   <price>76</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Вестерн бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/20/common/vest.jpg</imgsrc>
+   <desc/>
+   <price>183</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Дакота чикен бургер. Куриное филе в кляре, свит чили соус</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/38/common/8.jpg</imgsrc>
+   <desc/>
+   <price>85</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Табаско бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/42/common/12.jpg</imgsrc>
+   <desc/>
+   <price>127</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Гамбургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/44/common/gamb_big.jpg</imgsrc>
+   <desc/>
+   <price>35</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Техас бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/46/common/th.jpg</imgsrc>
+   <desc/>
+   <price>150</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Карибский бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/47/common/karib_big.jpg</imgsrc>
+   <desc/>
+   <price>95</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Чикен бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/48/common/chiken_big.jpg</imgsrc>
+   <desc/>
+   <price>49</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Бруклин бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/51/common/11_b.jpg</imgsrc>
+   <desc/>
+   <price>146</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Кентуки чикен бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/52/common/4_b.jpg</imgsrc>
+   <desc/>
+   <price>65</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Хот-дог венский</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/54/common/7_b.jpg</imgsrc>
+   <desc/>
+   <price>48</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Чизбургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/59/common/chburger_big.jpg</imgsrc>
+   <desc/>
+   <price>49</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Кантри чикен бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/61/common/cantry_big.jpg</imgsrc>
+   <desc/>
+   <price>69</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Брайтон бекон</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/62/common/b1.jpg</imgsrc>
+   <desc/>
+   <price>89</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Брайтон бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/63/common/b2.jpg</imgsrc>
+   <desc/>
+   <price>77</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Канзас сити бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/65/common/b9.jpg</imgsrc>
+   <desc/>
+   <price>75</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Карри чикен бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/66/common/b4.jpg</imgsrc>
+   <desc/>
+   <price>77</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Чили чикен бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/67/common/b7.jpg</imgsrc>
+   <desc/>
+   <price>79</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Барбекю чикен бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/68/common/b5.jpg</imgsrc>
+   <desc/>
+   <price>86</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Амиго бургер</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/71/common/b3.jpg</imgsrc>
+   <desc/>
+   <price>85</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/burgers</website>
+</item>
+<item>
+   <name>Картофель фри в ассортименте</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/26/common/kk.jpg</imgsrc>
+   <desc/>
+   <price>35</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/potato</website>
+</item>
+<item>
+   <name>Салат «Цезарь»</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/28/common/ss1.jpg</imgsrc>
+   <desc/>
+   <price>98</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/salads</website>
+</item>
+<item>
+   <name>Чизкейки в ассортименте</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/25/common/tt.jpg</imgsrc>
+   <desc/>
+   <price>97</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/deserts</website>
+</item>
+<item>
+   <name>Кофе капучино</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/27/common/5.jpg</imgsrc>
+   <desc/>
+   <price>69</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/drinks</website>
+</item>
+<item>
+   <name>Кофе эспрессо</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/37/common/7.jpg</imgsrc>
+   <desc/>
+   <price>47</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/drinks</website>
+</item>
+<item>
+   <name>Газированные напитки</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/31/common/2.jpg</imgsrc>
+   <desc/>
+   <price>40</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/drinks</website>
+</item>
+<item>
+   <name>City beer</name>
+   <imgsrc>http://citygrillexpress.ru/img/modules/menu/53/common/5_b_beer.jpg</imgsrc>
+   <desc/>
+   <price>90</price>
+   <place>РЎР°РЅРєС‚-РџРµС‚РµСЂР±СѓСЂРі, РєР°РЅР°Р» Р“СЂРёР±РѕРµРґРѕРІР°, РґРѕРј 20</place>
+   <website>http://citygrillexpress.ru/menu/drinks</website>
+</item>
+</data>

@@ -3,6 +3,8 @@ package net.sf.xfresh.catering.miner;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import net.sf.xfresh.catering.model.Address;
 import net.sf.xfresh.catering.model.Place;
 import net.sf.xfresh.catering.model.Position;
@@ -12,7 +14,6 @@ import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 
 import org.webharvest.definition.ScraperConfiguration;
 import org.webharvest.runtime.Scraper;
@@ -20,7 +21,6 @@ import org.webharvest.runtime.variables.Variable;
 
 import javax.xml.parsers.*;
 
-import org.w3c.dom.DOMException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.xml.sax.SAXException;
@@ -32,6 +32,8 @@ public class DataCollector {
 	private	ArrayList<Position> positions;
 	private ArrayList<ScraperConfiguration> scraperConfigs;
 
+	public static Logger LOG = Logger.getLogger(DataCollector.class);
+	
 	public DataCollector(File configs[]) {
 		positions = new ArrayList<Position>();
 		scraperConfigs = new ArrayList<ScraperConfiguration>();
@@ -39,7 +41,7 @@ public class DataCollector {
 			try {
 				scraperConfigs.add(new ScraperConfiguration(conf));
 			} catch (FileNotFoundException e) {
-				System.out.println("Bad config file: " + conf);
+				LOG.error("Bad config file: " + conf);
 				e.printStackTrace();
 			}
 		}
@@ -48,9 +50,9 @@ public class DataCollector {
 	private ArrayList<Position> grabDataFromOnePlace(ScraperConfiguration conf) {
 		ArrayList<Position> positions = new ArrayList<Position>();
 		Scraper scraper = new Scraper(conf, "parsers");
-		System.out.println("Start parse " + conf.getSourceFile().getName());
+		LOG.info("Start parse " + conf.getSourceFile().getName());
 		scraper.execute();
-		System.out.println("Finish parse " + conf.getSourceFile().getName());
+		LOG.info("Finish parse " + conf.getSourceFile().getName());
 
 		Variable data = (Variable) scraper.getContext().getVar("data");
 
@@ -59,15 +61,14 @@ public class DataCollector {
 		try {
 			builder = factory.newDocumentBuilder();
 		} catch (ParserConfigurationException e) {
-			System.out
-					.println("Exception while DocumentBuilderFactory creating");
+			LOG.error("Exception while DocumentBuilderFactory creating");
 		}
 		Document document = null;
 		try {
 			document = builder.parse(new ByteArrayInputStream(data.toBinary("UTF-8")));
 			document.getDocumentElement().normalize();
 		} catch (SAXException e) {
-			System.out.println("Invalid xml document");
+			LOG.error("Invalid xml document");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -103,6 +104,7 @@ public class DataCollector {
 		boolean hasPic = false;
 		int price = 0;
 		Place place = new Place(0, placeName, 0, new ArrayList<Address>());
+		
 		ArrayList<PositionTag> tags = new ArrayList<PositionTag>();
 		
 		Node e = item.getFirstChild();

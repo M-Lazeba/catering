@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config charset="UTF-8">
+	
+	<var-def name="orgName"><template>Killfish</template></var-def>
+	<var-def name="URL"><template>http://killfish.ru</template></var-def>
+	<var-def name="Adress">ул. Восстания, д. 30, г. Санкт-Петербург</var-def>
+
+		<var-def name="data">
+		<template><![CDATA[ <data> ]]></template>
+		<xquery>
+		<xq-param name="doc">
+			<html-to-xml>
+				<http url="${URL}/menu.html"></http>
+			</html-to-xml>
+		</xq-param>
+		<xq-param name="url" type="string"><var name="URL"/></xq-param>
+		<xq-param name="adress" type="string"><var name="Adress"/></xq-param>
+		<xq-expression>
+			<![CDATA[
+      		declare variable $doc as node()* external;
+      		declare variable $url as xs:string external;
+			declare variable $adress as xs:string external;
+      		
+      		declare function local:getItems($cat as node()*, $allCats as node()*, $i as xs:integer) as node()* {
+      			for $item in $cat/../following-sibling::node() except ($allCats[$i + 1]/../following-sibling::node() union $allCats[$i + 1]/..)
+				return
+      				$item
+      		};
+          		let $cats := $doc//table[@class='menutable']/tbody/tr/td[@class='header']
+    			for $catItem at $i in $cats
+      				for $item in local:getItems($catItem, $cats, $i)
+  	
+       			return
+      			<item category="{data($catItem)}">
+      				<name>{data($item/td[1])}</name>
+      				<imgsrc></imgsrc>
+      				<desc></desc>
+      				<price>{substring-before(data($item/td[2]),".")}</price>
+      				<place>{$adress}</place>
+					<website>{$url}/menu.html</website>
+      			</item>
+      			
+
+		     ]]>
+		</xq-expression>
+		</xquery>
+		<template><![CDATA[ </data> ]]></template>
+		</var-def>
+<!-- 
+	<file action="write" path="${orgName}/${orgName}.xml">
+		<var name="data"/>
+	</file>
+ -->	
+	
+</config>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans default-autowire="byName">
+
+    <!--DB conf-->
+    <bean id="dataSource" destroy-method="close" class="org.apache.commons.dbcp.BasicDataSource" lazy-init="false">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost/newdb"/>
+        <property name="username" value="root"/>
+        <property name="password" value="toor"/>
+        <property name="validationQuery" value="select 1"/>
+    </bean>
+
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.simple.SimpleJdbcTemplate" lazy-init="false">
+        <constructor-arg ref="dataSource"/>
+    </bean>
+
+    <bean id="DBUtilsImpl" class="net.sf.xfresh.catering.db.DBUtilsImpl" lazy-init="false">
+        <constructor-arg ref="jdbcTemplate"/>
+    </bean>
+
+
+
+
+</beans>
