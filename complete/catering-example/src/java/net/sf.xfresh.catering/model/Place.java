@@ -19,6 +19,11 @@ public class Place {
     private String addr;
     private List<Address> addrs;
     private String url;
+    
+    public Place(String name){
+        this.name = name;
+    }
+    
     public Place(int id, String name, int type, String url, List<Address> addrs) {
         this.id = id;
         this.name = name;

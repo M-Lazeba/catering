@@ -22,8 +22,17 @@ public class Position {
     private String url;
     private String imgUrl;
     private List<PositionTag> tags;
+    private int tagNumber;
     private Place place;
 
+    public Position(String title, String description, int price, Place place, int tagNumber){
+        this.title = title;
+        this.description = description;
+        this.price = price;
+        this.place = place;
+        this.tagNumber = tagNumber;
+    }
+    
 
     public Position(int id, String title, String description, boolean hasPic, int price, float ratio, String url, ArrayList<PositionTag> tags, Place place) {
         this.id = id;
@@ -33,7 +42,9 @@ public class Position {
         this.price = price;
         this.ratio = ratio;
         this.url = url;
-        this.tags = (List) tags;
+        if (tags != null)
+            if (tags.size() > 0)
+                this.tags = (List) tags;
         this.place = place;
     }
 
@@ -116,6 +127,14 @@ public class Position {
 
     public void setTags(LinkedList<PositionTag> tags) {
         this.tags = tags;
+    }
+    
+    public void setTagNumber(int t){
+        tagNumber = t;
+    }
+    
+    public int getTagNumber(){
+        return tagNumber;
     }
 }
 

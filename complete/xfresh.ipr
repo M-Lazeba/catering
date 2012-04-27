@@ -11,6 +11,52 @@
       <properties />
     </buildFile>
   </component>
+  <component name="ArtifactManager">
+    <artifact type="jar" name="xfresh:jar">
+      <output-path>$PROJECT_DIR$/out/artifacts/xfresh_jar</output-path>
+      <root id="archive" name="xfresh.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/manifest/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="catering-example" />
+        <element id="module-output" name="core" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/junit-4.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/jakarta-commons/commons-lang.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/jakarta-commons/commons-logging.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/jetty/jetty-6.1.22.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/jetty/jetty-util-6.1.22.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/jetty/servlet-api-2.5-20081211.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/xalan/serializer.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/xalan/xalan.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/xalan/xercesImpl.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/log4j-1.2.15.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/httpclient/commons-logging-1.0.4.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/httpclient/httpclient-4.0-beta2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/httpclient/httpcore-4.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/httpclient/httpcore-nio-4.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/httpclient/httpmime-4.0-beta2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/saxon/saxon9he.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/rhino/js.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/jetbrains/annotations.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/spring/spring-beans.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/spring/spring-context.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/spring/spring-core.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/spring/spring-mock.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/core/lib/spring/spring-web.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/catering-example/lib/lucene-smartcn-3.4.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/catering-example/lib/lucene-core-3.4.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/catering-example/lib/lucene-stempel-3.4.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/catering-example/lib/lucene-analyzers-3.4.0.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/catering-example/lib/commons-collections.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/catering-example/lib/commons-dbcp-1.2.2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/catering-example/lib/commons-pool.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/catering-example/lib/mysql-connector-java-5.1.12-bin.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/catering-example/lib/spring-dao.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/catering-example/lib/spring-jdbc.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/catering-example/lib/spring-support.jar" path-in-jar="/" />
+      </root>
+    </artifact>
+  </component>
   <component name="BuildJarProjectSettings">
     <option name="BUILD_JARS_ON_MAKE" value="false" />
   </component>
@@ -252,7 +298,7 @@
   <component name="ProjectResources">
     <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SvnBranchConfigurationManager">

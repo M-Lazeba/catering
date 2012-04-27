@@ -1,6 +1,7 @@
 package net.sf.xfresh.catering.util.index;
 
 import org.apache.lucene.analysis.ru.RussianAnalyzer;
+import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.index.CorruptIndexException;
 import org.apache.lucene.queryParser.ParseException;
 import org.apache.lucene.queryParser.QueryParser;
@@ -119,14 +120,29 @@ public class SearchResponserImpl implements SearchResponser {
 
     private void insideParsing(List<Integer> ids, Map<Integer, Boolean> exist,
                                AllDocCollector collector, IndexSearcher searcher,
-                               final String request, final String type) throws ParseException,
+                               final String requestFirst, final String type) throws ParseException,
             IOException {
         QueryParser parser = new QueryParser(Version.LUCENE_34, type,
                 new RussianAnalyzer(Version.LUCENE_34));
 
-        Query query = parser.parse(request);
+        QueryParser parserStandard = new QueryParser(Version.LUCENE_34, type,
+                new StandardAnalyzer(Version.LUCENE_34));
+
+        String request = Transliterator.transliteral(requestFirst);
+        Query query = parser.parse(requestFirst);
+        Query helpQuery = parserStandard.parse(request);
         searcher.search(query, collector);
         List<ScoreDoc> temp = collector.getHits();
+        for (ScoreDoc doc : temp) {
+            int a = (Integer.valueOf(searcher.doc(doc.doc).get("id")));
+            if (!exist.containsKey(a)) {
+                exist.put(a, Boolean.TRUE);
+                ids.add(a);
+            }
+        }
+        collector.reset();
+        searcher.search(helpQuery, collector);
+        temp = collector.getHits();
         for (ScoreDoc doc : temp) {
             int a = (Integer.valueOf(searcher.doc(doc.doc).get("id")));
             if (!exist.containsKey(a)) {

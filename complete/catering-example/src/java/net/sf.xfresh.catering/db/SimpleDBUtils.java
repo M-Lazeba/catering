@@ -19,6 +19,7 @@ import java.util.List;
  * Time: 9:00 PM
  *
  * @author Anton Ohitin
+ * Testimonials: Vladislav Kononov : This class is a big fucking piece of shit!!!
  */
 public class SimpleDBUtils implements DBUtils{
 
@@ -101,14 +102,14 @@ public class SimpleDBUtils implements DBUtils{
         } else {
             jdbcTemplate.update("INSERT INTO places (name) VALUES (?)", new Object[]{place.getName()});
             int placeId = getLastInsertedId("places");
-            for (Address addr : place.getAddrs()) {
-                insertAddress(addr, placeId);
-            }
+            //for (Address addr : place.getAddrs()) {
+            //    insertAddress(addr, placeId);
+            //}
             return placeId;
         }
     }
 
-    private int insertAddress(Address addr, Integer placeId) {
+    private int insertAddress(Address addr, Integer placeId){
         List<Integer> addrs = jdbcTemplate.query("SELECT id FROM placeadresses WHERE coord = ? AND placeId = ?",
                 INTEGER_LOLWUT_MAPPER,
                 new Object[]{addr.getCoord(), placeId});
@@ -141,6 +142,30 @@ public class SimpleDBUtils implements DBUtils{
                     new Object[]{positionId, tagId});
             return getLastInsertedId("tagpositions");
         }
+    }
+    
+    public int simpleInsertPosition(Position pos) throws DataAccessException{
+        Integer placeId = insertPlace(pos.getPlace());
+        jdbcTemplate.update("INSERT INTO positions " +
+                "(name, description, price, placesId, isIndexed) " +
+                "VALUES (?, ?, ?, ?, ?)", new Object[]{
+                pos.getTitle(),
+                pos.getDescription(),
+                pos.getPrice(),
+                placeId,
+                Boolean.FALSE
+        });
+        return getLastInsertedId("positions");
+    }
+    
+    public int simpleInsertTagPosition(Integer positionID, Integer tagID) throws DataAccessException{
+        jdbcTemplate.update("INSERT INTO tagpositions " +
+                "(tagId, positionId) " +
+                "VALUES (?, ?)", new Object[]{
+                tagID,
+                positionID
+        });
+        return getLastInsertedId("tagpositions");
     }
 
     public void uncheckedInsertPositions(Collection<Position> positions) throws DataAccessException {
