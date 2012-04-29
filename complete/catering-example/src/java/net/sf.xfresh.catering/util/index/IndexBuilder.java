@@ -61,13 +61,25 @@ public class IndexBuilder {
 
             Integer id = i.getId();
             String name = i.getTitle();
-            String place = i.getPlace().getName();
+            String place = null;
+            if (i.getPlace() != null)
+                place = i.getPlace().getName();
             String description = i.getDescription();
             List<PositionTag> tags = i.getTags();
-
+            if (i.getPrice() == null)
+                continue;
+            if (id <= 17000)
+                continue;
+            if (id >= 12000)
+                break;
+            System.out.println("InD " + id);
             if (id != null) {
                 doc.add(new Field("id", "" + id, Field.Store.YES,
                         Field.Index.NOT_ANALYZED));
+            }
+            if (id == 12128){
+                int b =12;
+                System.out.println("Problems");
             }
             if (name != null) {
                 doc.add(new Field("name", name, Field.Store.YES,
@@ -81,10 +93,15 @@ public class IndexBuilder {
                 doc.add(new Field("description", description, Field.Store.YES,
                         Field.Index.ANALYZED));
             }
-            for (PositionTag pt : tags) {
-                String tagName = pt.getValue();
-                doc.add(new Field("tags", tagName, Field.Store.YES, Field.Index.ANALYZED));
-            }
+            if (tags != null)
+                for (PositionTag pt : tags) {
+                    String tagName = pt.getValue();
+                    if (tagName == null){
+                        System.out.println(name + " dies");
+                        break;
+                    }
+                    doc.add(new Field("tags", tagName, Field.Store.YES, Field.Index.ANALYZED));
+                }
             writer.addDocument(doc);
             dbUtils.setIndexed(id);
         }
@@ -97,10 +114,17 @@ public class IndexBuilder {
 
             Integer id = i.getId();
             String name = i.getTitle();
-            String place = i.getPlace().getName();
-            String description = i.getDescription();
+            String place = null;
+            if (i.getPlace() != null)
+                place = i.getPlace().getName();String description = i.getDescription();
             List<PositionTag> tags = i.getTags();
-
+            if (i.getPrice() == null)
+                continue;
+            if (id >= 17000)
+                break;
+            if (id <= 12000)
+                continue;
+            System.out.println("InD " + id);
             if (id != null) {
                 doc.add(new Field("id", "" + id, Field.Store.YES,
                         Field.Index.NOT_ANALYZED));
@@ -120,11 +144,16 @@ public class IndexBuilder {
                 doc.add(new Field("description", descriptionTempo, Field.Store.YES,
                         Field.Index.ANALYZED));
             }
-            for (PositionTag pt : tags) {
-                String tagName = pt.getValue();
-                String tagNameTempo = Transliterator.transliteral(tagName);
-                doc.add(new Field("tags", tagNameTempo, Field.Store.YES, Field.Index.ANALYZED));
-            }
+            if (tags != null)
+                for (PositionTag pt : tags) {
+                    String tagName = pt.getValue();
+                    if (tagName == null){
+                        System.out.println(name + " dies");
+                        break;
+                    }
+                    String tagNameTempo = Transliterator.transliteral(tagName);
+                    doc.add(new Field("tags", tagNameTempo, Field.Store.YES, Field.Index.ANALYZED));
+                }
             writer2.addDocument(doc);
             dbUtils.setIndexed(id);
         }

@@ -122,6 +122,10 @@ public class Position {
     }
 
     public List<PositionTag> getTags() {
+        //PositionTag ps = new PositionTag(tagNumber, KVTagConverter.getByKey(tagNumber));
+        //LinkedList<PositionTag> lp = new LinkedList<PositionTag>();
+        //lp.add(ps);
+        //return lp;
         return tags;
     }
 

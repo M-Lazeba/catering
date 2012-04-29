@@ -34,7 +34,7 @@ public class ShowAllYalet extends AbstractCateringYalet {
         if (request.getReq() != null && !request.getReq().equals("")) {
             list = (List<Position>) dbUtils.getByPositionIds(searchResponser.search(request.getReq()));
         } else {
-            list = (List<Position>) dbUtils.getAllPositions();
+            list = (List<Position>) dbUtils.getByPositionIds(searchResponser.search("вино"));
         }
 
         request = ResultProcessor.prepareRequest(list, request);
@@ -53,7 +53,7 @@ public class ShowAllYalet extends AbstractCateringYalet {
             places.add(i.getPlace());
             res.add(TagsMaker.makeTag(i));
         }
-        res.add(TagsMaker.makeTag(places));
+        //res.add(TagsMaker.makeTag(places));
         res.add(new Result(list.size(), request));
     }
 }

@@ -19,13 +19,14 @@ import java.sql.SQLException;
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
         ApplicationContext ctx = new FileSystemXmlApplicationContext("catering-example/src/script/beans.xml");
-        //IndexBuilder builder = (IndexBuilder) ctx.getBean("IndexBuilder");
-        //builder.indexNotIndexed();
-        SimpleDBUtils utils = (SimpleDBUtils) ctx.getBean("SimpleDBUtils");
-        System.out.println("Before the filling");
+        IndexBuilder builder = (IndexBuilder) ctx.getBean("IndexBuilder");
+        builder.indexNotIndexed();
+        //SimpleDBUtils utils = (SimpleDBUtils) ctx.getBean("SimpleDBUtils");
+        //System.out.println("Before the filling");
         //SuperClassificator c = new SuperClassificator();
         //DBFiller filler = new DBFiller("C:/Perl/examples/Moscow", utils, c);
         //filler.insert();
+        //System.out.println(utils.getLastInsertedId("positions"));
         System.out.println("Work is done");
     }
 }

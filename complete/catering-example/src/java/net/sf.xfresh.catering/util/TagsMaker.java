@@ -72,7 +72,7 @@ public class TagsMaker {
                 Xmler.tag("price", position.getPrice().toString()),
                 Xmler.tag("ratio", position.getRatio().toString()),
                 Xmler.tag("url", position.getUrl()),
-                makeTag(position.getPlace()),
+                //makeTag(position.getPlace()),
                 Xmler.tag("tags", tagsRepr)
         );
         return Xmler.tag("item", all);

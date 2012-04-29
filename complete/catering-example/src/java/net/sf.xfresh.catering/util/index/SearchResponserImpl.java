@@ -45,7 +45,7 @@ public class SearchResponserImpl implements SearchResponser {
         try {
             IndexSearcher searcher = new IndexSearcher(indexDir);
             insideParsing(ids, map, collector, searcher, request, "name");
-            insideParsing(ids, map, collector, searcher, request, "tags");
+            //insideParsing(ids, map, collector, searcher, request, "tags");
             insideParsing(ids, map, collector, searcher, request, "description");
             insideParsing(ids, map, collector, searcher, request, "place");
         } catch (CorruptIndexException e) {

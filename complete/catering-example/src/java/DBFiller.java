@@ -62,9 +62,9 @@ public class DBFiller {
                         int pr = (int) ft;
                         Place pl = new Place(restaurant);
                         int a = classy.classify(dish, description);
-                        Position pos = new Position(dish, description, pr, pl, a);
+                        Position pos = new Position(dish, description, pr, pl, a + 1);
                         int b = utils.simpleInsertPosition(pos);
-                        utils.simpleInsertTagPosition(b, a);
+                        utils.simpleInsertTagPosition(b, a + 1);
                     } catch (Exception e) {
                         System.out.println("Shit happens " + e.toString());
                         break;

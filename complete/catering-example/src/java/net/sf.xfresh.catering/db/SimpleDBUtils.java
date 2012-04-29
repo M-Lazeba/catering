@@ -29,6 +29,8 @@ public class SimpleDBUtils implements DBUtils{
     private final static PlaceMapper PLACE_MAPPER = new PlaceMapper();
     private final static IntegerLolwutMapper INTEGER_LOLWUT_MAPPER = new IntegerLolwutMapper();
     private final static AddressMapper ADDRESS_MAPPER = new AddressMapper();
+    private static int countHelper = 0;
+    private final static int reasonableValue = 1500;
 
     public SimpleDBUtils(SimpleJdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
@@ -36,28 +38,37 @@ public class SimpleDBUtils implements DBUtils{
 
     public Collection<Position> getByPositionIds(Collection<Integer> ids) throws DataAccessException {
         List<Position> result = new LinkedList<Position>();
+        //countHelper = 0;
         for (Integer id : ids) {
             Position position = jdbcTemplate.queryForObject("SELECT id, name, description, imageUrl, price, rating, url " +
                     "FROM positions WHERE id = ?", POSITION_MAPPER, new Object[]{id});
+            System.out.println(position.getTitle() + " " + position.getId()) ;
+            if (position.getId() == 37555){
+                Integer a = 12;
+                System.out.println("Time to die");
+            }
             List<PositionTag> tags = jdbcTemplate.query("SELECT id, name FROM tags WHERE id IN " +
                     "(SELECT tagId from tagpositions WHERE positionId = ?)", TAG_MAPPER, new Object[]{id});
             position.setTags(new LinkedList<PositionTag>(tags));
-            Integer placeId = jdbcTemplate.queryForInt("SELECT placesId FROM positions WHERE id = ?", new Object[]{id});
-            List<Integer> placeAddressIds = jdbcTemplate.query("SELECT id " +
-                    "FROM placeadresses WHERE placeId = ?", INTEGER_LOLWUT_MAPPER, new Object[]{placeId});
+            //Integer placeId = jdbcTemplate.queryForInt("SELECT placesId FROM positions WHERE id = ?", new Object[]{id});
+            //List<Integer> placeAddressIds = jdbcTemplate.query("SELECT id " +
+            //        "FROM placeadresses WHERE placeId = ?", INTEGER_LOLWUT_MAPPER, new Object[]{placeId});
 
-            List<Address> addrs = new LinkedList<Address>();
-            for (Integer i : placeAddressIds) {
-                addrs.add(jdbcTemplate.queryForObject("SELECT id, type, addr, coord " +
-                        "FROM placeadresses WHERE id = ?", ADDRESS_MAPPER, new Object[]{i}));
-            }
+            //List<Address> addrs = new LinkedList<Address>();
+            //for (Integer i : placeAddressIds) {
+            //    addrs.add(jdbcTemplate.queryForObject("SELECT id, type, addr, coord " +
+            //            "FROM placeadresses WHERE id = ?", ADDRESS_MAPPER, new Object[]{i}));
+            //}
 
-            Place place = jdbcTemplate.queryForObject("SELECT id, name, url " +
-                    "FROM places WHERE id = ?", PLACE_MAPPER, new Object[]{placeId});
-            place.setAddrs(new LinkedList<Address>(addrs));
-            place.setAddrAndCoord(0);
-            position.setPlace(place);
+            //Place place = jdbcTemplate.queryForObject("SELECT id, name, url " +
+            //        "FROM places WHERE id = ?", PLACE_MAPPER, new Object[]{placeId});
+            //place.setAddrs(new LinkedList<Address>(addrs));
+            //place.setAddrAndCoord(0);
+            //position.setPlace(place);
             result.add(position);
+            //++countHelper;
+            //if (countHelper > reasonableValue)
+            //    break;
         }
         return result;
     }
@@ -194,7 +205,7 @@ public class SimpleDBUtils implements DBUtils{
         return positionId;
     }
 
-    private int getLastInsertedId(String table) {
+    public int getLastInsertedId(String table) {
         return jdbcTemplate.query("SELECT LAST_INSERT_ID() FROM " + table, INTEGER_LOLWUT_MAPPER).get(0);
     }
 

@@ -20,15 +20,26 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catering-example/src/java/SimpleConverter.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catering-example/src/java/SimpleDocument.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catering-example/src/java/SuperClassificator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/KVTagConverter.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Transliterator.java" />
       <change type="DELETED" beforePath="C:\catering\complete\catering-example\index\segments_1" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.fdt" afterPath="$PROJECT_DIR$/catering-example/index/_0.fdt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.fdx" afterPath="$PROJECT_DIR$/catering-example/index/_0.fdx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.fnm" afterPath="$PROJECT_DIR$/catering-example/index/_0.fnm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.frq" afterPath="$PROJECT_DIR$/catering-example/index/_0.frq" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.nrm" afterPath="$PROJECT_DIR$/catering-example/index/_0.nrm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.tii" afterPath="$PROJECT_DIR$/catering-example/index/_0.tii" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.tis" afterPath="$PROJECT_DIR$/catering-example/index/_0.tis" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/segments.gen" afterPath="$PROJECT_DIR$/catering-example/index/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.prx" afterPath="$PROJECT_DIR$/catering-example/index/_0.prx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Place.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Place.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Position.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Position.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/script/beans.xml" afterPath="$PROJECT_DIR$/catering-example/src/script/beans.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xfresh.ipr" afterPath="$PROJECT_DIR$/xfresh.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xfresh.iws" afterPath="$PROJECT_DIR$/xfresh.iws" />
@@ -81,7 +92,59 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/Fuck.java" line="24" class="Fuck" package="">
+      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java" line="21" class="net.sf.xfresh.catering.util.index.Main" package="net.sf.xfresh.catering.util.index">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java" line="42" class="net.sf.xfresh.catering.util.index.SearchResponserImpl" package="net.sf.xfresh.catering.util.index">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java" line="55" class="net.sf.xfresh.catering.yalets.ShowAllYalet" package="net.sf.xfresh.catering.yalets">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" line="82" class="net.sf.xfresh.catering.util.TagsMaker" package="net.sf.xfresh.catering.util">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java" line="42" class="net.sf.xfresh.catering.db.SimpleDBUtils" package="net.sf.xfresh.catering.db">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -135,33 +198,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexBuilder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="42" vertical-scroll-proportion="0.0">
+            <state line="22" column="0" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fuck.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catering-example/src/java/Fuck.java">
+      <file leaf-file-name="IndexBuilder.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="76" column="102" selection-start="2530" selection-end="2530" vertical-scroll-proportion="0.38539043">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBFiller.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/catering-example/src/java/DBFiller.java">
+      <file leaf-file-name="ShowAllYalet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="2531" selection-end="2531" vertical-scroll-proportion="0.3313783">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="36" column="89" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,7 +228,27 @@
       <file leaf-file-name="SimpleDBUtils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="0" selection-start="7210" selection-end="7210" vertical-scroll-proportion="0.0">
+            <state line="64" column="25" selection-start="3096" selection-end="3096" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1495#1505#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBFiller.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catering-example/src/java/DBFiller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="65" selection-start="2448" selection-end="2448" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Position.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="128" column="8" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -189,22 +268,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/Confidence.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/Confidence.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/ClassifiedPosition.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/ClassifiedPositionReaderAdvanced.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/ClassifiedSimpleDocument.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/Cluster.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/Position.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/SimpleConverter.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/SimpleDocument.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/DBFiller.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/DBFiller.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/DBFiller.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/Fuck.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/SuperClassificator.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/DBFiller.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/KVTagConverter.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Position.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java" />
       </list>
     </option>
   </component>
@@ -255,161 +334,11 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xfresh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xfresh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catering-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xfresh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catering-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xfresh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catering-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xfresh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catering-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf.xfresh.catering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xfresh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catering-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf.xfresh.catering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xfresh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catering-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf.xfresh.catering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xfresh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xfresh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catering-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane />
         <subPane subId="Non-Project Files" />
         <subPane subId="Problems" />
-        <subPane subId="Tests">
+        <subPane subId="Production">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
@@ -417,7 +346,7 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-        <subPane subId="Production">
+        <subPane subId="Tests">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
@@ -558,6 +487,252 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf.xfresh.catering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf.xfresh.catering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yalets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf.xfresh.catering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf.xfresh.catering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf.xfresh.catering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf.xfresh.catering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Favorites" />
     </panes>
   </component>
@@ -575,9 +750,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -593,7 +768,7 @@
       <recent name="net.sf.xfresh.catering.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fuck">
+  <component name="RunManager" selected="Application.Starter">
     <configuration default="false" name="Starter" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="net.sf.xfresh.util.Starter" />
       <option name="VM_PARAMETERS" value="" />
@@ -649,6 +824,28 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings">
@@ -693,28 +890,6 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -925,17 +1100,17 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981017" sideWeight="0.678808" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40356565" sideWeight="0.7684809" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3128039" sideWeight="0.5264013" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40356565" sideWeight="0.7684809" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3128039" sideWeight="0.54264826" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3241491" sideWeight="0.49715677" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3241491" sideWeight="0.4939074" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2881226" sideWeight="0.32" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953683" sideWeight="0.678808" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39939255" sideWeight="0.678808" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.264013" sideWeight="0.59643435" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3128039" sideWeight="0.46791226" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.264013" sideWeight="0.68719614" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3128039" sideWeight="0.4516653" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1014,136 +1189,109 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/BayesClassificator.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="1" selection-start="2811" selection-end="2811" vertical-scroll-proportion="0.91435766">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#550#576#0" expanded="true" />
-            <element signature="e#654#662#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="1019" column="22" selection-start="37825" selection-end="37825" vertical-scroll-proportion="0.3322884" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/Confidence.java">
+    <entry file="file://$PROJECT_DIR$/core/src/java/net/sf/xfresh/core/impl/DefaultSingleYaletProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.91435766">
+        <state line="48" column="0" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="1" selection-start="5731" selection-end="5731" vertical-scroll-proportion="3.9474576">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/ClassifiedPosition.java">
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/ResultProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="0.91435766">
+        <state line="72" column="38" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.94237286">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/ClassifiedPositionReaderAdvanced.java">
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/DBUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.91435766">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#974#994#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/ClassifiedSimpleDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.91435766">
+        <state line="20" column="32" selection-start="606" selection-end="606" vertical-scroll-proportion="0.3313783">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/Cluster.java">
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/PositionTag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.48697916">
+        <state line="14" column="20" selection-start="249" selection-end="249" vertical-scroll-proportion="0.35768262">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="905" selection-end="905" vertical-scroll-proportion="0.91435766">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/SimpleConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.8564232">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/SimpleDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.91435766">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="55" selection-start="728" selection-end="728" vertical-scroll-proportion="0.5440806">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="42" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/SuperClassificator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="920" selection-end="920" vertical-scroll-proportion="0.3313783">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#846#866#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="18" selection-start="1596" selection-end="1596" vertical-scroll-proportion="1.1097561">
+        <state line="128" column="8" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/Fuck.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="100" column="22" selection-start="3513" selection-end="3513" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="23" selection-start="2310" selection-end="2310" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="89" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="0" selection-start="7210" selection-end="7210" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="64" column="25" selection-start="3096" selection-end="3096" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1495#1505#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catering-example/src/java/DBFiller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="2531" selection-end="2531" vertical-scroll-proportion="0.3313783">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="64" column="65" selection-start="2448" selection-end="2448" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="102" selection-start="2530" selection-end="2530" vertical-scroll-proportion="0.38539043">
+          <folding />
         </state>
       </provider>
     </entry>
