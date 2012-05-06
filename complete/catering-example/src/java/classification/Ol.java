@@ -8,7 +8,7 @@ public class Ol {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		ArrayList<String> names = new ArrayList<>();
+		ArrayList<String> names = new ArrayList<String>();
 		for (int i = 0; i < Cluster.values().length; i++) {
 			System.out.println(i + " " + Cluster.values()[i]);
 			names.add(Cluster.values()[i].toString());

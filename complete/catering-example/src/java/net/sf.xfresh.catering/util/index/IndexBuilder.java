@@ -68,10 +68,6 @@ public class IndexBuilder {
             List<PositionTag> tags = i.getTags();
             if (i.getPrice() == null)
                 continue;
-            if (id <= 17000)
-                continue;
-            if (id >= 12000)
-                break;
             System.out.println("InD " + id);
             if (id != null) {
                 doc.add(new Field("id", "" + id, Field.Store.YES,
@@ -119,10 +115,6 @@ public class IndexBuilder {
                 place = i.getPlace().getName();String description = i.getDescription();
             List<PositionTag> tags = i.getTags();
             if (i.getPrice() == null)
-                continue;
-            if (id >= 17000)
-                break;
-            if (id <= 12000)
                 continue;
             System.out.println("InD " + id);
             if (id != null) {

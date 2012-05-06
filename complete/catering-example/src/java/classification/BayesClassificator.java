@@ -15,9 +15,9 @@ public class BayesClassificator implements Serializable {
 	private ArrayList<ClassifiedSimpleDocument> classified;
 	private int classNum = 0;
 	int docInClass[];
-	private ArrayList<HashMap<String, Integer>> termClass = new ArrayList<>();
+	private ArrayList<HashMap<String, Integer>> termClass = new ArrayList<HashMap<String, Integer>>();
 	int countClass[];
-	private HashSet<String> vocabulary = new HashSet<>();
+	private HashSet<String> vocabulary = new HashSet<String>();
 	PrintWriter out;
 
 	public ArrayList<HashMap<String, Integer>> getTermClass() {
@@ -26,7 +26,7 @@ public class BayesClassificator implements Serializable {
 
 	public BayesClassificator(List<ClassifiedPosition> classified)
 			throws IOException {
-		this.classified = new ArrayList<>();
+		this.classified = new ArrayList<ClassifiedSimpleDocument>();
 		for (ClassifiedPosition pos : classified) {
 			this.classified.add(new ClassifiedSimpleDocument(SimpleConverter
 					.convert(pos), pos.getClassId()));

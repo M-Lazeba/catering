@@ -1,7 +1,9 @@
 package net.sf.xfresh.catering.util.index;
 
+import classification.SuperClassificator;
 import net.sf.xfresh.catering.db.SimpleDBUtils;
 
+import net.sf.xfresh.catering.util.DBFiller;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
@@ -19,14 +21,17 @@ import java.sql.SQLException;
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
         ApplicationContext ctx = new FileSystemXmlApplicationContext("catering-example/src/script/beans.xml");
+        SimpleDBUtils utils = (SimpleDBUtils) ctx.getBean("SimpleDBUtils");
+        SuperClassificator superClassificator = new SuperClassificator();
+        String path = "C:/Perl/examples/Moscow";
+        DBFiller filler = new DBFiller(path, utils, superClassificator);
+        System.out.println("Before the work");
+        //filler.insert();
         IndexBuilder builder = (IndexBuilder) ctx.getBean("IndexBuilder");
         builder.indexNotIndexed();
-        //SimpleDBUtils utils = (SimpleDBUtils) ctx.getBean("SimpleDBUtils");
-        //System.out.println("Before the filling");
-        //SuperClassificator c = new SuperClassificator();
-        //DBFiller filler = new DBFiller("C:/Perl/examples/Moscow", utils, c);
-        //filler.insert();
+
         //System.out.println(utils.getLastInsertedId("positions"));
-        System.out.println("Work is done");
+
+        System.out.println("Our work is done");
     }
 }

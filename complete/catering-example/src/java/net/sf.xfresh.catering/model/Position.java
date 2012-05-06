@@ -25,12 +25,14 @@ public class Position {
     private int tagNumber;
     private Place place;
 
-    public Position(String title, String description, int price, Place place, int tagNumber){
+    public Position(String title, String description, int price, Place place, List<PositionTag> tags){
         this.title = title;
         this.description = description;
         this.price = price;
         this.place = place;
-        this.tagNumber = tagNumber;
+        if (tags != null){
+            this.tags = tags;
+        }
     }
     
 

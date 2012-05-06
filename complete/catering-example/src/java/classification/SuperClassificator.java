@@ -11,7 +11,7 @@ public class SuperClassificator {
 			ClassNotFoundException, IOException {
 		classificator = new DoubleClassificator();
 		ArrayList<ClassifiedPosition> classified = ClassifiedPositionReaderAdvanced
-				.read(1000, "classifiedNew.srzl");
+				.read(1000, "C:/catering/complete/catering-example/classifiedNew.srzl");
 		for (ClassifiedPosition pos : classified)
 			classificator.add(pos);
 	}

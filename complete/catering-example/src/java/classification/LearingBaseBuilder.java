@@ -59,9 +59,9 @@ public class LearingBaseBuilder extends JFrame {
 		classify = new JButton("classify");
 		right = new JButton("right");
 		stop = new JButton("enough");
-		radios = new ArrayList<>();
+		radios = new ArrayList<JRadioButton>();
 		count = new int[Cluster.values().length];
-		classified = new ArrayList<>();
+		classified = new ArrayList<ClassifiedPosition>();
 		grop = new ButtonGroup();
 		was = new boolean[positions.size()];
 		classificator = new DoubleClassificator();
@@ -88,7 +88,6 @@ public class LearingBaseBuilder extends JFrame {
 		add(description, BorderLayout.CENTER);
 		getRootPane().setDefaultButton(classify);
 		stop.addActionListener(new ActionListener() {
-			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				try {
 					ObjectOutputStream oos = new ObjectOutputStream(
@@ -108,7 +107,6 @@ public class LearingBaseBuilder extends JFrame {
 		});
 
 		classify.addActionListener(new ActionListener() {
-			@Override
 			public void actionPerformed(ActionEvent e) {
 				String act = grop.getSelection().getActionCommand();
 				if (act.equals("skip")) {
@@ -164,7 +162,6 @@ public class LearingBaseBuilder extends JFrame {
 		});
 		right.addActionListener(new ActionListener() {
 
-			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				pos = rand.nextInt(positions.size());
 				row++;
@@ -190,7 +187,7 @@ public class LearingBaseBuilder extends JFrame {
 			public void run() {
 				try {
 					new LearingBaseBuilder();
-				} catch (ClassNotFoundException | IOException e) {
+				} catch (Exception e) {
 					e.printStackTrace();
 				}
 			}

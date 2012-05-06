@@ -36,13 +36,13 @@ public class DoubleClassificator implements Serializable {
 	}
 
 	private void initHeuristic() {
-		heuristic = new HashMap<>();
-		heuristic.put("пицца", Cluster.PIZZA);
-		heuristic.put("паста", Cluster.PASTA);
-		heuristic.put("сэндвич", Cluster.SANDWICH);
-		heuristic.put("пельмен", Cluster.PELMENI);
-		heuristic.put("вареник", Cluster.PELMENI);
-		heuristic.put("блин", Cluster.PANCAKES);
+		heuristic = new HashMap<String, Cluster>();
+		heuristic.put("пїЅпїЅпїЅпїЅпїЅ", Cluster.PIZZA);
+		heuristic.put("пїЅпїЅпїЅпїЅпїЅ", Cluster.PASTA);
+		heuristic.put("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ", Cluster.SANDWICH);
+		heuristic.put("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ", Cluster.PELMENI);
+		heuristic.put("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ", Cluster.PELMENI);
+		heuristic.put("пїЅпїЅпїЅпїЅ", Cluster.PANCAKES);
 		isInit = true;
 	}
 

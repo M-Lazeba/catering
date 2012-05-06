@@ -20,7 +20,7 @@ public class PositionReaderAdvanced {
 			throw new FileNotFoundException("unnown format");
 		if (count > positions.size())
 			return positions;
-		ArrayList<Position> res = new ArrayList<>();
+		ArrayList<Position> res = new ArrayList<Position>();
 		for (int i = 0; i < count; i++)
 			res.add(positions.get(i));
 		return res;

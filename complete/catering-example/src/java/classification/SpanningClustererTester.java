@@ -11,7 +11,7 @@ public class SpanningClustererTester {
 				.parseInt(args[0]));
 		SpanningClusterer clusterer = new SpanningClusterer(positions);
 		ArrayList<Integer> clusters = clusterer.cluster(400);
-		ArrayList<ArrayList<String>> res = new ArrayList<>();
+		ArrayList<ArrayList<String>> res = new ArrayList<ArrayList<String>>();
 		for (int i = 0; i < positions.size(); i++)
 			res.add(new ArrayList<String>());
 		for (int i = 0; i < clusters.size(); i++)

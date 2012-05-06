@@ -43,10 +43,6 @@ public class SimpleDBUtils implements DBUtils{
             Position position = jdbcTemplate.queryForObject("SELECT id, name, description, imageUrl, price, rating, url " +
                     "FROM positions WHERE id = ?", POSITION_MAPPER, new Object[]{id});
             System.out.println(position.getTitle() + " " + position.getId()) ;
-            if (position.getId() == 37555){
-                Integer a = 12;
-                System.out.println("Time to die");
-            }
             List<PositionTag> tags = jdbcTemplate.query("SELECT id, name FROM tags WHERE id IN " +
                     "(SELECT tagId from tagpositions WHERE positionId = ?)", TAG_MAPPER, new Object[]{id});
             position.setTags(new LinkedList<PositionTag>(tags));
@@ -105,7 +101,7 @@ public class SimpleDBUtils implements DBUtils{
     }
 
 
-    private int insertPlace(Place place) throws DataAccessException {
+    public int insertPlace(Place place) throws DataAccessException {
         List<Integer> places = jdbcTemplate.query("SELECT id " +
                 "FROM places WHERE name = '" + place.getName() + "'", INTEGER_LOLWUT_MAPPER);
         if (places.size() > 0) {
@@ -153,6 +149,15 @@ public class SimpleDBUtils implements DBUtils{
                     new Object[]{positionId, tagId});
             return getLastInsertedId("tagpositions");
         }
+    }
+    
+    public int simpleInsertTag(String probability) throws DataAccessException{
+        jdbcTemplate.update("INSERT INTO tags " +
+            "(name)" +
+            "VALUES (?)", new Object[]{
+            probability
+        });
+        return getLastInsertedId("tags");
     }
     
     public int simpleInsertPosition(Position pos) throws DataAccessException{
