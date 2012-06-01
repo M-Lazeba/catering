@@ -45,7 +45,6 @@ public class IndexBuilder {
     */
 
     public void indexNotIndexed() throws SQLException, IOException {
-        //List<PositionShir> pos = (List<PositionShir>) dbUtils.getByPositionIds(dbUtils.getUnIndexed());
         List<Position> pos = (List<Position>) dbUtils.getAllPositions();
         File file = new File(path);
         file.mkdir();
@@ -69,24 +68,22 @@ public class IndexBuilder {
             if (i.getPrice() == null)
                 continue;
             System.out.println("InD " + id);
+            String concat;
+            if (name == null && description != null)
+                concat = description;
+            else if (name != null && description == null)
+                concat = name;
+            else
+                concat = name + description;
             if (id != null) {
                 doc.add(new Field("id", "" + id, Field.Store.YES,
                         Field.Index.NOT_ANALYZED));
             }
-            if (id == 12128){
-                int b =12;
-                System.out.println("Problems");
-            }
-            if (name != null) {
-                doc.add(new Field("name", name, Field.Store.YES,
-                        Field.Index.ANALYZED));
+            if (concat != null){
+                doc.add(new Field("dish", name, Field.Store.YES, Field.Index.ANALYZED));
             }
             if (place != null) {
                 doc.add(new Field("place", place, Field.Store.YES,
-                        Field.Index.ANALYZED));
-            }
-            if (description != null) {
-                doc.add(new Field("description", description, Field.Store.YES,
                         Field.Index.ANALYZED));
             }
             if (tags != null)
@@ -117,23 +114,25 @@ public class IndexBuilder {
             if (i.getPrice() == null)
                 continue;
             System.out.println("InD " + id);
+            String concat;
+            if (name == null && description != null)
+                concat = description;
+            else if (name != null && description == null)
+                concat = name;
+            else
+                concat = name + description;
             if (id != null) {
                 doc.add(new Field("id", "" + id, Field.Store.YES,
                         Field.Index.NOT_ANALYZED));
             }
-            if (name != null) {
-                String nameTempo = Transliterator.transliteral(name);
-                doc.add(new Field("name", nameTempo, Field.Store.YES,
+            if (concat != null) {
+                String nameTempo = Transliterator.transliteral(concat);
+                doc.add(new Field("dish", nameTempo, Field.Store.YES,
                         Field.Index.ANALYZED));
             }
             if (place != null) {
                 String placeTempo = Transliterator.transliteral(place);
                 doc.add(new Field("place", placeTempo, Field.Store.YES,
-                        Field.Index.ANALYZED));
-            }
-            if (description != null) {
-                String descriptionTempo = Transliterator.transliteral(description);
-                doc.add(new Field("description", descriptionTempo, Field.Store.YES,
                         Field.Index.ANALYZED));
             }
             if (tags != null)

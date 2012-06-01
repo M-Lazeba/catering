@@ -22,11 +22,11 @@
                     })
 
                 </script>
-                <script src="http://api-maps.yandex.ru/1.1/index.xml?key=AG6P1k4BAAAABlt1EgQACC0-7Lbn1GigFIzab6j3Fa0n2agAAAAAAAAAAACtmQF03U8euyX0A4xMAR50DaZ3Iw=="
+                <!--script src="http://api-maps.yandex.ru/1.1/index.xml?key=AG6P1k4BAAAABlt1EgQACC0-7Lbn1GigFIzab6j3Fa0n2agAAAAAAAAAAACtmQF03U8euyX0A4xMAR50DaZ3Iw=="
                         type="text/javascript"
                         >
-                </script>
-                	<script type="text/javascript">
+                </script-->
+                	<!--script type="text/javascript">
 		function reposition(){
 			var el = document.getElementById('map');
 
@@ -43,7 +43,7 @@
 			else
 				el.style.top = "0px";
 		}
-	</script>
+	</script-->
                 <script type="text/javascript">
 
                     <xsl:apply-templates select="page/data/places"/>
@@ -195,9 +195,9 @@
                                 </form>
                             </div>
                             <br/>
-                            <div class="map" id="map">
+                            <!--div class="map" id="map">
                                 Здесь карта.
-                            </div>
+                            </div-->
                         </td>
                     </tr>
                 </table>
@@ -279,7 +279,7 @@
                                                 <xsl:value-of select="url"/>
                                             </xsl:attribute>
                                             <img class="thumb">
-                                                <xsl:attribute name="src">media/thumb/default.png</xsl:attribute>
+                                                <xsl:attribute name="src">media/thumb/def.jpg</xsl:attribute>
                                             </img>
                                         </a>
                                     </xsl:if>

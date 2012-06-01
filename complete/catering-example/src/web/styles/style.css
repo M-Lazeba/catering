@@ -98,6 +98,7 @@ h2 {
 	height: 500px;
 	border: 2px solid red;
 	position: absolute;
+	display: none;
 
 }
 .maintable {

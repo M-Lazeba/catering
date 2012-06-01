@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Random;
 
 /**
  * Created by IntelliJ IDEA.
@@ -89,5 +90,11 @@ public class ImgUtils {
         BufferedImage img = ImageIO.read(new File(Consts.MediaPath + ((Integer) id).toString() + "." + ext));
 
         ImageIO.write(getThumbnail(img, 150, 150), "jpg", new File(Consts.MediaPath + "thumb/" + ((Integer) id).toString() + ".jpg"));
+    }
+    
+    public static void makeThumb(int ordinal, int id, String ext, Random r) throws IOException {
+        int pict = Math.abs(r.nextInt()) % 10;
+        BufferedImage img = ImageIO.read(new File(Consts.MediaPath + ordinal + "/" + pict + "." + ext));
+        ImageIO.write(getThumbnail(img, 150, 150), "jpg", new File(Consts.MediaPath + "thumb/" + id + ".jpg"));
     }
 }

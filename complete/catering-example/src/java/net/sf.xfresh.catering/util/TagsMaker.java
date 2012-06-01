@@ -34,19 +34,19 @@ public class TagsMaker {
     public static Xmler.Tag makeTag(Place place) {
 
         List<Xmler.Tag> addrsRepr = new LinkedList<Xmler.Tag>();
-        for (Address addr : place.getAddrs()) {
-            addrsRepr.add(makeTag(addr));
-        }
+        //for (Address addr : place.getAddrs()) {
+        //    addrsRepr.add(makeTag(addr));
+        //}
 
 
         return Xmler.tag("place", Arrays.asList(
                 Xmler.tag("id", ((Integer) place.id).toString()),
                 Xmler.tag("name", place.getName()),
-                Xmler.tag("coord", place.getCoord()),
-                Xmler.tag("addr", place.getAddr()),
-                Xmler.tag("url", place.getUrl()),
-                Xmler.tag("type", Integer.valueOf(place.getType()).toString()),
-                Xmler.tag("addresses", addrsRepr)
+                //Xmler.tag("coord", place.getCoord()),
+                //Xmler.tag("addr", place.getAddr()),
+                Xmler.tag("url", place.getUrl())
+                //Xmler.tag("type", Integer.valueOf(place.getType()).toString()),
+                //Xmler.tag("addresses", addrsRepr)
         ));
 
     }
@@ -72,7 +72,7 @@ public class TagsMaker {
                 Xmler.tag("price", position.getPrice().toString()),
                 Xmler.tag("ratio", position.getRatio().toString()),
                 Xmler.tag("url", position.getUrl()),
-                //makeTag(position.getPlace()),
+                makeTag(position.getPlace()),
                 Xmler.tag("tags", tagsRepr)
         );
         return Xmler.tag("item", all);

@@ -53,7 +53,8 @@ public class ShowAllYalet extends AbstractCateringYalet {
             places.add(i.getPlace());
             res.add(TagsMaker.makeTag(i));
         }
-        //res.add(TagsMaker.makeTag(places));
+        System.out.println(places.size());
+        res.add(TagsMaker.makeTag(places));
         res.add(new Result(list.size(), request));
     }
 }

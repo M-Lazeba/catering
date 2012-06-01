@@ -11,7 +11,274 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/KVTagConverter.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Transliterator.java" />
       <change type="DELETED" beforePath="C:\catering\complete\catering-example\index\segments_1" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.fdt" afterPath="$PROJECT_DIR$/catering-example/index/_0.fdt" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2795.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2796.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2797.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2798.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2799.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2801.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2802.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2803.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2804.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2805.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2806.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2807.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2808.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2809.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2810.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2811.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2812.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2813.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2814.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2815.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2816.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2818.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2819.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2820.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2821.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2822.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2823.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2824.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2825.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2826.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2827.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2828.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2829.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2830.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2831.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2832.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2833.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2834.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2835.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2836.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2837.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2838.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2839.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2840.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2841.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2842.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2843.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2844.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2845.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2846.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2847.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2848.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2849.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2850.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2851.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2852.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2853.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2854.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2855.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2856.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2857.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2858.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2859.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2860.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2861.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2862.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2863.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2864.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2865.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2866.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2867.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2868.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2869.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2870.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2871.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2874.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2875.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2876.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2877.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2878.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2879.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2880.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2881.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2882.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2883.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2884.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2885.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2887.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2889.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2890.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2891.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2892.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2893.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2894.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2895.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2897.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2898.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2899.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2900.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2901.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2902.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2903.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2904.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2905.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2906.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2907.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2908.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2909.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2910.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2911.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2912.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2913.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2914.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2915.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2916.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2917.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2918.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2919.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2920.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2921.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2922.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2923.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2924.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2925.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2926.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2927.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2928.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2929.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2930.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2931.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2932.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2933.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\2934.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2796.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2797.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2798.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2799.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2801.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2802.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2803.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2804.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2805.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2806.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2807.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2808.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2809.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2810.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2811.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2812.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2813.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2814.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2815.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2816.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2818.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2819.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2820.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2821.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2822.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2823.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2824.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2825.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2826.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2827.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2828.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2829.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2830.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2831.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2832.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2833.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2834.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2835.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2836.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2837.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2838.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2839.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2840.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2841.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2842.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2843.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2844.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2845.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2846.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2847.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2848.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2849.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2850.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2851.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2852.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2853.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2854.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2855.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2856.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2857.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2858.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2859.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2860.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2861.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2862.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2863.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2864.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2865.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2866.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2867.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2868.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2869.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2870.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2871.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2874.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2875.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2876.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2877.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2878.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2879.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2880.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2881.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2882.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2883.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2884.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2885.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2887.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2889.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2890.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2891.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2892.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2893.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2894.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2895.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2897.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2898.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2899.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2900.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2901.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2902.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2903.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2904.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2905.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2906.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2907.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2908.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2909.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2910.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2911.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2912.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2913.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2914.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2915.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2916.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2917.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2918.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2919.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2920.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2921.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2922.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2923.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2924.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2925.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2926.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2927.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2928.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2929.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2930.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2931.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2932.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2933.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\2934.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\catering\complete\catering-example\src\web\media\thumb\default.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.fdx" afterPath="$PROJECT_DIR$/catering-example/index/_0.fdx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.fnm" afterPath="$PROJECT_DIR$/catering-example/index/_0.fnm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.frq" afterPath="$PROJECT_DIR$/catering-example/index/_0.frq" />
@@ -19,16 +286,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.tii" afterPath="$PROJECT_DIR$/catering-example/index/_0.tii" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.tis" afterPath="$PROJECT_DIR$/catering-example/index/_0.tis" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/segments.gen" afterPath="$PROJECT_DIR$/catering-example/index/segments.gen" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.fdt" afterPath="$PROJECT_DIR$/catering-example/index/_0.fdt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/index/_0.prx" afterPath="$PROJECT_DIR$/catering-example/index/_0.prx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Place.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Place.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Position.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Position.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/Consts.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/Consts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/ImgUtils.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/ImgUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponser.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java" afterPath="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/script/beans.xml" afterPath="$PROJECT_DIR$/catering-example/src/script/beans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/web/styles/style.css" afterPath="$PROJECT_DIR$/catering-example/src/web/styles/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catering-example/src/web/test.xsl" afterPath="$PROJECT_DIR$/catering-example/src/web/test.xsl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xfresh.ipr" afterPath="$PROJECT_DIR$/xfresh.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xfresh.iws" afterPath="$PROJECT_DIR$/xfresh.iws" />
     </list>
@@ -54,19 +327,6 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/core/src/java/net/sf/xfresh/core/impl/DefaultSingleYaletProcessor.java" line="48" class="net.sf.xfresh.core.impl.DefaultSingleYaletProcessor" package="net.sf.xfresh.core.impl">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/core/src/java/net/sf/xfresh/core/YaletProcessor.java" line="114" class="net.sf.xfresh.core.YaletProcessor" package="net.sf.xfresh.core">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -80,7 +340,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java" line="42" class="net.sf.xfresh.catering.util.index.SearchResponserImpl" package="net.sf.xfresh.catering.util.index">
+      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" line="25" class="net.sf.xfresh.catering.util.TagsMaker" package="net.sf.xfresh.catering.util">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -93,7 +353,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" line="82" class="net.sf.xfresh.catering.util.TagsMaker" package="net.sf.xfresh.catering.util">
+      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/ImgUtils.java" line="26" class="net.sf.xfresh.catering.util.ImgUtils" package="net.sf.xfresh.catering.util">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -106,33 +366,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/DBFiller.java" line="36" class="net.sf.xfresh.catering.util.DBFiller" package="net.sf.xfresh.catering.util">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java" line="52" class="net.sf.xfresh.catering.yalets.ShowAllYalet" package="net.sf.xfresh.catering.yalets">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java" line="39" class="net.sf.xfresh.catering.db.SimpleDBUtils" package="net.sf.xfresh.catering.db">
+      <breakpoint url="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" line="62" class="net.sf.xfresh.catering.util.TagsMaker" package="net.sf.xfresh.catering.util">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -185,7 +419,53 @@
     <favorites_list name="xfresh" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="98" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.6336898">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleDBUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="32" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1495#1505#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchResponser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="21" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchResponserImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="229" column="8" selection-start="9213" selection-end="9213" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#5431#5441#0" expanded="true" />
+                <element signature="e#5501#5511#0" expanded="true" />
+                <element signature="e#8693#8711#0" expanded="true" />
+                <element signature="e#8761#8770#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -199,21 +479,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/DBFiller.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Position.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/KVTagConverter.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/classification/SuperClassificator.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/classification/PositionReaderAdvanced.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/classification/BayesClassificator.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/classification/DoubleClassificator.java" />
-        <option value="$PROJECT_DIR$/catering-example/src/java/classification/LearingBaseBuilder.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/classification/Ol.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/classification/SpanningClustererTester.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/web/styles/style.css" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/Consts.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/web/test.xsl" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Position.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/ImgUtils.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/DBFiller.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/KVTagConverter.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponser.java" />
+        <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java" />
         <option value="$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java" />
       </list>
     </option>
@@ -269,7 +549,7 @@
         <subPane />
         <subPane subId="Non-Project Files" />
         <subPane subId="Problems" />
-        <subPane subId="Tests">
+        <subPane subId="Production">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
@@ -277,7 +557,7 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-        <subPane subId="Production">
+        <subPane subId="Tests">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
@@ -418,26 +698,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xfresh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xfresh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catering-example" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -469,6 +729,42 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -489,6 +785,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sf.xfresh.catering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf.xfresh.catering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yalets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -570,7 +892,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf.xfresh.catering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf.xfresh.catering" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -594,6 +972,26 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xfresh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catering-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Favorites" />
     </panes>
   </component>
@@ -611,9 +1009,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -629,7 +1027,7 @@
       <recent name="net.sf.xfresh.catering.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Starter">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Starter" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="net.sf.xfresh.util.Starter" />
       <option name="VM_PARAMETERS" value="" />
@@ -685,6 +1083,28 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings">
@@ -729,28 +1149,6 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -955,23 +1353,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1292" height="776" extended-state="0" />
+    <frame x="-8" y="-8" width="1292" height="776" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981017" sideWeight="0.678808" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40356565" sideWeight="0.7660962" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40356565" sideWeight="0.22819886" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.67400163" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3241491" sideWeight="0.48736757" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2881226" sideWeight="0.32" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3241491" sideWeight="0.48410758" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925835" sideWeight="0.21717991" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953683" sideWeight="0.678808" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39939255" sideWeight="0.678808" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26324368" sideWeight="0.68719614" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3128039" sideWeight="0.44906276" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925835" sideWeight="0.6709887" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901135" sideWeight="0.3202934" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1050,80 +1448,108 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/classification/SuperClassificator.java">
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/AbstractCateringYalet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="67" selection-start="477" selection-end="477" vertical-scroll-proportion="0.47103274">
+        <state line="18" column="30" selection-start="540" selection-end="540" vertical-scroll-proportion="0.40338984" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/web/test.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/script/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="5" selection-start="2276" selection-end="2276" vertical-scroll-proportion="0.74677" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/PositionTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="351" selection-end="351" vertical-scroll-proportion="0.54745764">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/classification/PositionReaderAdvanced.java">
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="56" selection-start="771" selection-end="771" vertical-scroll-proportion="0.47692308">
+        <state line="66" column="0" selection-start="2063" selection-end="2063" vertical-scroll-proportion="0.37984496">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/classification/BayesClassificator.java">
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="64" selection-start="888" selection-end="888" vertical-scroll-proportion="0.30512822">
-          <folding>
-            <element signature="e#528#554#0" expanded="true" />
-            <element signature="e#626#634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/classification/DoubleClassificator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="47" selection-start="1059" selection-end="1059" vertical-scroll-proportion="-0.30512822">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/classification/LearingBaseBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="36" selection-start="5570" selection-end="5570" vertical-scroll-proportion="0.43589744">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/classification/Ol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="74" selection-start="106" selection-end="106" vertical-scroll-proportion="0.21794872">
-          <folding>
-            <element signature="e#211#219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/classification/SpanningClustererTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="74" selection-start="533" selection-end="533" vertical-scroll-proportion="0.041025642">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="580" column="26" selection-start="21629" selection-end="21629" vertical-scroll-proportion="0.3313783">
+        <state line="34" column="67" selection-start="882" selection-end="882" vertical-scroll-proportion="0.118863046">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/DBFiller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="29" selection-start="2341" selection-end="2341" vertical-scroll-proportion="-1.4134897">
+        <state line="30" column="11" selection-start="771" selection-end="771" vertical-scroll-proportion="-1.5775402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/classification/SuperClassificator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="22" selection-start="593" selection-end="593" vertical-scroll-proportion="0.56072354">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="489" selection-end="489" vertical-scroll-proportion="-0.19379845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/KVTagConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="24" selection-start="1331" selection-end="1331" vertical-scroll-proportion="1.4392765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/catering-example/lib/lucene-core-3.4.0.jar!/org/apache/lucene/search/IndexSearcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="15" selection-start="2137" selection-end="2137" vertical-scroll-proportion="1.6561605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/model/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="18" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.95454544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="229" column="8" selection-start="9213" selection-end="9213" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#5431#5441#0" expanded="true" />
+            <element signature="e#5501#5511#0" expanded="true" />
+            <element signature="e#8693#8711#0" expanded="true" />
+            <element signature="e#8761#8770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="21" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2495#2508#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/db/SimpleDBUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.33333334">
+        <state line="38" column="32" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#1495#1505#0" expanded="true" />
           </folding>
@@ -1132,47 +1558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="10" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.50133336">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/TagsMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="489" selection-end="489" vertical-scroll-proportion="-1.2846347">
+        <state line="44" column="98" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.6336898">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/IndexBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="30" selection-start="3170" selection-end="3170" vertical-scroll-proportion="2.0277078">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/java/net/sf/xfresh/core/impl/DefaultSingleYaletProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.265625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/yalets/ShowAllYalet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.26700252">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catering-example/src/java/net/sf.xfresh.catering/util/index/SearchResponserImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.26700252">
-          <folding>
-            <element signature="e#1428#1446#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

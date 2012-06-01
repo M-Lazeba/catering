@@ -4,6 +4,8 @@
 */
 package net.sf.xfresh.catering.util.index;
 
+import net.sf.xfresh.catering.model.Position;
+
 import java.util.ArrayList;
 
 /**
@@ -30,4 +32,9 @@ public interface SearchResponser {
 
     // returns ids of places that are suitable for our searching procedure.
     ArrayList<Integer> searchByPlaces(String place);
+
+    // Just to see what the fuck is going on inside quereis parsing
+    void showQuerySearch(String request);
+    
+    ArrayList<Integer> getRandomPositions(int n);
 }

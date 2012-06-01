@@ -35,6 +35,17 @@ public class Position {
         }
     }
     
+    public Position(String title, String description, int price, Place place, List<PositionTag> tags, boolean hasPic){
+        this(title, description, price, place, tags);
+        this.hasPic = hasPic;
+        this.url = "http://chicken.jpg.to/";
+        this.ratio = 3.5f;
+        if (hasPic)
+            this.imgUrl = "http://burger.jpg.to/";
+        else
+            this.imgUrl = "";
+    }
+    
 
     public Position(int id, String title, String description, boolean hasPic, int price, float ratio, String url, ArrayList<PositionTag> tags, Place place) {
         this.id = id;
