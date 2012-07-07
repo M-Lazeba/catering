@@ -34,9 +34,10 @@ public class Main {
         //filler.insert();
         //IndexBuilder builder = (IndexBuilder) ctx.getBean("IndexBuilder");
         //builder.indexNotIndexed();
-        SearchResponser sri = (SearchResponserImpl) ctx.getBean("SearchResponserImpl");
+        //SearchResponser sri = (SearchResponserImpl) ctx.getBean("SearchResponserImpl");
+        //sri.thumbsMaker();
         //sri.showQuerySearch("красное вино");
-        outPositions(utils.getByPositionIds(sri.getRandomPositions(10)));
+        //outPositions(utils.getByPositionIds(sri.getRandomPositions(10)));
         System.out.println("Our work is done");
     }
     

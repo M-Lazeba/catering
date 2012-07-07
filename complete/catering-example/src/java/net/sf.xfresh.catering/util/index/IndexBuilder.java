@@ -142,8 +142,8 @@ public class IndexBuilder {
                         System.out.println(name + " dies");
                         break;
                     }
-                    String tagNameTempo = Transliterator.transliteral(tagName);
-                    doc.add(new Field("tags", tagNameTempo, Field.Store.YES, Field.Index.ANALYZED));
+                    //String tagNameTempo = Transliterator.transliteral(tagName);
+                    doc.add(new Field("tags", tagName, Field.Store.YES, Field.Index.ANALYZED));
                 }
             writer2.addDocument(doc);
             dbUtils.setIndexed(id);

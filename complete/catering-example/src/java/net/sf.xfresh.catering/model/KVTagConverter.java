@@ -23,7 +23,7 @@ public class KVTagConverter {
         hm.put(7, "десерт");
         hm.put(8, "яйца");
         hm.put(9, "рыба");
-        hm.put(10, "газировка");
+        hm.put(10, "лимонад");
         hm.put(11, "каша");
         hm.put(12, "мясо");
         hm.put(13, "молоко");

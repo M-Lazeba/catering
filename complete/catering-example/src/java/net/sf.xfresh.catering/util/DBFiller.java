@@ -27,6 +27,8 @@ public class DBFiller {
     private SimpleDBUtils utils;
     private SuperClassificator classy;
     private Random randomGenerator;
+    private int border = 2000;
+    private int count = 0;
 
     public DBFiller(String s, SimpleDBUtils utils, SuperClassificator sc) {
         path = s;
@@ -88,7 +90,7 @@ public class DBFiller {
                 }
                 Position toInsert = null;
                 toInsert = new Position(dish, description, price, place, tags,
-                        (confidence.getClassID().ordinal() == 28) ? true : false);
+                        (confidence.getClassID().ordinal() != 25) ? true : false);
                 Integer lastIndex;
                 try{
                     lastIndex = utils.simpleInsertPosition(toInsert);
@@ -108,7 +110,7 @@ public class DBFiller {
                     System.out.println("Can not insert probability of " + dish);
                     continue;
                 }
-                if (confidence.getClassID().ordinal() == 28) {
+                if (confidence.getClassID().ordinal() != 25) {
                     try{
                         ImgUtils.makeThumb(confidence.getClassID().ordinal() + 1, lastIndex, "jpg", randomGenerator);
                     } catch (IOException ioe){
@@ -116,7 +118,11 @@ public class DBFiller {
                         System.err.println(ioe.getMessage());
                     }
                 }
-                System.out.println(dish + " " + confidence.getClassID().ordinal() + " " + confidence.getProb());
+                System.out.println(count + ": " + dish + " " + confidence.getClassID().ordinal() + " " + confidence.getProb());
+                ++count;
+                if (count >= border){
+                    return true;
+                }
             }
         } catch (FileNotFoundException fnfe){
             System.out.println("Can not find file with the name " + file.getName());
@@ -187,7 +193,7 @@ public class DBFiller {
     }
 
     public void insert() {
-        int count = 0;
+        count = 0;
         try {
             File pathFile = new File(path);
             for (File file : pathFile.listFiles()) {
@@ -197,6 +203,8 @@ public class DBFiller {
                     } else {
                         ++count;
                     }
+                    if (count >= border)
+                        return;
                 }
             }
         } catch (Exception e) {

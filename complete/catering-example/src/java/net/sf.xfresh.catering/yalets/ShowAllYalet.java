@@ -34,7 +34,7 @@ public class ShowAllYalet extends AbstractCateringYalet {
         if (request.getReq() != null && !request.getReq().equals("")) {
             list = (List<Position>) dbUtils.getByPositionIds(searchResponser.search(request.getReq()));
         } else {
-            list = (List<Position>) dbUtils.getByPositionIds(searchResponser.search("вино"));
+            list = (List<Position>) dbUtils.getByPositionIds(searchResponser.search("мясо"));
         }
 
         request = ResultProcessor.prepareRequest(list, request);

@@ -35,6 +35,8 @@ public interface SearchResponser {
 
     // Just to see what the fuck is going on inside quereis parsing
     void showQuerySearch(String request);
+
+    void thumbsMaker();
     
     ArrayList<Integer> getRandomPositions(int n);
 }

@@ -117,7 +117,7 @@ public class SearchResponserImpl implements SearchResponser {
 
     private void insideParsing(List<Integer> ids, Map<Integer, Boolean> exist,
                                IndexSearcher searcher,
-                               final String requestFirst, final String type) throws ParseException,
+                               String requestFirst, final String type) throws ParseException,
             IOException {
         QueryParser parser = new QueryParser(Version.LUCENE_34, type,
                 new RussianAnalyzer(Version.LUCENE_34));
@@ -125,8 +125,10 @@ public class SearchResponserImpl implements SearchResponser {
         QueryParser parserStandard = new QueryParser(Version.LUCENE_34, type,
                 new StandardAnalyzer(Version.LUCENE_34));
 
+
+        requestFirst = SynonymsChecker.logic(requestFirst);
         String request = Transliterator.transliteral(requestFirst);
-        parser.setDefaultOperator(QueryParser.Operator.AND);
+        parser.setDefaultOperator(QueryParser.Operator.OR);
         Query query = parser.parse(requestFirst);
         System.out.println("For fun in russian " + query.toString());
         Query helpQuery = parserStandard.parse(request);
@@ -134,23 +136,27 @@ public class SearchResponserImpl implements SearchResponser {
         TopDocs collector = searcher.search(query, 200);
         ScoreDoc[] temp = collector.scoreDocs;        
         TopDocs collectorHelp = searcher.search(helpQuery, 200);
-        ScoreDoc[] tempHelp = collector.scoreDocs;
+        ScoreDoc[] tempHelp = collectorHelp.scoreDocs;
         Confidence confidence = classy.classify(requestFirst, "");
         String requestTag = KVTagConverter.getByKey(confidence.getClassID().ordinal() + 1);
         ArrayList<ScoreDoc> relevant = new ArrayList<ScoreDoc>();
         ArrayList<ScoreDoc> lessRelevant = new ArrayList<ScoreDoc>();
-        for (int i = 0; i < temp.length; ++i)
+        for (int i = 0; i < temp.length; ++i){
+            String sz = searcher.doc(temp[i].doc).get("tags");
             if (searcher.doc(temp[i].doc).get("tags").equals(requestTag)){
                 relevant.add(temp[i]);    
             } else {
                 lessRelevant.add(temp[i]);
             }
-        for (int i = 0; i < tempHelp.length; ++i)
+        }
+        for (int i = 0; i < tempHelp.length; ++i){
+            String sz = searcher.doc(tempHelp[i].doc).get("tags");
             if (searcher.doc(tempHelp[i].doc).get("tags").equals(requestTag)){
                 relevant.add(tempHelp[i]);
             } else {
                 lessRelevant.add(tempHelp[i]);
             }
+        }
         for (int i = 0 ; i < relevant.size() - 1; ++i)
             for (int k = i + 1; k < relevant.size(); ++k)
                 if (relevant.get(i).score < relevant.get(k).score){
@@ -161,12 +167,23 @@ public class SearchResponserImpl implements SearchResponser {
                 if (lessRelevant.get(i).score < lessRelevant.get(k).score){
                     Collections.swap(lessRelevant, i, k);
                 }
+        Set<Integer> unique = new HashSet<Integer>();
         for (int i = 0; i < relevant.size(); ++i) {
+            int z = Integer.valueOf(searcher.doc(relevant.get(i).doc).get("id"));
+            if (unique.contains(z)) {
+                continue;
+            }
             ids.add(Integer.valueOf(searcher.doc(relevant.get(i).doc).get("id")));
+            unique.add(z);
             System.out.println(relevant.get(i).score);
         }
         for (int i = 0; i < lessRelevant.size(); ++i) {
+            int z = Integer.valueOf(searcher.doc(lessRelevant.get(i).doc).get("id"));
+            if (unique.contains(z)){
+                continue;
+            }
             ids.add(Integer.valueOf(searcher.doc(lessRelevant.get(i).doc).get("id")));
+            unique.add(z);
             System.out.println(lessRelevant.get(i).score);
         }
     }
@@ -233,5 +250,26 @@ public class SearchResponserImpl implements SearchResponser {
             System.out.println("Problems with zero " + e.getMessage());
         }
         return pos;
+    }
+    
+    public void thumbsMaker(){
+        IndexSearcher searcher = null;
+        try{
+            searcher = new IndexSearcher(indexDir);
+        } catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+        int docsNumber = searcher.maxDoc();
+        System.out.println(docsNumber);
+        try{
+            IndexSearcher s = new IndexSearcher(indexDir);
+            for (int i = 0; i < 5; ++i){
+                int z = Integer.valueOf(searcher.doc(i).get("id"));
+                String temp = searcher.doc(i).get("name");
+                System.out.println(z + " " + temp);
+            }
+        } catch (Exception e){
+            System.out.println(e.toString());
+        }
     }
 }
